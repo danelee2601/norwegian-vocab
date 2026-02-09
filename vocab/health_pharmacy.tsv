@@ -17,12 +17,12 @@ expression	I need something for ...	Jeg trenger noe mot ...	/jæɪ ˈtrɛŋər n
 expression	Do you have something cheaper?	Har dere noe billigere?	/hɑr ˈdeːrə nuːə ˈbɪlːɪɡərə/	Har dere noe billigere?
 noun	bandage	en bandasje	/bɑnˈdɑːʂə/	Jeg trenger en bandasje.
 noun	ointment	en salve	/ˈsɑlʋə/	Smør på salven.
-noun	instructions	en bruksanvisning	/ˈbrʉːksˌɑnʋiːsniŋ/	Les bruksanvisningen nøye.
-noun	side effects	en bivirkning	/ˈbiːʋɪʈkniŋər/	Har medisinen bivirkninger?
+noun	instruction	en bruksanvisning	/ˈbrʉːksˌɑnʋiːsniŋ/	Les bruksanvisningen nøye.
+noun	side effect	en bivirkning	/ˈbiːʋɪʈkniŋ/	Har medisinen en bivirkning?
 noun	tablet	en tablett	/tɑˈblɛt/	Ta en tablett.
 noun	capsule	en kapsel	/ˈkɑpsəl/	Kapselen er stor.
 noun	syrup	en hostesaft	/ˈhɔstəˌsɑft/	Barnet trenger hostesaft.
-noun	drops	en dråpe	/ˈdroːpər/	Øyedråper to ganger daglig.
+noun	drop	en dråpe	/ˈdroːpə/	En dråpe to ganger daglig.
 noun	spray	en spray	/spræɪ/	Nesespray hjelper.
 noun	inhaler	en inhalator	/ɪnhɑˈlɑːtʉr/	Han bruker inhalator.
 noun	ointment	en salve	/ˈsɑlʋə/	Smør salve på huden.
@@ -36,7 +36,7 @@ noun	antibiotic	et antibiotikum	/et ɑntɪbɪˈuːtɪkʉm/	Legen ga et antibioti
 noun	pain relief	en smertelindring	/ˈsmæʈtəˌlɪnːdrɪŋ/	Jeg trenger smertelindring.
 noun	fever reducer	en febernedsettende	/ˈfeːbərˌneːdˌsɛtːənə/	Ta febernedsettende.
 noun	cough medicine	en hostemedisin	/ˈhɔstəˌmɛdɪsiːn/	Hostemedisin finnes her.
-noun	vitamins	en vitaminer	/ʋɪtɑˈmiːnər/	Jeg tar vitaminer.
+noun	vitamin	et vitamin	/ʋɪtɑˈmiːn/	Jeg tar et vitamin.
 noun	supplement	en tilskudd	/ˈtɪlˌskʉd/	Kosttilskudd kan hjelpe.
 noun	allergy medicine	en allergimedisin	/ɑlɛrˈɡiːˌmɛdɪsiːn/	Allergimedisinen virker.
 noun	heartburn	en halsbrann	/ˈhɑlsˌbrɑn/	Jeg har halsbrann.
@@ -45,8 +45,8 @@ noun	diarrhea	en diaré	/dɪɑˈreː/	Jeg har diaré.
 noun	constipation	en forstoppelse	/fɔˈstɔpːəlsə/	Jeg har forstoppelse.
 noun	nausea	en kvalme	/ˈkʋɑlmə/	Noe mot kvalme.
 noun	sleep aid	en søvnmiddel	/ˈsøːʋnˌmɪdːəl/	Jeg trenger søvnmiddel.
-noun	eye drops	en øyedråpe	/ˈøyəˌdroːpər/	Øyedråper for tørre øyne.
-noun	ear drops	en øredråpe	/ˈøːrəˌdroːpər/	Øredråper mot smerte.
+noun	eye drop	en øyedråpe	/ˈøyəˌdroːpə/	Øyedråpen hjelper mot tørre øyne.
+noun	ear drop	en øredråpe	/ˈøːrəˌdroːpə/	Øredråpen hjelper mot smerte.
 noun	nasal spray	en nesespray	/ˈneːsəˌspræɪ/	Nesespray åpner nesen.
 noun	throat lozenge	en halstablett	/ˈhɑlsˌtɑblɛt/	Halstabletter hjelper.
 noun	lozenge	en pastill	/pɑsˈtɪl/	En pastill mot halsen.
@@ -57,17 +57,17 @@ noun	prescription medicine	en reseptbelagt medisin	/reˈsɛptbəˌlɑkt mɛdɪˈ
 noun	over-the-counter medicine	et reseptfritt legemiddel	/et reˈsɛptfrɪt ˈleːɡəˌmɪdːəl/	Dette er et reseptfritt legemiddel.
 noun	dosage	en dosering	/dʊˈseːrɪŋ/	Følg doseringen.
 noun	expiration date	en utløpsdato	/ˈʉtˌløːpsˌdɑːtu/	Sjekk utløpsdatoen.
-noun	instructions	en bruksanvisning	/ˈbrʉːksˌɑnʋiːsniŋ/	Les bruksanvisningen.
-noun	side effects	en bivirkning	/ˈbiːʋɪʈkniŋər/	Har medisinen bivirkninger?
+noun	instruction	en bruksanvisning	/ˈbrʉːksˌɑnʋiːsniŋ/	Les bruksanvisningen.
+noun	side effect	en bivirkning	/ˈbiːʋɪʈkniŋ/	Har medisinen en bivirkning?
 noun	allergy	en allergi	/ɑlɛrˈɡiː/	Jeg har allergi.
 noun	pollen	en pollen	/ˈpɔlːən/	Pollen er høyt nå.
 noun	mask	en maske	/ˈmɑskə/	Jeg trenger en maske.
 noun	hand sanitizer	en hånddesinfeksjon	/ˈhɔnːdɛsɪnˌfɛkʂuːn/	Hånddesinfeksjon står her.
-noun	gloves	en hansker	/ˈhɑnskər/	Jeg trenger hansker.
+noun	glove	en hanske	/ˈhɑnskə/	Jeg trenger en hanske.
 noun	cotton swab	en bomullspinne	/ˈbuːmʉlˌspɪnːə/	Ikke bruk bomullspinne i øret.
 noun	cold pack	en kuldepakning	/ˈkʉlːdəˌpɑkːnɪŋ/	Legg på en kuldepakning.
 noun	heat pack	en varmepakning	/ˈʋɑrməˌpɑkːnɪŋ/	En varmepakning hjelper.
-noun	crutches	en krykke	/ˈkrʏkːər/	Jeg trenger krykker.
+noun	crutch	en krykke	/ˈkrʏkːə/	Jeg trenger en krykke.
 noun	support bandage	en støttebandasje	/ˈstœtːəˌbɑnˈdɑːʂə/	En støttebandasje for ankelen.
 verb	to take (medicine)	å ta, tar, tok, har tatt	/tɑː/	Ta medisinen etter mat.
 verb	to apply	å smøre, smører, smurte, har smurt	/ˈsmøːrə/	Smør kremen på huden.
@@ -92,7 +92,7 @@ noun	pharmacist	en farmasøyt	/fɑrmɑˈsøyːt/	Farmasøyten gir råd.
 noun	counter	en disk	/dɪsk/	Gå til disken.
 noun	queue	en kø	/køː/	Det er kø på apoteket.
 noun	allergy season	en allergisesong	/ɑlɛrˈɡiːˌseːsɔŋ/	Allergisesongen er i gang.
-noun	sore muscles	en muskelsmerter	/ˈmʉskəlˌsmæʈtər/	Jeg har muskelsmerter.
+noun	sore muscle	en øm muskel	/ˈøːm ˈmʉskəl/	Jeg har en øm muskel.
 noun	headache tablet	en hodepinemedisin	/ˈhuːdəˌpiːnəˌmɛdɪsiːn/	Hodepinemedisin hjelper.
 noun	travel sickness	en reisesyke	/ˈræɪsəˌsyːkə/	Noe mot reisesyke, takk.
 verb	to pick up prescription	å hente resept, henter resept, hentet resept, har hentet resept	/ˈhɛnːtə reˈsɛpt/	Jeg skal hente resepten.

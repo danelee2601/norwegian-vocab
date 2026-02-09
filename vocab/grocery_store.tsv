@@ -11,7 +11,7 @@ verb	to pay	å betale, betaler, betalte, har betalt	/beˈtɑːlə/	Kan jeg betal
 verb	to choose	å velge, velger, valgte, har valgt	/ˈʋɛlɡə/	Jeg skal velge ost.
 verb	to weigh	å veie, veier, veide, har veid	/ˈʋæɪə/	Vi må veie grønnsakene.
 noun	fruit	en frukt	/frʉkt/	Jeg kjøper frukt.
-noun	vegetables	en grønnsak	/ˈɡrønːsɑːkər/	Grønnsakene er ferske.
+noun	vegetable	en grønnsak	/ˈɡrønːsɑːkər/	Grønnsaken er fersk.
 noun	milk	en liter melk	/en ˈliːtər mɛlk/	Jeg trenger en liter melk.
 noun	bread	et brød	/brøːd/	Brødet er varmt.
 noun	cheese	en ost	/ʊst/	Osten er dyr.
@@ -19,7 +19,7 @@ adjective	fresh	fersk	/fæʂk/	Fisken er fersk.
 adjective	ripe	moden	/ˈmuːdən/	Bananen er moden.
 expression	Do you have ...?	Har dere ...?	/hɑr ˈdeːrə/	Har dere glutenfritt brød?
 expression	Where can I find ...?	Hvor finner jeg ...?	/ʋuːr ˈfɪnːər jæɪ/	Hvor finner jeg pasta?
-noun	eggs	et egg	/ɛɡ/	Jeg kjøper egg.
+noun	egg	et egg	/ɛɡ/	Jeg kjøper et egg.
 noun	butter	en pakke smør	/en ˈpɑkːə smøːr/	Smøret står i kjøledisken.
 noun	yogurt	en yoghurt	/ˈjɔɡʉʈ/	Jeg vil ha naturell yoghurt.
 noun	cream	en fløte	/ˈfløːtə/	Fløten er på tilbud.
@@ -31,20 +31,20 @@ noun	salmon	en laks	/lɑks/	Laksen er fersk.
 noun	sausage	en pølse	/ˈpœlːsə/	Vi skal grille pølse.
 noun	ham	en skinke	/ˈʂɪŋkə/	Skinken ligger ved pålegg.
 noun	sausage roll	en pølsebrød	/ˈpœlːsəbrøːd/	Jeg tar pølsebrød.
-noun	apples	et eple	/ˈeːplər/	Eplene ser fine ut.
-noun	bananas	en banan	/bɑˈnɑːnər/	Bananer er billige.
-noun	oranges	en appelsin	/ɑpəˈsiːnər/	Jeg kjøper appelsiner.
-noun	grapes	en vindrue	/ˈʋiːndrʉər/	Vindruene er søte.
-noun	berries	et bær	/bæːr/	Bær er godt til frokost.
-noun	potatoes	en potet	/pʊˈteːtər/	Poteter er basisvare.
-noun	onions	en løk	/lœk/	Løk står i grønnsaksavdelingen.
+noun	apple	et eple	/ˈeːplər/	Eplet ser fint ut.
+noun	banana	en banan	/bɑˈnɑːnər/	Bananen er billig.
+noun	orange	en appelsin	/ɑpəˈsiːnər/	Jeg kjøper en appelsin.
+noun	grape	en vindrue	/ˈʋiːndrʉər/	Vindruen er søt.
+noun	berry	et bær	/bæːr/	Bæret er godt til frokost.
+noun	potato	en potet	/pʊˈteːtər/	Poteten er en basisvare.
+noun	onion	en løk	/lœk/	Løken står i grønnsaksavdelingen.
 noun	garlic	en hvitløk	/ˈʋiːtlœk/	Jeg trenger hvitløk.
-noun	carrots	en gulrot	/ˈɡʉːlrœtːər/	Gulrøtter er sprø.
-noun	tomatoes	en tomat	/tʊˈmɑːtər/	Tomater er modne.
-noun	cucumbers	en agurk	/ɑˈɡʉrːkər/	Agurker ligger ved salaten.
+noun	carrot	en gulrot	/ˈɡʉːlrœtːər/	Gulroten er sprø.
+noun	tomato	en tomat	/tʊˈmɑːtər/	Tomaten er moden.
+noun	cucumber	en agurk	/ɑˈɡʉrːkər/	Agurken ligger ved salaten.
 noun	lettuce	en salat	/sɑˈlɑːt/	Jeg tar en salat.
-noun	mushrooms	en sopp	/sɔp/	Sopp brukes i suppe.
-noun	beans	en bønne	/ˈbønːər/	Bønner er billige.
+noun	mushroom	en sopp	/sɔp/	Soppen brukes i suppe.
+noun	bean	en bønne	/ˈbønːər/	Bønnen er billig.
 noun	rice	en pose ris	/en ˈpuːsə riːs/	Ris er lett å lage.
 noun	pasta	en pakke pasta	/en ˈpɑkːə ˈpɑstɑ/	Pasta er på tilbud.
 noun	flour	en pose mel	/en ˈpuːsə meːl/	Jeg trenger mel til brød.
@@ -53,14 +53,14 @@ noun	salt	en pakke salt	/en ˈpɑkːə sɑlt/	Jeg mangler en pakke salt.
 noun	pepper	en boks pepper	/en bɔks ˈpɛpːər/	Pepper står ved krydder.
 noun	oil	en flaske olje	/en ˈflɑskə ˈɔljə/	Olje til steking.
 noun	vinegar	en flaske eddik	/en ˈflɑskə ˈeːdɪk/	Vi trenger eddik til salat.
-noun	spices	en krydder	/ˈkryːdər/	Krydderhyllen er her.
+noun	spice	et krydder	/ˈkryːdər/	Krydderet er her.
 noun	soup	en suppe	/ˈsʉpːə/	Suppe er lett middag.
-noun	frozen food	en frysevarer	/ˈfryːsəˌʋɑːrər/	Frysevarer er bakerst.
+noun	frozen food	en frysevare	/ˈfryːsəˌʋɑːrə/	Frysevaren er bakerst.
 noun	ice cream	en iskrem	/ˈiːskrem/	Barna vil ha iskrem.
-noun	cookies	en kjeks	/çɛks/	Kjeks er ved snacks.
+noun	cookie	en kjeks	/çɛks/	Kjeksen er ved snackshylla.
 noun	chocolate	en sjokolade	/ʂʊkʊˈlɑːdə/	Jeg kjøper sjokolade.
 noun	candy	en godteri	/ˈɡuːdərɪ/	Godteri er ved kassen.
-noun	snacks	en snack	/snɑks/	Vi tar litt snacks.
+noun	snack	en snack	/snɑks/	Vi tar en snack.
 noun	coffee	en pose kaffe	/en ˈpuːsə ˈkɑfːə/	Kaffen står ved te.
 noun	tea	en pakke te	/en ˈpɑkːə teː/	Jeg vil ha grønn te.
 noun	juice	en juice	/jʉːs/	Juicen er kald.

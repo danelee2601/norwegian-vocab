@@ -1,12 +1,12 @@
 lexical-category	english	norwegian	pronunciation	example_sentence
-noun	clothes	et klesplagg	/klæːr/	Jeg trenger nye klær.
+noun	clothing item	et klesplagg	/klæːr/	Jeg trenger et nytt klesplagg.
 noun	size	en størrelse	/ˈstøːʂəlsə/	Hvilken størrelse bruker du?
 noun	fitting room	en prøverom	/ˈprøːʋəˌruːm/	Prøverommet er der borte.
 noun	jacket	en jakke	/ˈjɑkːə/	Denne jakken er varm.
 noun	shirt	en skjorte	/ˈʂuʈə/	Skjorta er litt stor.
-noun	pants	en bukse	/ˈbʉksə/	Jeg prøver en blå bukse.
+noun	pair of pants	en bukse	/ˈbʉksə/	Jeg prøver en blå bukse.
 noun	dress	en kjole	/ˈçuːlə/	Hun kjøper en kjole.
-noun	shoes	en sko	/skuː/	Skoene er nye.
+noun	shoe	en sko	/skuː/	Skoen er ny.
 noun	sweater	en genser	/ˈjɛnsər/	Jeg liker den genseren.
 noun	price tag	en prislapp	/ˈpriːsˌlɑp/	Prislappen sier 399 kroner.
 verb	to try on	å prøve, prøver, prøvde, har prøvd	/ˈprøːʋə/	Kan jeg prøve denne?
@@ -22,21 +22,21 @@ noun	t-shirt	en t-skjorte	/ˈteːˌʂuʈə/	Jeg vil ha en t-skjorte.
 noun	blouse	en bluse	/ˈblʉːsə/	Blusen er hvit.
 noun	suit	en dress	/drɛs/	Han trenger en dress.
 noun	skirt	et skjørt	/ʂøʈ/	Skjørtet er blått.
-noun	jeans	en jeans	/dʒiːns/	Jeansene er mørke.
-noun	shorts	en shorts	/ʂoːʈs/	Jeg kjøper shorts.
+noun	pair of jeans	en jeans	/dʒiːns/	Jeansen er mørk.
+noun	pair of shorts	en shorts	/ʂoːʈs/	Jeg kjøper en shorts.
 noun	coat	en kåpe	/ˈkoːpə/	Kåpen er varm.
 noun	rain jacket	en regnjakke	/ˈræɪnˌjɑkːə/	Regnjakka er vanntett.
 noun	winter jacket	en vinterjakke	/ˈʋɪntərˌjɑkːə/	Vinterjakka er tykk.
 noun	underwear	en undertøy	/ˈʉnːdərˌtœy/	Jeg trenger nytt undertøy.
-noun	socks	en sokk	/ˈsɔkːər/	Sokkene er svarte.
-noun	tights	en strømpebukse	/ˈstrœmpəˌbʉksə/	Hun kjøper strømpebukse.
+noun	sock	en sokk	/ˈsɔkːər/	Sokken er svart.
+noun	pair of tights	en strømpebukse	/ˈstrœmpəˌbʉksə/	Hun kjøper en strømpebukse.
 noun	scarf	et skjerf	/ʂærf/	Skjerfet er mykt.
 noun	hat	en lue	/lʉːə/	Jeg bruker lue om vinteren.
 noun	cap	en caps	/kɑps/	Han har en caps.
-noun	gloves	en hanske	/ˈhɑnskər/	Jeg trenger hansker.
-noun	boots	en støvel	/ˈstøːʋlər/	Støvlene er store.
-noun	sneakers	en joggesko	/ˈjɔɡəˌskuː/	Joggeskoene er lette.
-noun	sandals	en sandal	/sɑnˈdɑːlər/	Jeg kjøper sandaler.
+noun	glove	en hanske	/ˈhɑnskə/	Jeg trenger en hanske.
+noun	boot	en støvel	/ˈstøːʋlər/	Støvelen er stor.
+noun	sneaker	en joggesko	/ˈjɔɡəˌskuː/	Joggeskoen er lett.
+noun	sandal	en sandal	/sɑnˈdɑːlər/	Jeg kjøper en sandal.
 noun	belt	et belte	/ˈbɛltə/	Jeg trenger et belte.
 noun	bag	en veske	/ˈʋɛskə/	Vesken er dyr.
 noun	backpack	en ryggsekk	/ˈrʏɡˌsɛk/	Ryggsekken er praktisk.
@@ -45,7 +45,7 @@ noun	jewelry	en smykker	/ˈsmʏkːər/	Hun liker smykker.
 noun	ring	en ring	/rɪŋ/	Ringen er fin.
 noun	bracelet	et armbånd	/ˈɑrmˌbɔn/	Armbåndet er nytt.
 noun	necklace	et halskjede	/ˈhɑlsˌçeːdə/	Halskjedet er sølv.
-noun	earrings	en øredobb	/ˈøːrəˌdɔbːər/	Hun kjøper øredobber.
+noun	earring	en øredobb	/ˈøːrəˌdɔbːər/	Hun kjøper en øredobb.
 noun	color	en farge	/ˈfɑʁɡə/	Hvilken farge vil du ha?
 noun	pattern	et mønster	/ˈmønːstər/	Jeg liker dette mønsteret.
 noun	material	en stoff	/stɔf/	Hvilket stoff er det?

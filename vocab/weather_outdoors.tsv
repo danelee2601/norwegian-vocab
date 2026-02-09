@@ -46,11 +46,11 @@ noun	winter	en vinter	/ˈʋɪntər/	Vinteren er lang.
 noun	jacket	en jakke	/ˈjɑkːə/	Ta på deg jakke.
 noun	umbrella	en paraply	/pɑrɑˈplyː/	Jeg tar med paraply.
 noun	raincoat	en regnjakke	/ˈræɪnˌjɑkːə/	Regnjakka er vanntett.
-noun	boots	en støvel	/ˈstøːʋlər/	Støvlene er våte.
-noun	gloves	en hanske	/ˈhɑnskər/	Jeg trenger hansker.
+noun	boot	en støvel	/ˈstøːʋlər/	Støvelen er våt.
+noun	glove	en hanske	/ˈhɑnskə/	Jeg trenger en hanske.
 noun	hat	en lue	/lʉːə/	Ta på deg lue.
 noun	scarf	en skjerf	/ʂærf/	Jeg bruker skjerf.
-noun	sunglasses	en solbrille	/ˈsuːlˌbrɪlːər/	Solbrillene ligger i bilen.
+noun	pair of sunglasses	en solbrille	/ˈsuːlˌbrɪlːər/	Solbrillen ligger i bilen.
 noun	trail	en sti	/stiː/	Vi går på en sti.
 noun	path	en vei	/ʋæɪ/	Vi følger veien.
 noun	hill	en bakke	/ˈbɑkːə/	Bakken er bratt.
@@ -102,7 +102,7 @@ expression	It's getting warmer.	Det blir varmere.	/deːt bliːr ˈʋɑrmərə/	D
 noun	wind chill	en vindavkjøling	/ˈʋɪnːdˌɑʋˌçøːlɪŋ/	Vindavkjølingen er høy.
 noun	temperature drop	en temperaturfall	/tɛmpərɑˈtʉːrˌfɑl/	Det blir temperaturfall i natt.
 noun	puddle	en vanndam	/ˈʋɑnːˌdɑm/	Hopp over vanndammen.
-noun	rain boots	en regnstøvel	/ˈræɪnˌstøːʋlər/	Regnstøvlene er tørre.
+noun	rain boot	en regnstøvel	/ˈræɪnˌstøːʋlər/	Regnstøvelen er tørr.
 verb	to dry	å tørke, tørker, tørket, har tørket	/ˈtœrkə/	Klærne tørker.
 verb	to sweat	å svette, svetter, svettet, har svettet	/ˈsʋɛtːə/	Jeg svetter i solen.
 adjective	humid	fuktig	/ˈfʉktɪ/	Det er fuktig ute.

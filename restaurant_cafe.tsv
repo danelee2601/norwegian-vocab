@@ -1,0 +1,110 @@
+lexical-category	english	norwegian	pronunciation	example_sentence
+noun	menu	en meny	/məˈnyː/	Kan jeg få menyen?
+noun	order	en bestilling	/beˈstɪlɪŋ/	Bestillingen er klar.
+noun	waiter	en servitør	/sɛrʋɪˈtøːr/	Servitøren kommer snart.
+noun	table	et bord	/buːr/	Vi har et bord for to.
+noun	reservation	en reservasjon	/resɛrʋɑˈʂuːn/	Jeg har en reservasjon.
+noun	appetizer	en forrett	/ˈfuːrɛt/	Vi bestiller en forrett.
+noun	main course	en hovedrett	/ˈhuːvədˌrɛt/	Hovedretten er veldig god.
+noun	dessert	en dessert	/deˈsæʈ/	Skal du ha dessert?
+noun	bill	en regning	/ˈreːnɪŋ/	Kan vi få regningen?
+verb	to order	å bestille, bestiller, bestillte, har bestillt	/beˈstɪlə/	Jeg vil bestille kaffe.
+verb	to recommend	å anbefale, anbefaler, anbefalte, har anbefalt	/ˈɑnbəˌfɑːlə/	Hva anbefaler du?
+adjective	tasty	god	/ɡuː/	Maten er god.
+adjective	spicy	sterk	/stæʂk/	Sausen er litt sterk.
+adverb	without	uten	/ˈʉːtən/	Jeg vil ha salaten uten ost.
+expression	I am allergic to ...	Jeg er allergisk mot ...	/jæɪ ær ɑˈlɛrɡɪsk muːt/	Jeg er allergisk mot nøtter.
+expression	Can we get the bill?	Kan vi få regningen?	/kɑn vi foː ˈreːnɪŋən/	Kan vi få regningen nå?
+noun	coffee	en kaffe	/ˈkɑfə/	Jeg tar en kaffe.
+noun	tea	en te	/teː/	Hun vil ha te.
+noun	water	en vann	/vɑn/	Vi trenger mer vann.
+noun	tip	en tips	/tips/	Skal vi gi tips?
+noun	glass	et glass	/ɡlɑs/	Glasset er fullt.
+noun	fork	en gaffel	/ˈɡɑfːəl/	Jeg trenger en gaffel.
+noun	knife	en kniv	/kniːʋ/	Kan jeg få en kniv?
+noun	spoon	en skje	/ʂeː/	Hun ber om en skje.
+noun	plate	en tallerken	/ˈtɑlːərkən/	Tallerkenen er varm.
+noun	bowl	en skål	/skɔːl/	Suppe i en skål.
+noun	napkin	en serviett	/særʋɪˈjɛt/	Servietten ligger her.
+noun	straw	en sugerør	/ˈsʉːɡərøːr/	Vil du ha sugerør?
+noun	cup	en kopp	/kɔp/	Koppen er varm.
+noun	mug	en krus	/krʉːs/	Jeg vil ha kaffe i krus.
+noun	bottle	en flaske	/ˈflɑskə/	Vannet kommer i flaske.
+noun	jug	en kanne	/ˈkɑnːə/	En kanne med vann.
+noun	side dish	et tilbehør	/ˈtɪlbəˌhøːr/	Hva er tilbehøret?
+noun	salad	en salat	/sɑˈlɑːt/	Jeg tar en salat.
+noun	soup	en suppe	/ˈsʉpːə/	Suppe til forrett.
+noun	sandwich	et smørbrød	/ˈsmøːrbrøːd/	Smørbrødet er ferskt.
+noun	burger	en burger	/ˈbʉrɡər/	En burger med ost.
+noun	pizza	en pizza	/ˈpɪtːsɑ/	Pizzaen er stor.
+noun	pasta	en pasta	/ˈpɑstɑ/	Jeg vil ha pasta.
+noun	sauce	en saus	/sɑʉs/	Sausen er god.
+noun	gravy	en brun saus	/sɑʉs/	Kjøttet kommer med brun saus.
+noun	vegetarian dish	en vegetarrett	/ʋəɡəˈtɑːrˌrɛt/	Har dere vegetarrett?
+noun	vegan dish	en vegansk rett	/ʋeˈɡɑːnsk rɛt/	Hun bestiller vegansk rett.
+noun	fish of the day	en dagens fisk	/ˈdɑːɡəns fɪsk/	Dagens fisk er fersk.
+noun	special	en spesialitet	/spɛsɪɑlɪˈteːt/	Spesialiteten anbefales.
+noun	portion	en porsjon	/pɔrˈʂuːn/	Porsjonen er stor.
+noun	small portion	en liten porsjon	/ˈliːtən pɔrˈʂuːn/	Jeg vil ha liten porsjon.
+noun	large portion	en stor porsjon	/stuːr pɔrˈʂuːn/	Jeg tar stor porsjon.
+noun	bread basket	en brødkurv	/ˈbrøːdˌkʉrv/	Brødkurven er varm.
+noun	butter	en smør	/smøːr/	Kan vi få smør?
+noun	jam	et syltetøy	/ˈsʏltəˌtœy/	Syltetøyet er søtt.
+noun	cheese	en ost	/ʊst/	Osten er sterk.
+noun	meat	et kjøtt	/çœt/	Kjøttet er mørt.
+noun	chicken	en kylling	/ˈçʏlːɪŋ/	Kyllingen er stekt.
+noun	beef	en storfekjøtt	/ˈstuːrfeˌçœt/	Storfekjøtt er saftig.
+noun	pork	en svinekjøtt	/ˈsviːnəˌçœt/	Svinekjøtt er populært.
+noun	fish	en fisk	/fɪsk/	Fisk serveres med poteter.
+noun	shrimp	en reker	/ˈreːkər/	Reker på brødskive.
+noun	mussels	et blåskjell	/ˈbloːˌʂɛl/	Blåskjell er sesongmat.
+noun	dessert menu	en dessertmeny	/deˈsæʈməˌnyː/	Kan vi få dessertmenyen?
+noun	ice cream	en iskrem	/ˈiːskrem/	Jeg tar iskrem.
+noun	cake	en kake	/ˈkɑːkə/	Kaken er nybakt.
+noun	chocolate cake	en sjokoladekake	/ʂʊkʊˈlɑːdəˌkɑːkə/	Sjokoladekake er favoritt.
+noun	fruit	en frukt	/frʉkt/	Frukt til dessert.
+noun	coffee latte	en caffe latte	/ˈkɑfə ˈlɑtːe/	En caffe latte, takk.
+noun	espresso	en espresso	/ɛsˈprɛsːo/	Jeg tar en espresso.
+noun	cappuccino	en cappuccino	/kɑpːʉˈtʃiːno/	Hun bestiller cappuccino.
+noun	tea pot	en tekanna	/ˈteːˌkɑnːə/	Tekanna er varm.
+noun	juice	en juice	/jʉːs/	Appelsinjuice, takk.
+noun	soft drink	en brus	/brʉːs/	Vi tar hver vår brus.
+noun	beer	en øl	/œl/	Øl passer til pizza.
+noun	wine	et vin	/ʋiːn/	Vi vil ha et glass vin.
+noun	red wine	en rødvin	/ˈrøːdʋiːn/	Rødvin til kjøtt.
+noun	white wine	en hvitvin	/ˈʋiːtʋiːn/	Hvitvin til fisk.
+noun	non-alcoholic	en alkoholfri drikk	/ˈɑlkɔhɔlˌfri drɪk/	Jeg tar en alkoholfri drikk.
+noun	price	en pris	/priːs/	Prisen står på menyen.
+verb	to book	å reservere, reserverer, reserverte, har reservert	/resərˈʋeːrə/	Vi reserverer bord.
+verb	to order food	å bestille mat, bestiller mat, bestillte mat, har bestillt mat	/beˈstɪlə mɑːt/	Jeg vil bestille mat.
+verb	to wait	å vente, venter, ventet, har ventet	/ˈʋɛnːtə/	Vi må vente litt.
+verb	to serve	å servere, serverer, serverte, har servert	/særˈʋeːrə/	De serverer raskt.
+verb	to taste	å smake, smaker, smakte, har smakt	/ˈsmɑːkə/	Vil du smake?
+verb	to heat	å varme, varmer, varmet, har varmet	/ˈʋɑːrmə/	Kan dere varme suppen?
+verb	to refill	å fylle på, fyller på, fyllte på, har fyllt på	/ˈfʏlːə pɔː/	Kan du fylle på vann?
+verb	to pick up	å hente, henter, hentet, har hentet	/ˈhɛnːtə/	Kan du hente servietter?
+verb	to take away	å ta med, tar med, tok med, har tatt med	/tɑ meː/	Jeg tar maten med.
+verb	to pay	å betale, betaler, betalte, har betalt	/beˈtɑːlə/	Vi betaler nå.
+verb	to split	å dele, deler, delte, har delt	/ˈdeːlə/	Kan vi dele regningen?
+adjective	full (not hungry)	mett	/mɛt/	Jeg er mett.
+adjective	sweet	søt	/søːt/	Desserten er søt.
+adjective	salty	salt	/sɑlt/	Suppen er litt salt.
+adjective	hot	varm	/ʋɑːrm/	Kaffen er varm.
+adjective	cold	kald	/kɑl/	Vannet er kaldt.
+adjective	non-spicy	mild	/mɪl/	Saften er mild.
+adjective	gluten-free	glutenfri	/ˈɡlʉːtənˌfriː/	Har dere glutenfritt brød?
+adjective	lactose-free	laktosefri	/ˈlɑktuːsəˌfriː/	Jeg trenger laktosefri melk.
+expression	A table for two, please.	Et bord for to, takk.	/et buːr fɔr tuː tɑk/	Et bord for to, takk.
+expression	Can we sit here?	Kan vi sitte her?	/kɑn vi ˈsɪtːə hæːr/	Kan vi sitte her?
+expression	Excuse me!	Unnskyld!	/ˈʉnːʂʏld/	Unnskyld, kan vi bestille?
+expression	We are ready to order.	Vi er klare til å bestille.	/viː æːr ˈklɑːrə tɪl ɔː beˈstɪlə/	Vi er klare til å bestille.
+expression	Could we have more water?	Kan vi få mer vann?	/kɑn vi foː meːr ʋɑn/	Kan vi få mer vann?
+expression	That was delicious.	Det var nydelig.	/deː ʋɑr ˈnyːdəli/	Det var nydelig.
+noun	reservation time	en reservasjonstid	/resɛrʋɑˈʂuːnsˌtiːd/	Reservasjonstiden er klokka sju.
+noun	side salad	en sidesalat	/ˈsiːdəˌsɑːlɑt/	Jeg vil ha sidesalat.
+noun	kids menu	en barnemeny	/ˈbɑːrnəˌmyː/	Har dere barnemeny?
+verb	to reserve a table	å reservere bord, reserverer bord, reserverte bord, har reservert bord	/resərˈʋeːrə buːr/	Jeg vil reservere bord.
+adjective	crispy	sprø	/sprøː/	Pommes frites er sprø.
+expression	Could we get the menu?	Kan vi få menyen?	/kɑn vi foː ˈmyːən/	Kan vi få menyen?
+expression	Is tap water free?	Er vann fra springen gratis?	/æːr ʋɑn frɑ ˈsprɛŋən ˈɡrɑːtɪs/	Er vann fra springen gratis?
+noun	takeaway box	en takeaway-boks	/ˈteːkəˌʋæɪ bɔks/	Kan jeg få en takeaway-boks?

@@ -1,0 +1,110 @@
+lexical-category	english	norwegian	pronunciation	example_sentence
+noun	meeting	en møte	/ˈmøːtə/	Vi har møte klokka ti.
+noun	deadline	en frist	/frɪst/	Fristen er i morgen.
+noun	project	et prosjekt	/pruˈʂɛkt/	Prosjektet starter neste uke.
+noun	work	en arbeid	/ˈɑːrbæɪd/	Jeg har mye arbeid.
+noun	colleague	en kollega	/kʊˈleːɡɑ/	Kollegaene mine er hyggelige.
+noun	boss	en sjef	/ʃeːf/	Sjefen er på kontoret.
+noun	email	en e-post	/ˈeːˌpɔst/	Jeg sender en e-post.
+noun	report	en rapport	/rɑˈpɔʈ/	Rapporten er nesten ferdig.
+verb	to send	å sende, sender, sendet, har sendet	/ˈsɛnːə/	Jeg sender dokumentet nå.
+verb	to finish	å bli ferdig, blir ferdig, ble ferdig, har blitt ferdig	/bli ˈfæːrdi/	Jeg blir ferdig i kveld.
+verb	to schedule	å planlegge, planlegger, planla, har planlagt	/ˈplɑnˌleɡə/	Vi planlegger et møte.
+adjective	busy	travel	/ˈtrɑːʋəl/	Jeg er travel i dag.
+adjective	available	ledig	/ˈleːdi/	Er du ledig i morgen?
+adverb	soon	snart	/snɑʈ/	Vi snakkes snart.
+expression	Can we have a meeting?	Kan vi ta et møte?	/kɑn vi tɑː et ˈmøːtə/	Kan vi ta et møte i dag?
+expression	I need more time.	Jeg trenger mer tid.	/jæɪ ˈtrɛŋər meːr tiːd/	Jeg trenger mer tid.
+noun	printer	en skriver	/ˈskriːʋər/	Skriveren er tom for papir.
+noun	department	en avdeling	/ˈɑːʋdeːliŋ/	Jeg jobber i salgavdelingen.
+noun	salary	en lønn	/løn/	Lønnen kommer på fredag.
+noun	vacation	en ferie	/ˈfeːriə/	Jeg tar ferie i juli.
+noun	office	et kontor	/kɔnˈtuːr/	Kontoret er i tredje etasje.
+noun	desk	en pult	/pʉlt/	Pulten min er der.
+noun	chair	en stol	/stuːl/	Stolen er komfortabel.
+noun	meeting room	en møterom	/ˈmøːtəˌrʊm/	Møterommet er opptatt.
+noun	agenda	en agenda	/ɑˈɡɛndɑ/	Agendaen er klar.
+noun	minutes	et referat	/ˈrɛfəˌrɑːt/	Kan du skrive referat?
+noun	presentation	en presentasjon	/prɛsɛntɑˈʂuːn/	Jeg har en presentasjon.
+noun	task	en oppgave	/ˈɔpːɡɑːvə/	Jeg har mange oppgaver.
+noun	priority	en prioritet	/prɪɔrɪˈteːt/	Dette er høy prioritet.
+noun	responsibility	en ansvar	/ˈɑnːsʋɑːr/	Dette er mitt ansvar.
+noun	team	et team	/tiːm/	Teamet mitt er bra.
+noun	manager	en leder	/ˈleːdər/	Lederen er i møte.
+noun	HR	en HR	/hɑːr/	HR hjelper med kontrakten.
+noun	client	en kunde	/ˈkʉnːdə/	Kunden ringer.
+noun	customer	en kunde	/ˈkʉnːdə/	Vi har mange kunder.
+noun	supplier	en leverandør	/ˈleːʋərɑnˌdøːr/	Leverandøren er forsinket.
+noun	invoice	en faktura	/fɑkˈtʉːrɑ/	Fakturaen er sendt.
+noun	budget	et budsjett	/bʉˈʂɛt/	Budsjettet er godkjent.
+noun	expense	en utgift	/ˈʉːtɡɪft/	Dette er en utgift.
+noun	approval	en godkjenning	/ˈɡuːdˌçɛnɪŋ/	Vi trenger godkjenning.
+noun	contract	en kontrakt	/kɔnˈtrɑkt/	Kontrakten er klar.
+noun	policy	en retningslinje	/ˈrɛtniŋsˌlɪnjə/	Les retningslinjene.
+noun	meeting invite	en møteinnkalling	/ˈmøːtəˌɪnːkɑlɪŋ/	Møteinnkallingen er sendt.
+noun	calendar	en kalender	/kɑˈlɛnːdər/	Kalenderen er full.
+noun	schedule	en tidsplan	/ˈtiːdsˌplɑːn/	Tidsplanen er stram.
+noun	overtime	en overtid	/ˈoːʋərtiːd/	Jeg jobber overtid.
+noun	break	en pause	/ˈpæʉsə/	Vi tar en pause.
+noun	lunch	en lunsj	/lʉnʂ/	Lunsj er klokka tolv.
+noun	coffee	en kaffe	/ˈkɑfːə/	Jeg tar en kaffe.
+noun	office supplies	en kontorrekvisitt	/kɔnˈtuːrˌrɛkʋɪˌsiːtɑ/	Vi trenger kontorrekvisita.
+noun	pen	en penn	/pɛn/	Jeg trenger en penn.
+noun	notebook	ei notatbok	/nʊˈtɑːtbuːk/	Notatboka er full.
+noun	paper	en papir	/pɑˈpiːr/	Skriveren er tom for papir.
+noun	printer	en skriver	/ˈskriːʋər/	Skriveren fungerer igjen.
+noun	scanner	en skanner	/ˈskɑnːər/	Skanneren er opptatt.
+noun	copy	en kopi	/ˈkuːpi/	Jeg trenger en kopi.
+noun	file	en fil	/fiːl/	Jeg lagrer filen.
+noun	folder	en mappe	/ˈmɑpːə/	Legg filen i mappa.
+noun	document	et dokument	/dɔkʉˈmɛnt/	Dokumentet er klart.
+noun	spreadsheet	et regneark	/ˈræɪnəˌɑʈk/	Regnearket er oppdatert.
+noun	presentation file	en presentasjonsfil	/prɛsɛntɑˈʂuːnsˌfiːl/	Presentasjonsfilen er klar.
+noun	deadline	en frist	/frɪst/	Fristen er i morgen.
+noun	feedback	en tilbakemelding	/ˈtɪlbɑːkəˌmɛldɪŋ/	Kan du gi tilbakemelding?
+noun	issue	et problem	/prʊˈbleːm/	Det er et problem.
+noun	solution	en løsning	/ˈløːsnɪŋ/	Vi finner en løsning.
+noun	phone call	et telefonmøte	/ˈtɛləˌfuːnˌmøːtə/	Jeg har et telefonmøte.
+noun	video call	et videomøte	/ˈʋɪdiʊˌmøːtə/	Vi tar et videomøte.
+verb	to start	å starte, starter, startet, har startet	/ˈstɑʈtə/	Vi starter møtet.
+verb	to finish	å avslutte, avslutter, avsluttet, har avsluttet	/ˈɑːʋslʉtːə/	Vi avslutter møtet.
+verb	to send	å sende, sender, sendet, har sendet	/ˈsɛnːə/	Jeg sender e-posten.
+verb	to reply	å svare, svarer, svarte, har svart	/ˈsʋɑːrə/	Jeg svarer senere.
+verb	to forward	å videresende, videresender, videresendte, har videresendt	/ˈʋiːdərəˌsɛnːə/	Jeg videresender e-posten.
+verb	to attach	å legge ved, legger ved, la ved, har lagt ved	/ˈlɛɡːə ʋeːd/	Jeg legger ved filen.
+verb	to print	å skrive ut, skriver ut, skrev ut, har skrevet ut	/ˈskriːʋə ʉːt/	Jeg skriver ut rapporten.
+verb	to scan	å skanne, skanner, skannet, har skannet	/ˈskɑnːə/	Jeg skanner kontrakten.
+verb	to sign	å signere, signerer, signerte, har signert	/sɪɡˈneːrə/	Kan du signere her?
+verb	to approve	å godkjenne, godkjenner, godkjennte, har godkjennt	/ˈɡuːdˌçɛnːə/	Lederen må godkjenne.
+verb	to review	å gå gjennom, går gjennom, gikk gjennom, har gått gjennom	/ɡoː ˈjɛnːəm/	Vi går gjennom rapporten.
+verb	to present	å presentere, presenterer, presenterte, har presentert	/prɛsɛnˈteːrə/	Jeg presenterer planen.
+verb	to plan	å planlegge, planlegger, planla, har planlagt	/ˈplɑnˌleɡə/	Vi planlegger neste uke.
+verb	to prioritize	å prioritere, prioriterer, prioriterte, har prioritert	/prɪɔrɪˈteːrə/	Vi prioriterer oppgavene.
+verb	to submit	å levere, leverer, leverte, har levert	/ləˈʋeːrə/	Jeg leverer rapporten.
+adjective	important	viktig	/ˈʋɪktɪ/	Dette er viktig.
+adjective	urgent	haster	/ˈhɑstər/	Det haster.
+adjective	available	ledig	/ˈleːdi/	Jeg er ledig nå.
+adjective	busy	opptatt	/ˈɔpːtɑt/	Jeg er opptatt.
+adjective	delayed	forsinket	/fɔˈʂɪŋkət/	Prosjektet er forsinket.
+adjective	ready	klar	/klɑːr/	Rapporten er klar.
+expression	Can you send me the file?	Kan du sende meg filen?	/kɑn dʉ ˈsɛnːə mæɪ ˈfiːlən/	Kan du sende meg filen?
+expression	Let's schedule a meeting.	La oss planlegge et møte.	/lɑ ɔs ˈplɑnˌleɡə et ˈmøːtə/	La oss planlegge et møte.
+expression	I will get back to you.	Jeg kommer tilbake til deg.	/jæɪ ˈkɔmːər tɪlˈbɑːkə tɪl dæɪ/	Jeg kommer tilbake til deg.
+noun	business trip	en jobbreise	/ˈjɔbːˌræɪsə/	Jeg er på jobbreise.
+noun	training	en opplæring	/ˈɔpːlɛːrɪŋ/	Jeg får opplæring.
+noun	onboarding	en introduksjon	/ɪntrʉˈdʉkʂuːn/	Vi har introduksjon i dag.
+noun	workspace	en arbeidsplass	/ˈɑːrbæɪdsˌplɑs/	Arbeidsplassen min er her.
+verb	to take notes	å ta notater, tar notater, tok notater, har tatt notater	/tɑ nuˈtɑːtər/	Jeg tar notater.
+verb	to take a break	å ta en pause, tar en pause, tok en pause, har tatt en pause	/tɑ en ˈpæʉsə/	Jeg tar en pause.
+adjective	professional	profesjonell	/prʊfɛʂuˈnɛl/	Det er en profesjonell tone.
+expression	Can we move the deadline?	Kan vi flytte fristen?	/kɑn vi ˈflʏtə ˈfrɪstən/	Kan vi flytte fristen?
+expression	Please review this.	Vennligst se over dette.	/ˈʋɛnːlɪst seː ˈoːʋər ˈdɛtə/	Vennligst se over dette.
+noun	meeting link	en møtelenke	/ˈmøːtəˌlɛŋkə/	Send møtelenken.
+noun	action item	et oppfølgingspunkt	/ˈɔpːfœlɪŋsˌpʉŋkt/	Vi har et oppfølgingspunkt.
+noun	status update	en statusoppdatering	/ˈstɑtʉsˌɔpːdɑteːrɪŋ/	Gi en statusoppdatering.
+noun	sick leave	en sykmelding	/ˈsyːkmɛldɪŋ/	Jeg er sykmeldt i en uke.
+noun	vacation request	en feriesøknad	/ˈfeːriəˌsøːknɑːd/	Jeg sender feriesøknad.
+verb	to update	å oppdatere, oppdaterer, oppdaterte, har oppdatert	/ˈɔpːdɑteːrə/	Jeg oppdaterer dokumentet.
+verb	to cancel	å avlyse, avlyser, avlyste, har avlyst	/ˈɑːʋlyːsə/	Vi må avlyse møtet.
+adjective	flexible	fleksibel	/flɛkˈsiːbəl/	Jeg har fleksibel tid.
+expression	Can we move the meeting?	Kan vi flytte møtet?	/kɑn vi ˈflʏtə ˈmøːtət/	Kan vi flytte møtet til i morgen?

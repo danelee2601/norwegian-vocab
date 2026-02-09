@@ -1,0 +1,110 @@
+lexical-category	english	norwegian	pronunciation	example_sentence
+noun	phone	en telefon	/tɛləˈfuːn/	Telefonen min er tom for strøm.
+noun	charger	en lader	/ˈlɑːdər/	Har du en lader?
+noun	battery	et batteri	/bɑtəˈriː/	Batteriet er nesten tomt.
+noun	signal	en dekning	/ˈdeːkniŋ/	Jeg har dårlig dekning her.
+noun	number	et nummer	/ˈnʉmːər/	Hva er nummeret ditt?
+noun	contact	en kontakt	/kɔnˈtɑkt/	Jeg har lagret kontakten.
+noun	message	en melding	/ˈmɛldiŋ/	Jeg sendte en melding.
+noun	app	en app	/ɑp/	Denne appen er nyttig.
+noun	internet	et internett	/ˈɪnːtərnɛt/	Internettet er tregt.
+noun	Wi-Fi	en Wi-Fi	/ˈʋiːfi/	Wi-Fi virker ikke.
+noun	password	et passord	/ˈpɑsɔʈ/	Hva er Wi-Fi-passordet?
+verb	to call	å ringe, ringer, ringte, har ringt	/ˈrɪŋə/	Jeg ringer deg senere.
+verb	to text (SMS)	å sende SMS, sender SMS, sendet SMS, har sendet SMS	/ˈsɛnːə ɛsˌɛmˈɛs/	Jeg sender en SMS.
+verb	to connect	å koble til, kobler til, koblet til, har koblet til	/ˈkɔbːlə tɪl/	Kan du koble til nettet?
+verb	to download	å laste ned, laster ned, lastet ned, har lastet ned	/ˈlɑstə neːd/	Jeg laster ned appen.
+verb	to update	å oppdatere, oppdaterer, oppdaterte, har oppdatert	/ˈɔpːdɑteːrə/	Telefonen må oppdateres.
+verb	to reset	å tilbakestille, tilbakestiller, tilbakestillte, har tilbakestillt	/ˈtɪlbɑːkəˌstɪlːə/	Jeg må tilbakestille mobilen.
+adjective	broken	ødelagt	/ˈøːdəˌlɑkt/	Skjermen er ødelagt.
+adjective	slow	treg	/treːɡ/	Internettet er tregt.
+noun	mobile	en mobil	/ˈmuːbɪl/	Mobilen min er ny.
+noun	smartphone	en smarttelefon	/ˈsmɑʈtˌtɛləˌfuːn/	Jeg har en smarttelefon.
+noun	screen	en skjerm	/ʂjærm/	Skjermen er sprukket.
+noun	case	et deksel	/ˈdɛksəl/	Jeg trenger et deksel.
+noun	headphones	en hodetelefon	/ˈhuːdəˌtɛləˌfuːnər/	Jeg bruker hodetelefoner.
+noun	earbuds	en ørepropp	/ˈøːrəˌprɔpər/	Øreproppene er borte.
+noun	speaker	en høyttaler	/ˈhœʏtˌtɑːlər/	Høyttaleren er høy.
+noun	microphone	en mikrofon	/ˈmɪkrʊˌfuːn/	Mikrofonen virker ikke.
+noun	call	en samtale	/ˈsɑmːtɑːlə/	Vi har en samtale nå.
+noun	missed call	et tapt anrop	/tɑpt ˈɑnruːp/	Jeg har et tapt anrop.
+noun	voicemail	en telefonsvarer	/ˈtɛləˌfuːnˌsʋɑːrər/	Jeg har en telefonsvarer.
+noun	contact list	en kontaktliste	/kɔnˈtɑktˌlɪstə/	Kontaktlisten er lang.
+noun	SIM card	et SIM-kort	/ˈsɪmˌkɔʈ/	SIM-kortet fungerer ikke.
+noun	subscription	et abonnement	/ɑbʊnəˈmɑŋ/	Jeg vil endre abonnementet.
+noun	prepaid card	en kontantkort	/ˈkɔnːtɑnˌtɒʈ/	Jeg bruker kontantkort.
+noun	plan	et abonnement	/ɑbʊnəˈmɑŋ/	Dette abonnementet er billig.
+noun	data	en data	/ˈdɑːtɑ/	Jeg har brukt mye data.
+noun	data usage	en databruk	/ˈdɑːtɑˌbrʉːk/	Databruken er høy.
+noun	data limit	en datagrense	/ˈdɑːtɑˌɡrɛnsə/	Datagrensen er nådd.
+noun	roaming	en roaming	/ˈroːmɪŋ/	Roaming er dyrt.
+noun	network	et nettverk	/ˈnɛtʋærk/	Nettverket er nede.
+noun	coverage	en dekning	/ˈdeːkniŋ/	Dekningen er dårlig her.
+noun	signal strength	en signalstyrke	/sɪɡˈnɑːlˌstʏrkə/	Signalstyrken er svak.
+noun	router	en ruter	/ˈrʉːtər/	Ruteren må restartes.
+noun	modem	et modem	/ˈmuːdɛm/	Modemet blinker.
+noun	broadband	en bredbånd	/ˈbreːdˌbɔn/	Vi har bredbånd hjemme.
+noun	fiber	en fiber	/ˈfiːbər/	Fiber er raskt.
+noun	mobile data	en mobildata	/ˈmuːbɪlˌdɑːtɑ/	Mobildata er på.
+noun	hotspot	en hotspot	/ˈhɔtspɔt/	Jeg deler hotspot.
+noun	airplane mode	en flymodus	/ˈflyːˌmuːdʉs/	Slå på flymodus.
+noun	Bluetooth	en Bluetooth	/ˈbluːtʉːs/	Bluetooth er på.
+noun	notification	en varsling	/ˈʋɑʂlɪŋ/	Jeg fikk en varsling.
+noun	update	en oppdatering	/ˈɔpːdɑteːrɪŋ/	En oppdatering er klar.
+noun	backup	en sikkerhetskopi	/ˈsɪkːərheːtsˌkuːpi/	Jeg tar sikkerhetskopi.
+noun	storage	en lagring	/ˈlɑːɡrɪŋ/	Jeg har lite lagring.
+noun	memory	et minne	/ˈmɪnːə/	Minnet er fullt.
+noun	cloud	en sky	/ʂyː/	Alt ligger i skyen.
+noun	password	et passord	/ˈpɑsɔʈ/	Jeg har glemt passordet.
+noun	username	et brukernavn	/ˈbrʉːkərˌnɑːʋn/	Brukernavnet mitt er opptatt.
+noun	security code	en sikkerhetskode	/ˈsɪkːərheːtsˌkuːdə/	Sikkerhetskoden kom på SMS.
+noun	two-factor	en tofaktor	/ˈtuːˌfɑktʊr/	Jeg bruker tofaktor.
+noun	link	en lenke	/ˈlɛŋkə/	Send meg lenken.
+noun	attachment	et vedlegg	/ˈʋeːdˌlɛɡ/	Vedlegget er stort.
+noun	download speed	en nedlastingshastighet	/ˈneːdˌlɑstɪŋsˌhɑstiheːt/	Hastigheten er lav.
+noun	upload speed	en opplastingshastighet	/ˈɔpːlɑstɪŋsˌhɑstiheːt/	Opplastingen er treg.
+verb	to call back	å ringe tilbake, ringer tilbake, ringte tilbake, har ringt tilbake	/ˈrɪŋə tɪlˈbɑːkə/	Jeg ringer tilbake.
+verb	to answer	å svare, svarer, svarte, har svart	/ˈsʋɑːrə/	Kan du svare?
+verb	to charge	å lade, lader, ladet, har ladet	/ˈlɑːdə/	Jeg lader mobilen.
+verb	to plug in	å koble til, kobler til, koblet til, har koblet til	/ˈkɔbːlə tɪl/	Koble laderen til.
+verb	to disconnect	å koble fra, kobler fra, koblet fra, har koblet fra	/ˈkɔbːlə frɑː/	Koble fra ruteren.
+verb	to restart	å starte på nytt, starter på nytt, startet på nytt, har startet på nytt	/ˈstɑʈtə pɔː ˈnʏt/	Jeg starter ruteren på nytt.
+verb	to log in	å logge inn, logger inn, logget inn, har logget inn	/ˈlɔɡːə ɪn/	Jeg logger inn.
+verb	to log out	å logge ut, logger ut, logget ut, har logget ut	/ˈlɔɡːə ʉːt/	Jeg logger ut.
+verb	to delete	å slette, sletter, slettet, har slettet	/ˈslɛtːə/	Jeg sletter appen.
+verb	to install	å installere, installerer, installerte, har installert	/ɪnstɑˈleːrə/	Jeg installerer appen.
+verb	to share	å dele, deler, delte, har delt	/ˈdeːlə/	Kan du dele Wi-Fi?
+verb	to stream	å strømme, strømmer, strømmet, har strømmet	/ˈstrœmːə/	Jeg strømmer musikk.
+verb	to browse	å surfe, surfer, surfet, har surfet	/ˈsʉrːfə/	Jeg surfer på nettet.
+adjective	offline	uten nett	/ˈʉːtən nɛt/	Jeg er uten nett.
+adjective	online	på nett	/pɔː nɛt/	Jeg er på nett.
+adjective	fast	rask	/rɑsk/	Nettet er raskt.
+adjective	slow	treg	/treːɡ/	Nettet er tregt.
+adjective	out of battery	tom for strøm	/tɔm fɔr strøm/	Telefonen er tom for strøm.
+expression	Can you hear me?	Hører du meg?	/ˈhøːrər dʉ mæɪ/	Hører du meg nå?
+expression	The connection is bad.	Forbindelsen er dårlig.	/ˈfɔrbɪnːəlsən ær ˈdɔrli/	Forbindelsen er dårlig.
+expression	Can you send me the Wi-Fi password?	Kan du sende meg Wi-Fi-passordet?	/kɑn dʉ ˈsɛnːə mæɪ ˈʋiːfiˌpɑsɔʈət/	Kan du sende meg Wi-Fi-passordet?
+expression	I have no signal.	Jeg har ingen dekning.	/jæɪ hɑr ˈɪŋən ˈdeːkniŋ/	Jeg har ingen dekning her.
+noun	customer support	en kundestøtte	/ˈkʉnːdəˌstœtːə/	Kontakt kundestøtte.
+noun	repair	en reparasjon	/reparɑˈʂuːn/	Telefonen trenger reparasjon.
+noun	warranty	en garanti	/ɡɑrɑnˈtiː/	Den er under garanti.
+noun	receipt	en kvittering	/kʋɪˈteːrɪŋ/	Jeg har kvittering.
+noun	call time	en samtaletid	/ˈsɑmːtɑːləˌtiːd/	Samtaletiden er brukt.
+noun	SMS	en SMS	/ɛsˌɛmˈɛs/	Jeg fikk en SMS.
+noun	MMS	en MMS	/ɛmˌɛmˈɛs/	MMS er gammelt.
+noun	data package	en datapakke	/ˈdɑːtɑˌpɑkːə/	Jeg kjøper datapakke.
+verb	to top up	å lade opp, lader opp, ladet opp, har ladet opp	/ˈlɑːdə ɔp/	Jeg lader opp kontantkortet.
+verb	to mute	å skru av lyden, skrur av lyden, skrudde av lyden, har skrudd av lyden	/ˈskrʉː ɑːʋ ˈlyːdən/	Jeg skrur av lyden.
+verb	to unmute	å skru på lyden, skrur på lyden, skrudde på lyden, har skrudd på lyden	/ˈskrʉː pɔː ˈlyːdən/	Jeg skrur på lyden.
+adjective	unavailable	utilgjengelig	/ˈʉːtɪlˈjɛŋəlɪ/	Nettet er utilgjengelig.
+expression	My phone is broken.	Telefonen min er ødelagt.	/tɛləˈfuːnən mɪn ær ˈøːdəˌlɑkt/	Telefonen min er ødelagt.
+expression	Can you call me?	Kan du ringe meg?	/kɑn dʉ ˈrɪŋə mæɪ/	Kan du ringe meg senere?
+noun	charging cable	en ladekabel	/ˈlɑːdəˌkɑːbəl/	Jeg trenger en ladekabel.
+noun	power bank	en powerbank	/ˈpɑʉərˌbɑŋk/	Powerbanken er tom.
+noun	screen protector	en skjermbeskytter	/ˈʂjærmˌbeʂʏtːər/	Skjermbeskytteren er ripete.
+noun	app store	en appbutikk	/ˈɑpːbʉˌtɪk/	Jeg finner den i appbutikken.
+noun	browser	en nettleser	/ˈnɛtːˌleːsər/	Jeg bruker en annen nettleser.
+verb	to turn on	å slå på, slår på, slo på, har slått på	/ˈsloː pɔː/	Slå på telefonen.
+verb	to turn off	å slå av, slår av, slo av, har slått av	/ˈsloː ɑːʋ/	Slå av telefonen.
+adjective	low battery	lite strøm	/ˈliːtə strøm/	Jeg har lite strøm.
+expression	My internet is down.	Internettet er nede.	/ɪnˈtærnɛtːə ær ˈneːdə/	Internettet er nede hjemme.

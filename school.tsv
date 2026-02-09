@@ -1,0 +1,110 @@
+lexical-category	english	norwegian	pronunciation	example_sentence
+noun	school	en skole	/ˈskuːlə/	Jeg går på skole i nærheten.
+noun	teacher	en lærer	/ˈlɛːrər/	Læreren forklarer oppgaven.
+noun	student	en elev	/eˈleːv/	Hun er en flink elev.
+noun	class (lesson)	en time	/ˈtiːmə/	Vi har norsk time nå.
+noun	class (group)	en klasse	/ˈklɑsə/	Klassen starter klokka åtte.
+noun	homework	en lekse	/ˈlɛksə/	Jeg gjør en lekse etter middag.
+noun	assignment	en oppgave	/ˈɔpːɡɑːvə/	Dette er en vanskelig oppgave.
+noun	textbook	ei lærebok	/ˈlɛːrəbuːk/	Jeg leser i læreboka.
+noun	notebook	ei notatbok	/nʊˈtɑːtbuːk/	Hun skriver i notatboka.
+noun	pen	en penn	/pɛn/	Har du en ekstra penn?
+noun	exam	en eksamen	/ɛkˈsɑːmən/	Vi har eksamen på fredag.
+verb	to learn	å lære, lærer, lærte, har lært	/ˈlɛːrə/	Jeg lærer norsk hver dag.
+verb	to study	å studere, studerer, studerte, har studert	/stʉˈdeːrə/	Han studerer på universitetet.
+verb	to understand	å forstå, forstår, forstod, har forstått	/fɔʂˈtoː/	Jeg forstår nesten alt.
+adjective	difficult	vanskelig	/ˈvɑnʃəli/	Dette er litt vanskelig.
+adjective	easy	lett	/lɛt/	Oppgaven er lett.
+adverb	carefully	nøye	/ˈnøːjə/	Les teksten nøye.
+expression	Can you repeat?	Kan du gjenta?	/kɑn dʉ jɛnˈtɑː/	Kan du gjenta spørsmålet?
+noun	break (recess)	en pause	/ˈpæʉsə/	Vi har pause klokka ti.
+noun	grade	en karakter	/kɑrɑkˈteːr/	Hun fikk god karakter.
+noun	classroom	en klasserom	/ˈklɑsəˌrʊm/	Klasserommet er lyst.
+noun	desk	en pult	/pʉlt/	Jeg sitter ved pulten.
+noun	chair	en stol	/stuːl/	Stolen er gammel.
+noun	board	en tavle	/ˈtɑːʋlə/	Læreren skriver på tavla.
+noun	marker	en whiteboardtusj	/ˈʋaɪtbɔːdˌtʉʂ/	Jeg trenger en tusj.
+noun	eraser	et viskelær	/ˈʋɪskəˌlɛːr/	Viskelæret ligger på pulten.
+noun	ruler	en linjal	/ˈlɪnːjɑːl/	Han bruker linjal.
+noun	pencil	en blyant	/ˈblyːɑnt/	Jeg skriver med blyant.
+noun	highlighter	en markeringstusj	/mɑʈˈkeːrɪŋsˌtʉʂ/	Jeg bruker markeringstusj.
+noun	folder	en mappe	/ˈmɑpːə/	Legg arket i mappa.
+noun	paper	et ark	/ɑʈ/	Jeg trenger et ark.
+noun	worksheet	et arbeidsark	/ˈɑːrbæɪdsˌɑʈ/	Arbeidsarket er delt ut.
+noun	whiteboard	en whiteboard	/ˈʋaɪtbɔːd/	Vi bruker whiteboard.
+noun	projector	en prosjektor	/prʊʂɛkˈtuːr/	Prosjektoren virker ikke.
+noun	presentation	en presentasjon	/prɛsɛntɑˈʂuːn/	Jeg holder en presentasjon.
+noun	group work	en gruppearbeid	/ˈɡrʉpəˌɑːrbæɪd/	Vi har gruppearbeid i dag.
+noun	pair work	en pararbeid	/ˈpɑːrˌɑːrbæɪd/	Vi jobber i pararbeid.
+noun	subject	en fag	/fɑːɡ/	Norsk er mitt favorittfag.
+noun	math class	en mattetime	/ˈmɑtːəˌtiːmə/	Vi har mattetime i dag.
+noun	Norwegian class	en norsktime	/ˈnɔʂkˌtiːmə/	Norsktimen er vanskelig.
+noun	English class	en engelsktime	/ˈɛŋəlskˌtiːmə/	Engelsktimen er nyttig.
+noun	science class	en naturfagstime	/ˈnɑtʉːrˌfɑːɡˌtiːmə/	Vi har naturfagstime i dag.
+noun	history	en historie	/hɪˈstuːriə/	Historie handler om fortiden.
+noun	geography	en geografi	/ɡɛʊɡrɑˈfiː/	Geografi lærer oss om land.
+noun	gym class	en gymtime	/ˈjʏmˌtiːmə/	Vi har gymtime i dag.
+noun	art class	en kunsttime	/ˈkʉnstˌtiːmə/	Kunsttimen er morsom.
+noun	music class	en musikktime	/mʉˈsɪkˌtiːmə/	Vi har musikktime i dag.
+noun	break time	et friminutt	/ˈfriːmɪnʉt/	Friminuttet er kort.
+noun	calendar	en kalender	/kɑˈlɛnːdər/	Datoen står i kalenderen.
+noun	semester	et semester	/səˈmɛstər/	Semesteret starter i august.
+noun	term	en termin	/tærˈmiːn/	Terminprøven er snart.
+noun	test	en prøve	/ˈprøːʋə/	Vi har prøve i morgen.
+noun	quiz	en quiz	/kwɪs/	Det er en kort quiz.
+noun	report	en innlevering	/ˈɪnːləˌʋeːrɪŋ/	Innleveringen er på fredag.
+noun	deadline	en frist	/frɪst/	Fristen er klokka to.
+noun	schedule	en timeplan	/ˈtiːməˌplɑːn/	Timeplanen henger på veggen.
+noun	attendance	en oppmøte	/ˈɔpːmøːtə/	Oppmøte er obligatorisk.
+noun	absence	en fravær	/ˈfrɑːʋæːr/	Fravær må meldes.
+noun	certificate	en bevis	/ˈbæɪʋɪs/	Jeg trenger kursbevis.
+noun	course	et kurs	/kʉːʂ/	Kurset er på kvelden.
+noun	level	en nivå	/nɪˈʋoː/	Jeg er på A2-nivå.
+noun	grade scale	en karakterskala	/kɑˈrɑktərˌskɑːlɑ/	Karakterskalaen er 1 til 6.
+verb	to explain	å forklare, forklarer, forklarte, har forklart	/fɔˈklɑːrə/	Læreren forklarer igjen.
+verb	to write	å skrive, skriver, skrev, har skrevet	/ˈskriːʋə/	Jeg skriver et svar.
+verb	to read	å lese, leser, leste, har lest	/ˈleːsə/	Vi leser teksten høyt.
+verb	to listen	å lytte, lytter, lyttet, har lyttet	/ˈlʏtːə/	Lytt til dialogen.
+verb	to speak	å snakke, snakker, snakket, har snakket	/ˈsnɑkːə/	Vi snakker norsk.
+verb	to practice	å øve, øver, øvde, har øvd	/ˈøːʋə/	Vi øver på uttale.
+verb	to ask	å spørre, spør, spurte, har spurt	/ˈspøːrə/	Spør læreren hvis du lurer.
+verb	to answer	å svare, svarer, svarte, har svart	/ˈsʋɑːrə/	Jeg svarer på spørsmålet.
+verb	to correct	å rette, retter, rettet, har rettet	/ˈrɛtːə/	Læreren retter teksten.
+verb	to hand in	å levere inn, leverer inn, leverte inn, har levert inn	/ˈleːʋərə ɪn/	Jeg leverer inn oppgaven.
+verb	to take notes	å ta notater, tar notater, tok notater, har tatt notater	/tɑ nuˈtɑːtər/	Jeg tar notater i timen.
+verb	to repeat	å gjenta, gjentar, gjentok, har gjentatt	/jɛnˈtɑː/	Kan du gjenta det?
+verb	to translate	å oversette, oversetter, oversatte, har oversatt	/ˈuːʋərsɛtːə/	Vi oversetter teksten.
+verb	to pronounce	å uttale, uttaler, uttalte, har uttalt	/ˈʉtːɑːlə/	Hvordan uttaler man dette?
+verb	to improve	å forbedre, forbedrer, forbedret, har forbedret	/fʊrˈbeːdrə/	Jeg vil forbedre norsken min.
+verb	to check	å kontrollere, kontrollerer, kontrollerte, har kontrollert	/kʊnˈtrɔlːeːrə/	Vi kontrollerer svarene.
+verb	to pass	å bestå, består, bestod, har bestått	/bəˈstoː/	Jeg håper å bestå prøven.
+verb	to fail	å stryke, stryker, strøk, har strøket	/ˈstryːkə/	Jeg vil ikke stryke.
+adjective	correct	riktig	/ˈrɪkːtɪ/	Svaret er riktig.
+adjective	wrong	feil	/fæɪl/	Dette er feil.
+adjective	quiet	stille	/ˈstɪlːə/	Vær stille i timen.
+adjective	noisy	bråkete	/ˈbrɔːkətə/	Klassen er bråkete.
+adjective	prepared	forberedt	/fɔrˈbæːrt/	Jeg er forberedt.
+adjective	late	for sen	/fɔr seːn/	Jeg er for sen i dag.
+adjective	hard	krevende	/ˈkreːʋəndə/	Dette er krevende stoff.
+adjective	interesting	interessant	/ɪntəˈrɛsːɑnt/	Dette er interessant.
+expression	What does it mean?	Hva betyr det?	/ʋɑ bəˈtyːr deː/	Hva betyr dette ordet?
+expression	How do you say ...?	Hvordan sier man ...?	/ʋuˈdɑn ˈsiːr mɑn/	Hvordan sier man det på norsk?
+expression	I don't understand.	Jeg forstår ikke.	/jæɪ fɔʂˈtoːr ˈɪkə/	Jeg forstår ikke oppgaven.
+expression	Can you help me?	Kan du hjelpe meg?	/kɑn dʉ ˈjɛlpə mæɪ/	Kan du hjelpe meg med dette?
+expression	I am finished.	Jeg er ferdig.	/jæɪ ær ˈfæːɖɪ/	Jeg er ferdig med prøven.
+noun	principal	en rektor	/ˈrɛkːtʊr/	Rektoren holder tale.
+noun	classmate	en klassekamerat	/ˈklɑsəˌkɑməˌrɑːt/	Klassekameraten min er hyggelig.
+noun	school library	et skolebibliotek	/ˈskuːləˌbɪbliɔˌteːk/	Jeg låner bøker på skolebiblioteket.
+noun	dictionary	en ordbok	/ˈuːʈbuːk/	Jeg bruker ordbok i timen.
+noun	graduation	en avslutning	/ˈɑːʋslʉtːnɪŋ/	Avslutningen er i juni.
+noun	semester break	en ferie	/ˈfeːriə/	Vi har ferie i juli.
+noun	computer	en datamaskin	/ˈdɑːtɑˌmɑʂiːn/	Vi bruker datamaskin i undervisningen.
+noun	online class	en nettundervisning	/ˈnɛtːʉnˌdæʁʋɪsnɪŋ/	Vi har nettundervisning i dag.
+noun	blackboard	en tavle	/ˈtɑːʋlə/	Tavla er ren.
+noun	whiteboard marker	en tusj	/tʉʂ/	Jeg trenger en tusj.
+noun	schedule change	en timeplanendring	/ˈtiːməˌplɑːnˌɛndrɪŋ/	Det er en timeplanendring.
+noun	group	en gruppe	/ˈɡrʉpə/	Vi jobber i en gruppe.
+verb	to hand out	å dele ut, deler ut, delte ut, har delt ut	/ˈdeːlə ʉːt/	Læreren deler ut ark.
+verb	to review	å gå gjennom, går gjennom, gikk gjennom, har gått gjennom	/ɡoː ˈjɛnːəm/	Vi går gjennom oppgaven.
+adjective	absent	fraværende	/ˈfrɑːʋæːrənə/	Han er fraværende i dag.
+expression	May I ask a question?	Kan jeg stille et spørsmål?	/kɑn jæɪ ˈstɪlːə et ˈspøːrsmɔːl/	Kan jeg stille et spørsmål?

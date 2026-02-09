@@ -1,0 +1,110 @@
+lexical-category	english	norwegian	pronunciation	example_sentence
+noun	GP/doctor	en lege	/ˈleːɡə/	Jeg må til legen.
+noun	appointment	en avtale	/ˈɑːʋtɑːlə/	Jeg har en avtale i morgen.
+noun	clinic	et legekontor	/ˈleːɡəˌkɔntuːr/	Legekontoret åpner klokka åtte.
+noun	patient	en pasient	/pɑsɪˈɛnt/	Pasienten venter i resepsjonen.
+noun	symptom	et symptom	/sympˈtuːm/	Hvilke symptomer har du?
+noun	blood test	en blodprøve	/ˈbluːdˌprøːʋə/	Jeg tok en blodprøve.
+noun	blood pressure	et blodtrykk	/ˈbluːdˌtrʏk/	Legen måler blodtrykket.
+noun	vaccination	en vaksine	/ʋɑkˈsiːnə/	Hun fikk vaksine i fjor.
+verb	to examine	å undersøke, undersøker, undersøket, har undersøket	/ˈʉnːdərˌsøːkə/	Legen undersøker halsen.
+verb	to describe	å beskrive, beskriver, beskrev, har beskrevet	/beˈskriːʋə/	Kan du beskrive smerten?
+verb	to hurt	å gjøre vondt, gjør vondt, gjorde vondt, har gjort vondt	/ˈjøːrə ʋɔnt/	Det gjør vondt her.
+adjective	dizzy	svimmel	/ˈsʋɪmːəl/	Jeg blir svimmel.
+adjective	swollen	hoven	/ˈhuːʋən/	Ankelen er hoven.
+adverb	suddenly	plutselig	/ˈplʉtsəli/	Smerten kom plutselig.
+expression	I have pain in ...	Jeg har smerter i ...	/jæɪ hɑr ˈsmæʈtər i/	Jeg har smerter i ryggen.
+expression	How long have you had it?	Hvor lenge har du hatt det?	/ʋuːr ˈlɛŋə hɑr dʉ hɑt deː/	Hvor lenge har du hatt det?
+noun	referral	en henvisning	/ˈhɛnʋiːsniŋ/	Jeg trenger en henvisning.
+noun	sick leave	en sykmelding	/ˈsyːkmɛldiŋ/	Jeg kan få sykmelding.
+noun	allergy test	en allergitest	/ɑlɛrɡiˈtɛst/	De tok en allergitest.
+noun	medical record	en journal	/ʃʊrˈnɑːl/	Legen oppdaterer journalen.
+noun	reception	en resepsjon	/resɛpˈʂuːn/	Resepsjonen er åpen.
+noun	waiting room	en venterom	/ˈʋɛntəˌrʊm/	Jeg sitter på venterommet.
+noun	nurse	en sykepleier	/ˈsyːkəˌplæɪər/	Sykepleieren hjelper meg.
+noun	receptionist	en resepsjonist	/resɛpʂuˈnɪst/	Resepsjonisten tar imot.
+noun	appointment time	en time	/ˈtiːmə/	Timen min er klokka to.
+noun	queue	en kø	/køː/	Det er lang kø i dag.
+noun	cancellation	en avbestilling	/ˈɑːʋbəˌstɪlɪŋ/	Jeg måtte avbestille.
+noun	rescheduling	en ombooking	/ˈɔmˌbuːkɪŋ/	Vi gjør ombooking.
+noun	symptom diary	en symptomdagbok	/sympˈtuːmˌdɑːbuːk/	Jeg fører symptomdagbok.
+noun	pain	en smerte	/ˈsmæʈtə/	Smerten er sterk.
+noun	fever	en feber	/ˈfeːbər/	Feberen er høy.
+noun	cough	en hoste	/ˈhɔstə/	Jeg har hoste.
+noun	sore throat	en sår hals	/soːr hɑls/	Jeg har sår hals.
+noun	headache	en hodepine	/ˈhuːdəˌpiːnə/	Jeg har hodepine.
+noun	stomach ache	en magesmerter	/ˈmɑːɡəˌsmæʈtər/	Jeg har magesmerter.
+noun	back pain	en ryggsmerter	/ˈrʏɡˌsmæʈtər/	Jeg har ryggsmerter.
+noun	rash	en utslett	/ˈʉtʂlɛt/	Jeg har utslett på armen.
+noun	allergy	en allergi	/ɑlɛrˈɡiː/	Jeg har allergi.
+noun	infection	en infeksjon	/ɪnˈfɛkʂuːn/	Jeg tror det er en infeksjon.
+noun	inflammation	en betennelse	/bəˈtɛnːəlsə/	Det er betennelse i øret.
+noun	feeling	en form	/fɔʈm/	Hvordan er formen?
+noun	temperature (body)	en kroppstemperatur	/ˈkrɔpːsˌtɛmpərɑˌtʉːr/	Kroppstemperaturen er høy.
+noun	blood sugar	et blodsukker	/ˈbluːdˌsʉkːər/	Blodsukkeret er lavt.
+noun	pulse	en puls	/pʉls/	Pulsen er rask.
+noun	weight	en vekt	/ʋɛkt/	Vekten min er stabil.
+noun	height	en høyde	/ˈhøːydə/	Høyden min er 175.
+noun	test result	et prøvesvar	/ˈprøːʋəˌsʋɑːr/	Prøvesvaret kom i dag.
+noun	x-ray	en røntgen	/ˈrœntɡən/	Jeg skal ta røntgen.
+noun	ultrasound	en ultralyd	/ˈʉltrɑˌlyːd/	De bestilte ultralyd.
+noun	scan	en skanning	/ˈskɑnːɪŋ/	Jeg skal til skanning.
+noun	specialist	en spesialist	/spɛsɪɑˈlɪst/	Legen henviser til spesialist.
+noun	follow-up	en oppfølging	/ˈɔpːfœlɪŋ/	Jeg får oppfølging.
+noun	treatment	en behandling	/bəˈhɑnːdlɪŋ/	Behandlingen hjelper.
+noun	diagnosis	en diagnose	/dɪɑɡˈnuːsə/	Diagnosen er klar.
+noun	prescription	en resept	/reˈsɛpt/	Jeg trenger resept.
+noun	medicine	en medisin	/mɛdɪˈsiːn/	Jeg tar medisin.
+noun	vaccination	en vaksine	/ʋɑkˈsiːnə/	Jeg trenger en vaksine.
+noun	sick note	en legeerklæring	/ˈleːɡəˌæʁklæːrɪŋ/	Jeg trenger legeerklæring.
+noun	sick leave	en sykmelding	/ˈsyːkmɛldɪŋ/	Legen skriver sykmelding.
+noun	medical certificate	en legeattest	/ˈleːɡəˌɑtɛst/	Jeg trenger legeattest.
+noun	medical history	en sykehistorie	/ˈsyːkəˌhɪstuːriə/	Fortell om sykehistorien.
+noun	allergy test	en allergitest	/ɑlɛrɡiˈtɛst/	Jeg tar en allergitest.
+noun	urine test	en urinprøve	/ʉˈriːnˌprøːʋə/	Jeg leverer en urinprøve.
+noun	sample	en prøve	/ˈprøːʋə/	Vi tar en prøve.
+noun	bandage	en bandasje	/bɑnˈdɑːʂə/	Jeg trenger bandasje.
+noun	wound	et sår	/soːr/	Såret må renses.
+noun	bruise	et blåmerke	/ˈbloːˌmærkə/	Jeg har et blåmerke.
+noun	swelling	en hevelse	/ˈheːʋəlsə/	Det er hevelse.
+noun	sprain	en forstuing	/fʊˈstʉːɪŋ/	Det er en forstuing.
+noun	fracture	et brudd	/brʉd/	Det er kanskje et brudd.
+noun	stitch	en sting	/stɪŋ/	Såret trenger sting.
+noun	allergies	en allergier	/ɑlɛrˈɡiːər/	Har du allergier?
+noun	medication list	en medisinliste	/mɛdɪˈsiːnˌlɪstə/	Ta med medisinlisten.
+noun	side effects	en bivirkninger	/ˈbiːʋɪʈkniŋər/	Har du bivirkninger?
+noun	dose	en dose	/ˈduːsə/	Ta riktig dose.
+noun	appointment reminder	en timepåminnelse	/ˈtiːməpɔˌmɪnːəlsə/	Du får timepåminnelse.
+verb	to book an appointment	å bestille time, bestiller time, bestillte time, har bestillt time	/beˈstɪlə ˈtiːmə/	Jeg vil bestille time.
+verb	to cancel	å avbestille, avbestiller, avbestillte, har avbestillt	/ˈɑːʋbəˌstɪlːə/	Jeg må avbestille timen.
+verb	to reschedule	å flytte timen, flytter timen, flyttet timen, har flyttet timen	/ˈflʏtə ˈtiːmən/	Kan vi flytte timen?
+verb	to wait	å vente, venter, ventet, har ventet	/ˈʋɛnːtə/	Jeg må vente litt.
+verb	to measure	å måle, måler, målte, har målt	/ˈmoːlə/	Sykepleieren måler blodtrykket.
+verb	to take a test	å ta en test, tar en test, tok en test, har tatt en test	/tɑ en tɛst/	Vi tar en test i dag.
+verb	to prescribe	å skrive ut, skriver ut, skrev ut, har skrevet ut	/ˈskriːʋə ʉːt/	Legen skriver ut medisin.
+verb	to refer	å henvise, henviser, henviset, har henviset	/ˈhɛnʋiːsə/	Legen henviser videre.
+verb	to recover	å bli frisk, blir frisk, ble frisk, har blitt frisk	/bli frɪsk/	Jeg håper å bli frisk.
+verb	to rest	å hvile, hviler, hvilte, har hvilt	/ˈʋiːlə/	Du bør hvile.
+verb	to describe symptoms	å beskrive symptomer, beskriver symptomer, beskrev symptomer, har beskrevet symptomer	/beˈskriːʋə sympˈtuːmər/	Kan du beskrive symptomene?
+adjective	urgent	akutt	/ɑˈkʉt/	Det er akutt.
+adjective	mild	mild	/mɪl/	Smerten er mild.
+adjective	severe	sterk	/stæʂk/	Smerten er sterk.
+adjective	high (fever)	høy	/høːy/	Feberen er høy.
+adjective	low (fever)	lav	/lɑːʋ/	Feberen er lav nå.
+adjective	better	bedre	/ˈbeːdrə/	Jeg føler meg bedre.
+adjective	worse	verre	/ˈʋæʁə/	Jeg føler meg verre.
+adjective	tired	trøtt	/trœt/	Jeg er veldig trøtt.
+adjective	nauseous	kvalm	/ˈkʋɑlm/	Jeg er kvalm.
+adjective	short of breath	tungpustet	/ˈtʉŋˌpʉstət/	Jeg blir tungpustet.
+expression	I need to see a doctor.	Jeg må til lege.	/jæɪ mɔː tɪl ˈleːɡə/	Jeg må til lege i dag.
+expression	Do I need a referral?	Trenger jeg henvisning?	/ˈtrɛŋər jæɪ ˈhɛnʋiːsniŋ/	Trenger jeg henvisning til spesialist?
+expression	I feel dizzy.	Jeg føler meg svimmel.	/jæɪ ˈføːlər mæɪ ˈsʋɪmːəl/	Jeg føler meg svimmel.
+expression	I have a fever.	Jeg har feber.	/jæɪ hɑr ˈfeːbər/	Jeg har feber i dag.
+expression	It hurts when I swallow.	Det gjør vondt å svelge.	/deːt ˈjøːr ʋɔnt o ˈsʋɛlɡə/	Det gjør vondt å svelge.
+noun	appointment letter	et timebrev	/ˈtiːməˌbreːʋ/	Jeg fikk et timebrev.
+noun	refill (prescription)	en fornyelse	/fɔrˈnyːəlsə/	Jeg trenger fornyelse av resept.
+noun	pain scale	en smerteskala	/ˈsmæʈtəˌskɑːlɑ/	Smerteskala fra 1 til 10.
+verb	to take blood pressure	å måle blodtrykk, måler blodtrykk, målte blodtrykk, har målt blodtrykk	/ˈmoːlə ˈbluːdˌtrʏk/	Sykepleieren måler blodtrykk.
+adjective	chronic	kronisk	/ˈkruːnɪsk/	Det er en kronisk sykdom.
+expression	I need a sick note.	Jeg trenger sykmelding.	/jæɪ ˈtrɛŋər ˈsyːkmɛldɪŋ/	Jeg trenger sykmelding.
+expression	Can you check my blood pressure?	Kan du sjekke blodtrykket mitt?	/kɑn dʉ ˈʂɛkːə ˈbluːdˌtrʏkət mɪt/	Kan du sjekke blodtrykket mitt?

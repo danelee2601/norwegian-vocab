@@ -1,0 +1,110 @@
+lexical-category	english	norwegian	pronunciation	example_sentence
+noun	bus	en buss	/bʉs/	Bussen kommer om fem minutter.
+noun	train	et tog	/tuːɡ/	Toget er forsinket.
+noun	subway	en t-bane	/ˈteːˌbɑːnə/	Vi tar T-banen til sentrum.
+noun	tram	en trikk	/trɪk/	Trikken stopper her.
+noun	ticket	en billett	/bɪˈlɛt/	Jeg kjøper billett på appen.
+noun	platform	en plattform	/ˈplɑtfɔʈm/	Vi står på plattform 3.
+noun	stop	en holdeplass	/ˈhɔldəˌplɑs/	Neste holdeplass er Storgata.
+noun	schedule	en rutetabell	/ˈrʉːtəˌtɑbɛl/	Rutetabellen er på nettsiden.
+verb	to depart	å avgå, avgår, avgikk, har avgått	/ˈɑːʋɡoː/	Toget avgår klokka åtte.
+verb	to arrive	å ankomme, ankommer, ankom, har ankommet	/ˈɑnˌkɔmə/	Bussen ankommer om ti minutter.
+verb	to transfer	å bytte, bytter, byttet, har byttet	/ˈbʏtə/	Vi må bytte på Majorstuen.
+verb	to miss (a bus)	å miste, mister, mistet, har mistet	/ˈmɪstə/	Jeg mistet bussen.
+adjective	late	forsinket	/fɔˈʂɪŋkət/	Flyet er forsinket.
+adjective	early	tidlig	/ˈtiːdli/	Jeg er litt tidlig.
+adverb	straight ahead	rett fram	/rɛt frɑm/	Gå rett fram og ta til venstre.
+expression	Which train is this?	Hvor går dette toget?	/ʋuːr ɡoːr ˈdɛtə ˈtuːɡə/	Hvor går dette toget?
+noun	driver	en sjåfør	/ʃoːˈføːr/	Spør sjåføren om hjelp.
+noun	station	en stasjon	/stɑˈʂuːn/	Stasjonen er stor.
+noun	travel card	en reisekort	/ˈræɪsəˌkuːʈ/	Jeg trenger nytt reisekort.
+noun	bike	en sykkel	/ˈsʏkəl/	Jeg sykler til jobb.
+noun	fare	en takst	/tɑkst/	Taksten er høy i dag.
+noun	zone	en sone	/ˈsuːnə/	Jeg reiser i sone 1.
+noun	transfer ticket	en byttebillett	/ˈbʏtəˌbɪlɛt/	Byttebilletten gjelder 90 minutter.
+noun	single ticket	en enkeltbillett	/ˈɛŋkəlˌbɪlɛt/	Jeg kjøper en enkeltbillett.
+noun	monthly pass	en månedsbillett	/ˈmɔːnədsbɪˌlɛt/	Månedsbilletten er billigere.
+noun	student ticket	en studentbillett	/stʉˈdeːntbɪˌlɛt/	Studentbilletten er rimelig.
+noun	child ticket	en barnebillett	/ˈbɑːrnəˌbɪlɛt/	Barn reiser med barnebillett.
+noun	conductor	en konduktør	/kɔnˈdʉkːtøːr/	Konduktøren kontrollerer billetter.
+noun	inspector	en kontrollør	/kʊnˈtrɔlːøːr/	Kontrolløren sjekker kort.
+noun	bus stop	et busstopp	/ˈbʉsːtɔp/	Neste busstopp er her.
+noun	route	en linje	/ˈlɪnːjə/	Hvilken linje tar vi?
+noun	line number	et linjenummer	/ˈlɪnːjəˌnʉmːər/	Linjenummeret står på skiltet.
+noun	destination	en destinasjon	/dɛstɪnɑˈʂuːn/	Destinasjonen er Bergen.
+noun	terminal	en terminal	/tærmɪˈnɑːl/	Vi møtes ved terminalen.
+noun	entrance	en inngang	/ˈɪnːɡɑŋ/	Inngangen er der borte.
+noun	exit	en utgang	/ˈʉːtɡɑŋ/	Utgangen er på høyre side.
+noun	stairs	en trapp	/trɑp/	Ta trappa opp.
+noun	escalator	en rulletrapp	/ˈrʉlːəˌtrɑp/	Rulletrappen er stengt.
+noun	elevator	en heis	/hæɪs/	Heisen er på enden.
+noun	platform number	et plattformnummer	/ˈplɑtfɔʈmˌnʉmːər/	Plattformnummeret står på tavla.
+noun	screen	en skjerm	/ʂjærm/	Skjermen viser avgangene.
+noun	departure	en avgang	/ˈɑːʋɡɑŋ/	Avgangen er forsinket.
+noun	arrival	en ankomst	/ˈɑnˌkɔmst/	Ankomsten er klokka ni.
+noun	delay	en forsinkelse	/fɔˈʂɪŋkəlsə/	Det er en forsinkelse.
+noun	track	en spor	/spuːr/	Toget går fra spor 4.
+noun	platform edge	en perrong	/pæˈrɔŋ/	Stå bak den gule linjen på perrongen.
+noun	sign	et skilt	/ʂɪlt/	Skiltet viser veien.
+noun	map	et kart	/kɑʈ/	Kartet henger her.
+noun	traffic	en trafikk	/ˈtrɑfɪk/	Det er mye trafikk.
+noun	intersection	et kryss	/krʏs/	Vi stopper i krysset.
+noun	crosswalk	et fotgjengerfelt	/ˈfuːtˌjɛŋərfɛlt/	Gå over fotgjengerfeltet.
+noun	bike lane	et sykkelfelt	/ˈsʏkːəlˌfɛlt/	Sykkelfeltet er til venstre.
+noun	helmet	en hjelm	/jɛlm/	Bruk hjelm på sykkel.
+noun	parking spot	en parkeringsplass	/ˈpɑrˌkeːrɪŋsˌplɑs/	Parkeringsplassen er full.
+noun	parking ticket	en parkeringsbot	/pɑrˈkeːrɪŋsbuːt/	Han fikk parkeringsbot.
+noun	taxi	en taxi	/ˈtɑkːsi/	Vi tar taxi hjem.
+noun	taxi stand	en taxiholdeplass	/ˈtɑkːsɪˌhɔldəplɑs/	Taxiholdeplassen er utenfor.
+noun	ferry	en ferge	/ˈfæʁɡə/	Fergen går hver time.
+noun	boat	en båt	/boːt/	Vi tar båt til øya.
+noun	car	en bil	/biːl/	Bilen er parkert her.
+noun	car share	en bildeling	/ˈbiːlˌdeːlɪŋ/	Bildeling er praktisk.
+noun	rental car	en leiebil	/ˈlæɪəbɪl/	Vi leier en bil.
+noun	fuel	en bensin	/bɛnˈsiːn/	Bensinen er dyr.
+noun	gas station	en bensinstasjon	/bɛnˈsiːnˌstɑʂuːn/	Vi stopper på bensinstasjonen.
+noun	seat	et sete	/ˈseːtə/	Setet er ledig.
+noun	seat belt	et sikkerhetsbelte	/ˈsɪkːərheːtsˌbɛltə/	Ta på sikkerhetsbeltet.
+noun	speed	en hastighet	/hɑˈstiːheːt/	Hastigheten er 50.
+noun	speed limit	en hastighetsgrense	/ˈhɑstiheːtsˌɡrɛnsə/	Hastighetsgrensen er 60.
+verb	to board	å gå om bord, går om bord, gikk om bord, har gått om bord	/ɡoː ɔm buːr/	Vi går om bord nå.
+verb	to get on	å gå på, går på, gikk på, har gått på	/ɡoː pɔː/	Vi går på bussen.
+verb	to get off	å gå av, går av, gikk av, har gått av	/ɡoː ɑːʋ/	Vi går av ved neste stopp.
+verb	to validate	å stemple, stempler, stemplet, har stemplet	/ˈstɛmplə/	Husk å stemple billetten.
+verb	to check in	å sjekke inn, sjekker inn, sjekket inn, har sjekket inn	/ˈʂɛkːə ɪn/	Du må sjekke inn på bussen.
+verb	to check out	å sjekke ut, sjekker ut, sjekket ut, har sjekket ut	/ˈʂɛkːə ʉːt/	Ikke glem å sjekke ut.
+verb	to miss	å misse, misser, misset, har misset	/ˈmɪsə/	Vi misser toget.
+verb	to cancel	å avlyse, avlyser, avlyste, har avlyst	/ˈɑːʋlyːsə/	Avgangen er avlyst.
+verb	to drive	å kjøre, kjører, kjørte, har kjørt	/ˈçøːrə/	Jeg kjører til jobb.
+verb	to walk	å gå, går, gikk, har gått	/ɡoː/	Vi går til stasjonen.
+verb	to ride	å sykle, sykler, syklet, har syklet	/ˈsʏkːlə/	Hun sykler til skolen.
+adjective	crowded	fullt	/fʉlt/	Bussen er full.
+adjective	empty	tom	/tɔm/	Vogna er tom.
+adjective	available	ledig	/ˈleːdi/	Det er et ledig sete.
+adjective	closed	stengt	/stɛŋt/	Heisen er stengt.
+adjective	open	åpen	/ˈoːpən/	Inngangen er åpen.
+adjective	safe	trygg	/trʏɡ/	Det er trygt her.
+expression	Which platform?	Hvilken plattform?	/ˈʋɪlkən ˈplɑtfɔʈm/	Hvilken plattform går toget fra?
+expression	Where do I change?	Hvor må jeg bytte?	/ʋuːr mɔː jæɪ ˈbʏtə/	Hvor må jeg bytte?
+expression	Does this go to ...?	Går denne til ...?	/ɡoːr ˈdɛnːə tɪl/	Går denne til sentrum?
+expression	Is this seat free?	Er dette setet ledig?	/æːr ˈdɛtə ˈseːtə leːdi/	Er dette setet ledig?
+expression	I need to get off at ...	Jeg må gå av på ...	/jæɪ mɔː ɡoː ɑːʋ pɔː/	Jeg må gå av på Majorstuen.
+expression	How long does it take?	Hvor lang tid tar det?	/ʋuːr lɑŋ tiːd tɑr deː/	Hvor lang tid tar det til flyplassen?
+noun	ticket machine	en billettautomat	/bɪˈlɛtːʉˌmɑːt/	Jeg kjøper billett i automaten.
+noun	app	en app	/ɑp/	Jeg kjøper billett i appen.
+noun	QR code	en QR-kode	/kuːˈɑːr ˈkuːdə/	Vis QR-koden ved kontroll.
+noun	round trip	en returbillett	/ˈreːtʉrˌbɪlɛt/	Jeg trenger en returbillett.
+noun	traffic jam	en kø	/køː/	Det er kø i trafikken.
+noun	weekday	en ukedag	/ˈʉːkəˌdɑːɡ/	Rutetabellen er annerledes på ukedager.
+noun	weekend	en helg	/hɛlɡ/	Det går færre busser i helgen.
+noun	scooter	en sparkesykkel	/ˈspɑrkəˌsʏkːəl/	Vi bruker sparkesykkel til sentrum.
+noun	bike share	en sykkeldeling	/ˈsʏkːəlˌdeːlɪŋ/	Sykkeldeling er praktisk.
+verb	to park	å parkere, parkerer, parkerte, har parkert	/pɑrˈkeːrə/	Jeg parkerer bilen her.
+noun	bus lane	et bussfelt	/ˈbʉsːˌfɛlt/	Bussfeltet er til venstre.
+noun	timetable	en avgangstid	/ˈɑːʋɡɑŋsˌtiːd/	Avgangstiden er 08:10.
+noun	ticket inspector	en billettkontrollør	/bɪˈlɛtːkɔnˌtrɔlːøːr/	Billettkontrolløren sjekker.
+noun	seat reservation	en setereservasjon	/ˈseːtəˌresɛrʋɑˈʂuːn/	Vi har setereservasjon.
+noun	delay message	en forsinkelsesmelding	/fɔˈʂɪŋkəlsəsˌmɛldɪŋ/	Det kom en forsinkelsesmelding.
+verb	to ask for directions	å spørre om veien, spør om veien, spurte om veien, har spurt om veien	/ˈspøːrə ɔm ˈʋæɪən/	Jeg spør om veien.
+adjective	on time	i rute	/i ˈrʉːtə/	Toget er i rute.
+expression	Where is the bus stop?	Hvor er busstoppet?	/ʋuːr ær ˈbʉsːtɔpət/	Hvor er busstoppet?

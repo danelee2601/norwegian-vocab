@@ -25,9 +25,10 @@
   - Ensure every verb contains exactly four comma‑separated forms.
 
 ## Commit & Pull Request Guidelines
-- This repository does not include Git history or PR conventions.
-- If you introduce Git usage, prefer clear, scoped commit messages, e.g., `Update noun articles in school.tsv`.
-- For PRs, include a brief summary of changed files and any bulk transformations applied.
+- Use clear, scoped commit messages, e.g., `Normalize verb forms in school.tsv`.
+- Keep commits focused on one logical change when possible.
+- Default branch is `main`; push to a feature branch if you plan a PR.
+- For PRs, include a brief summary of changed files, any bulk transformations applied, and examples of before/after if translations were updated.
 
 ## Agent Notes
 - Changes should be consistent across all TSV files to keep formats uniform.

@@ -3,7 +3,7 @@
 ## Project Structure & Module Organization
 - Vocabulary data lives in topic-based TSV files under `vocab/` (e.g., `vocab/school.tsv`, `vocab/grocery_store.tsv`).
 - Each TSV uses the same columns: `lexical-category`, `english`, `norwegian`, `pronunciation`, `example_sentence`, `audio_file`.
-- Audio assets are stored under `audio/forvo_no/`.
+- Audio assets are stored under `docs/assets/audio/forvo_no/`.
 - Audio tooling lives in `scripts/forvo_audio/`:
   - `add_forvo_audio.py` updates TSV `audio_file` values.
   - helper modules split query extraction, path handling, TSV I/O, and Forvo download orchestration.
@@ -25,7 +25,7 @@
   - Confirm header/order matches across all `vocab/*.tsv`.
   - Confirm noun rows start with `en/ei/et`.
   - Confirm verb rows have 4 comma-separated forms.
-  - Confirm `audio_file` is a plain relative path under `audio/forvo_no/` when present.
+  - Confirm `audio_file` is a plain relative path under `docs/assets/audio/forvo_no/` when present.
 - If tests fail:
   - Fix root causes first; avoid weakening assertions unless requirements changed.
   - Re-run full test command (not only a subset) before finalizing.
@@ -36,7 +36,7 @@
 - Norwegian nouns should include an article: `en/ei/et` (e.g., `en bil`).
 - Norwegian verbs should be in the form: `å <verb>, present, past, past perfect` (e.g., `å spise, spiser, spiste, har spist`).
 - Pronunciation should reflect the infinitive form only.
-- `audio_file` should be a plain relative path (for example, `audio/forvo_no/no_bank_744497_001.mp3`), not a Markdown link.
+- `audio_file` should be a plain relative path (for example, `docs/assets/audio/forvo_no/no_bank_744497_001.mp3`), not a Markdown link.
 
 ## Everyday Vocabulary Policy (for AI-generated additions)
 - Prioritize high-frequency words used in daily life in Norway: home, family, school, work, shopping, food, transport, health, weather, social conversation, and common public services.
@@ -54,7 +54,7 @@
   - Ensure all files have the same header.
   - Ensure every noun starts with `en/ei/et`.
   - Ensure every verb contains exactly four comma‑separated forms.
-  - Ensure `audio_file` paths are relative, plain text, and point into `audio/forvo_no/`.
+  - Ensure `audio_file` paths are relative, plain text, and point into `docs/assets/audio/forvo_no/`.
 
 ## Agent Notes
 - Changes should be consistent across all TSV files to keep formats uniform.

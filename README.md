@@ -24,8 +24,8 @@ Open any TSV in a spreadsheet or editor:
 
 | lexical-category | english | norwegian | pronunciation | example_sentence | audio_file |
 |------------------|---------|-----------|---------------|------------------|------------|
-| noun | school | en skole | /ˈskuːlə/ | Jeg går på skole i nærheten. | audio/forvo_no/no_skole_293669_001.mp3 |
-| verb | to learn | å lære, lærer, lærte, har lært | /ˈlɛːrə/ | Jeg lærer norsk hver dag. | audio/forvo_no/no_l_re_4343434_001.mp3 |
+| noun | school | en skole | /ˈskuːlə/ | Jeg går på skole i nærheten. | docs/assets/audio/forvo_no/no_skole_293669_001.mp3 |
+| verb | to learn | å lære, lærer, lærte, har lært | /ˈlɛːrə/ | Jeg lærer norsk hver dag. | docs/assets/audio/forvo_no/no_l_re_4343434_001.mp3 |
 
 ## How to Update `vocab/`
 

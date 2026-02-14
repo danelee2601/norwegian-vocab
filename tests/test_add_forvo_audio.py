@@ -109,7 +109,7 @@ def test_query_from_forvo_filename(naming_module):
 
 def test_path_resolution_and_normalization(paths_module, tmp_path: Path):
     base_dir = tmp_path
-    rel = "audio/forvo_no/no_bank_1_001.mp3"
+    rel = "docs/assets/audio/forvo_no/no_bank_1_001.mp3"
     abs_path = base_dir / rel
     abs_path.parent.mkdir(parents=True)
     abs_path.write_bytes(b"mp3")
@@ -126,7 +126,7 @@ def test_path_resolution_and_normalization(paths_module, tmp_path: Path):
 
 def test_build_audio_map_from_vocab(vocab_module, tmp_path: Path):
     base_dir = tmp_path
-    audio_file = base_dir / "audio/forvo_no/no_bank_1_001.mp3"
+    audio_file = base_dir / "docs/assets/audio/forvo_no/no_bank_1_001.mp3"
     audio_file.parent.mkdir(parents=True)
     audio_file.write_bytes(b"bank")
 
@@ -142,13 +142,13 @@ def test_build_audio_map_from_vocab(vocab_module, tmp_path: Path):
             "audio_file",
         ],
         [
-            ["noun", "bank", "en bank", "/b/", "Banken er åpen.", "audio/forvo_no/no_bank_1_001.mp3"],
+            ["noun", "bank", "en bank", "/b/", "Banken er åpen.", "docs/assets/audio/forvo_no/no_bank_1_001.mp3"],
             ["verb", "go", "å gå, går, gikk, har gått", "/g/", "Jeg går hjem.", ""],
         ],
     )
 
     audio_map = vocab_module.build_audio_map_from_vocab([vocab], base_dir=base_dir)
-    assert audio_map == {"bank": "audio/forvo_no/no_bank_1_001.mp3"}
+    assert audio_map == {"bank": "docs/assets/audio/forvo_no/no_bank_1_001.mp3"}
 
 
 def test_vocab_fields_constant(vocab_module):
@@ -186,7 +186,7 @@ def test_build_audio_map_from_vocab_ignores_null_audio(vocab_module, tmp_path: P
 
 def test_download_audio_map_reuse_and_download(mod, downloader_module, tmp_path: Path, monkeypatch):
     base_dir = tmp_path
-    audio_dir = base_dir / "audio/forvo_no"
+    audio_dir = base_dir / "docs/assets/audio/forvo_no"
     audio_dir.mkdir(parents=True)
     temp_dir = base_dir / "tmp_dl"
     temp_dir.mkdir()
@@ -211,18 +211,18 @@ def test_download_audio_map_reuse_and_download(mod, downloader_module, tmp_path:
         headed=False,
         workers=1,
         base_dir=base_dir,
-        initial_map={"bank": "audio/forvo_no/no_bank_1_001.mp3"},
+        initial_map={"bank": "docs/assets/audio/forvo_no/no_bank_1_001.mp3"},
     )
 
-    assert mapping["bank"] == "audio/forvo_no/no_bank_1_001.mp3"
-    assert mapping["bok"] == "audio/forvo_no/no_bok_2_001.mp3"
+    assert mapping["bank"] == "docs/assets/audio/forvo_no/no_bank_1_001.mp3"
+    assert mapping["bok"] == "docs/assets/audio/forvo_no/no_bok_2_001.mp3"
     assert "missing" not in mapping
     assert (audio_dir / "no_bok_2_001.mp3").exists()
 
 
 def test_download_audio_map_all_reused_does_not_scrape(mod, downloader_module, tmp_path: Path, monkeypatch):
     base_dir = tmp_path
-    audio_dir = base_dir / "audio/forvo_no"
+    audio_dir = base_dir / "docs/assets/audio/forvo_no"
     audio_dir.mkdir(parents=True)
     temp_dir = base_dir / "tmp_dl"
     temp_dir.mkdir()
@@ -241,14 +241,14 @@ def test_download_audio_map_all_reused_does_not_scrape(mod, downloader_module, t
         headed=False,
         workers=1,
         base_dir=base_dir,
-        initial_map={"bank": "audio/forvo_no/no_bank_1_001.mp3"},
+        initial_map={"bank": "docs/assets/audio/forvo_no/no_bank_1_001.mp3"},
     )
-    assert mapping["bank"] == "audio/forvo_no/no_bank_1_001.mp3"
+    assert mapping["bank"] == "docs/assets/audio/forvo_no/no_bank_1_001.mp3"
 
 
 def test_download_audio_map_handles_no_download_and_error(mod, downloader_module, tmp_path: Path, monkeypatch):
     base_dir = tmp_path
-    audio_dir = base_dir / "audio/forvo_no"
+    audio_dir = base_dir / "docs/assets/audio/forvo_no"
     audio_dir.mkdir(parents=True)
     temp_dir = base_dir / "tmp_dl"
     temp_dir.mkdir()
@@ -272,7 +272,7 @@ def test_download_audio_map_handles_no_download_and_error(mod, downloader_module
 
 def test_download_audio_map_handles_timeout(mod, downloader_module, tmp_path: Path, monkeypatch):
     base_dir = tmp_path
-    audio_dir = base_dir / "audio/forvo_no"
+    audio_dir = base_dir / "docs/assets/audio/forvo_no"
     audio_dir.mkdir(parents=True)
     temp_dir = base_dir / "tmp_dl"
     temp_dir.mkdir()
@@ -344,7 +344,7 @@ def test_pending_workflow_appends_rows_and_sets_null_when_unresolved(mod, pendin
         ],
     )
 
-    audio = base_dir / "audio" / "forvo_no" / "no_egg_1_001.mp3"
+    audio = base_dir / "docs" / "assets" / "audio" / "forvo_no" / "no_egg_1_001.mp3"
     audio.parent.mkdir(parents=True, exist_ok=True)
     audio.write_bytes(b"egg")
 
@@ -352,7 +352,7 @@ def test_pending_workflow_appends_rows_and_sets_null_when_unresolved(mod, pendin
     monkeypatch.setattr(
         mod,
         "download_audio_map",
-        lambda **kwargs: {"egg": "audio/forvo_no/no_egg_1_001.mp3"},
+        lambda **kwargs: {"egg": "docs/assets/audio/forvo_no/no_egg_1_001.mp3"},
     )
     monkeypatch.setattr(
         sys,
@@ -365,7 +365,7 @@ def test_pending_workflow_appends_rows_and_sets_null_when_unresolved(mod, pendin
     _headers, rows = read_tsv(vocab)
     assert len(rows) == 3
     assert rows[1]["english"] == "egg"
-    assert rows[1]["audio_file"] == "audio/forvo_no/no_egg_1_001.mp3"
+    assert rows[1]["audio_file"] == "docs/assets/audio/forvo_no/no_egg_1_001.mp3"
     assert rows[2]["english"] == "thanks"
     assert rows[2]["audio_file"] == "null"
 
@@ -388,7 +388,7 @@ def test_pending_workflow_can_create_new_target_file(mod, pending_module, tmp_pa
         ],
     )
 
-    audio = base_dir / "audio" / "forvo_no" / "no_bank_1_001.mp3"
+    audio = base_dir / "docs" / "assets" / "audio" / "forvo_no" / "no_bank_1_001.mp3"
     audio.parent.mkdir(parents=True, exist_ok=True)
     audio.write_bytes(b"bank")
 
@@ -396,7 +396,7 @@ def test_pending_workflow_can_create_new_target_file(mod, pending_module, tmp_pa
     monkeypatch.setattr(
         mod,
         "download_audio_map",
-        lambda **kwargs: {"bank": "audio/forvo_no/no_bank_1_001.mp3"},
+        lambda **kwargs: {"bank": "docs/assets/audio/forvo_no/no_bank_1_001.mp3"},
     )
     monkeypatch.setattr(sys, "argv", ["prog", "--pending-file", str(pending)])
 
@@ -412,7 +412,7 @@ def test_pending_workflow_can_create_new_target_file(mod, pending_module, tmp_pa
         "audio_file",
     ]
     assert len(rows) == 1
-    assert rows[0]["audio_file"] == "audio/forvo_no/no_bank_1_001.mp3"
+    assert rows[0]["audio_file"] == "docs/assets/audio/forvo_no/no_bank_1_001.mp3"
 
 
 def test_pending_workflow_defaults_headed_true_and_workers_one(mod, pending_module, tmp_path: Path, monkeypatch):
@@ -433,7 +433,7 @@ def test_pending_workflow_defaults_headed_true_and_workers_one(mod, pending_modu
         ],
     )
 
-    audio = base_dir / "audio" / "forvo_no" / "no_bank_1_001.mp3"
+    audio = base_dir / "docs" / "assets" / "audio" / "forvo_no" / "no_bank_1_001.mp3"
     audio.parent.mkdir(parents=True, exist_ok=True)
     audio.write_bytes(b"bank")
 
@@ -441,7 +441,7 @@ def test_pending_workflow_defaults_headed_true_and_workers_one(mod, pending_modu
 
     def fake_download_audio_map(**kwargs):
         captured.update(kwargs)
-        return {"bank": "audio/forvo_no/no_bank_1_001.mp3"}
+        return {"bank": "docs/assets/audio/forvo_no/no_bank_1_001.mp3"}
 
     monkeypatch.chdir(base_dir)
     monkeypatch.setattr(mod, "download_audio_map", fake_download_audio_map)

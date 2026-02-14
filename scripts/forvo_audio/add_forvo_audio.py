@@ -29,7 +29,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--pending-file", required=True, help="TSV containing rows to append, with a target_tsv column")
     parser.add_argument("--temp-dir", default="forvo_mp3")
-    parser.add_argument("--audio-dir", default="audio/forvo_no")
+    parser.add_argument("--audio-dir", default="docs/assets/audio/forvo_no")
     parser.add_argument("--workers", type=int, default=4)
     parser.add_argument("--query-timeout-sec", type=int, default=60)
     parser.set_defaults(headed=None)

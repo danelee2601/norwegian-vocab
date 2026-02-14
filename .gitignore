@@ -63,3 +63,5 @@ ENV/
 # Project-specific
 forvo_mp3/
 .tmp/
+
+site/

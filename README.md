@@ -1,6 +1,13 @@
 # Norwegian Vocab
 
-A curated collection of Norwegian vocabulary lists organized by real-life contexts. Each file is a TSV with consistent columns for easy filtering, learning, or importing into flashcard tools.
+A curated collection of Norwegian vocabulary lists organized by real-life contexts. Each file is a TSV with consistent columns for easy filtering and learning.
+
+## Scope and Goal
+- This repository focuses on vocabulary commonly encountered in everyday life, not rare or highly specialized terms.
+- The goal is to help learners become confident handling day-to-day Norwegian conversations and situations.
+- New words should be selected for practical usefulness in typical contexts such as home, school, work, shopping, transport, health, and social interaction.
+- Prefer words and expressions with high everyday frequency and immediate communicative value.
+- Avoid niche technical jargon, literary/archaic words, and uncommon low-frequency terms unless a topic explicitly requires them.
 
 ## What's Inside
 - Topic files in `vocab/` (e.g., `vocab/school.tsv`, `vocab/grocery_store.tsv`).

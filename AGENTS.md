@@ -38,6 +38,16 @@
 - Pronunciation should reflect the infinitive form only.
 - `audio_file` should be a plain relative path (for example, `audio/forvo_no/no_bank_744497_001.mp3`), not a Markdown link.
 
+## Everyday Vocabulary Policy (for AI-generated additions)
+- Prioritize high-frequency words used in daily life in Norway: home, family, school, work, shopping, food, transport, health, weather, social conversation, and common public services.
+- Favor practical communicative value over lexical novelty. If a beginner/intermediate learner is likely to need the word in normal weekly conversation, it is in scope.
+- Avoid rare, highly technical, domain-specific, literary, archaic, or regionally narrow terms unless a file explicitly targets that domain.
+- Prefer neutral Bokmal forms that are broadly understood.
+- Prefer concrete words and short expressions that can be used immediately in real-world situations.
+- Example sentences should reflect plausible everyday situations and reinforce the same practical meaning as the `english` and `norwegian` fields.
+- When multiple candidate words exist, choose the one that is more common in everyday speech.
+- Keep difficulty progression practical: foundational daily-life words first, then moderately common extensions.
+
 ## Guidelines for the vocabulary files (vocab/*.tsv)
 - There are no formal tests.
 - Suggested lightweight validation:

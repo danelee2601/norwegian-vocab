@@ -5,7 +5,6 @@ from __future__ import annotations
 
 import argparse
 import csv
-import shutil
 import sys
 from dataclasses import dataclass
 from pathlib import Path
@@ -25,6 +24,7 @@ EXPECTED_HEADER = [
 ]
 AUTO_NAV_START = "  # AUTO-GENERATED VOCAB NAV START"
 AUTO_NAV_END = "  # AUTO-GENERATED VOCAB NAV END"
+AUDIO_PREFIX = "docs/assets/audio/forvo_no/"
 
 
 @dataclass(frozen=True)
@@ -33,8 +33,6 @@ class Paths:
     vocab_dir: Path
     docs_dir: Path
     docs_vocab_dir: Path
-    source_audio_dir: Path
-    docs_audio_dir: Path
     mkdocs_yml: Path
 
 
@@ -45,8 +43,6 @@ def make_paths() -> Paths:
         vocab_dir=root / "vocab",
         docs_dir=root / "docs",
         docs_vocab_dir=root / "docs" / "vocab",
-        source_audio_dir=root / "audio" / "forvo_no",
-        docs_audio_dir=root / "docs" / "assets" / "audio" / "forvo_no",
         mkdocs_yml=root / "mkdocs.yml",
     )
 
@@ -73,7 +69,7 @@ def render_audio_cell(audio_value: str) -> str:
     if audio_value == "null" or not audio_value:
         return "null"
 
-    if not audio_value.startswith("audio/forvo_no/"):
+    if not audio_value.startswith(AUDIO_PREFIX):
         return escape_md_cell(audio_value)
 
     filename = Path(audio_value).name
@@ -144,16 +140,6 @@ def collect_stems(paths: Paths) -> list[str]:
     return sorted(p.stem for p in paths.vocab_dir.glob("*.tsv"))
 
 
-def expected_audio_files_from_rows(rows_by_stem: dict[str, list[dict[str, str]]]) -> set[str]:
-    expected: set[str] = set()
-    for rows in rows_by_stem.values():
-        for row in rows:
-            audio_value = row["audio_file"]
-            if audio_value and audio_value != "null" and audio_value.startswith("audio/forvo_no/"):
-                expected.add(Path(audio_value).name)
-    return expected
-
-
 def write_outputs(paths: Paths) -> None:
     stems = collect_stems(paths)
     rows_by_stem: dict[str, list[dict[str, str]]] = {
@@ -161,8 +147,6 @@ def write_outputs(paths: Paths) -> None:
     }
 
     paths.docs_vocab_dir.mkdir(parents=True, exist_ok=True)
-    paths.docs_audio_dir.mkdir(parents=True, exist_ok=True)
-
     # Write/update topic pages.
     expected_md_names = {f"{stem}.md" for stem in stems}
     for stem in stems:
@@ -173,19 +157,6 @@ def write_outputs(paths: Paths) -> None:
     for md_path in paths.docs_vocab_dir.glob("*.md"):
         if md_path.name not in expected_md_names:
             md_path.unlink()
-
-    # Sync audio files.
-    expected_audio = expected_audio_files_from_rows(rows_by_stem)
-    for filename in expected_audio:
-        src = paths.source_audio_dir / filename
-        if src.exists():
-            shutil.copy2(src, paths.docs_audio_dir / filename)
-        else:
-            print(f"warning: missing source audio file: {src}", file=sys.stderr)
-
-    for audio_path in paths.docs_audio_dir.glob("*.mp3"):
-        if audio_path.name not in expected_audio:
-            audio_path.unlink()
 
     # Update mkdocs navigation block.
     mkdocs_text = paths.mkdocs_yml.read_text(encoding="utf-8")
@@ -221,18 +192,6 @@ def check_outputs(paths: Paths) -> list[str]:
         actual = md_path.read_text(encoding="utf-8")
         if actual != expected:
             errors.append(f"stale docs page content: {md_path}")
-
-    expected_audio = expected_audio_files_from_rows(rows_by_stem)
-    actual_audio = (
-        {p.name for p in paths.docs_audio_dir.glob("*.mp3")} if paths.docs_audio_dir.exists() else set()
-    )
-    missing_audio = sorted(expected_audio - actual_audio)
-    extra_audio = sorted(actual_audio - expected_audio)
-
-    if missing_audio:
-        errors.append(f"missing docs audio files: {', '.join(missing_audio)}")
-    if extra_audio:
-        errors.append(f"extra docs audio files: {', '.join(extra_audio)}")
 
     if paths.mkdocs_yml.exists():
         mkdocs_text = paths.mkdocs_yml.read_text(encoding="utf-8")

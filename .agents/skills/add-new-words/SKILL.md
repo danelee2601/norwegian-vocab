@@ -16,7 +16,7 @@ Update existing vocabulary TSV files and create new topic TSV files that follow 
   `lexical-category	english	norwegian	pronunciation	example_sentence	audio_file`
 - Keep one entry per line and no embedded newlines.
 - Write `audio_file` as either:
-  - plain relative text under `audio/forvo_no/` when audio exists, or
+  - plain relative text under `docs/assets/audio/forvo_no/` when audio exists, or
   - literal `null` when audio is unavailable.
 - During audio-sync only, empty `audio_file` is allowed as a temporary "needs lookup" state.
 - Do not insert Markdown links in TSV fields.
@@ -63,16 +63,16 @@ Update existing vocabulary TSV files and create new topic TSV files that follow 
   - reads staged rows
   - extracts Forvo query from each row
   - calls `scrape_forvo.scrape(..., outdir='forvo_mp3', lang='no', use_playwright=True, headed=<flag>)`
-  - moves downloads into `audio/forvo_no/`
+  - moves downloads into `docs/assets/audio/forvo_no/`
   - writes back staged rows with resolved `audio_file`
 6. Apply staged rows to target TSV file(s).
 - `--pending-file` flow appends rows into each `target_tsv` and creates missing target TSV files when needed.
-- Resolved audio is written as plain relative paths under `audio/forvo_no/`.
+- Resolved audio is written as plain relative paths under `docs/assets/audio/forvo_no/`.
 - Unresolved audio is written as literal `null`.
 7. Validate before finishing.
 - Header matches repository standard.
 - Rows comply with `.agents/rules/vocab_rules.md`.
-- `audio_file` is either a plain relative path under `audio/forvo_no/` or literal `null`.
+- `audio_file` is either a plain relative path under `docs/assets/audio/forvo_no/` or literal `null`.
 8. Recheck correctness explicitly.
 - Confirm staged row count equals appended row count across all targets.
 - Confirm every appended row has `audio_file` as path or `null` (no blanks).

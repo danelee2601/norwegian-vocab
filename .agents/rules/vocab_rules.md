@@ -20,7 +20,7 @@ Scope: TSV vocabulary data at repo root (topic files) and vocab/ copies.
   - Other categories: plain Norwegian term or phrase.
 - `pronunciation`: IPA for the infinitive/base form only; use slashes (e.g., `/ˈskuːlə/`).
 - `example_sentence`: full Norwegian sentence that matches the entry term/form.
-- `audio_file`: either a plain relative path under `audio/forvo_no/` (for example, `audio/forvo_no/no_skole_293669_001.mp3`) or the literal `null` when unavailable.
+- `audio_file`: either a plain relative path under `docs/assets/audio/forvo_no/` (for example, `docs/assets/audio/forvo_no/no_skole_293669_001.mp3`) or the literal `null` when unavailable.
 
 ## Consistency checks
 - All topic files must share the same header and column order.
@@ -29,7 +29,7 @@ Scope: TSV vocabulary data at repo root (topic files) and vocab/ copies.
 - Keep format uniform across files (spacing after commas, slashes around IPA).
 - Do not include redundant/duplicate vocabulary within the same `.tsv` file.
 - `audio_file` values must be either:
-  - plain text relative paths under `audio/forvo_no/`, or
+  - plain text relative paths under `docs/assets/audio/forvo_no/`, or
   - literal `null` when audio is not available.
 - Never leave `audio_file` empty and do not use markdown links.
 
@@ -37,7 +37,7 @@ Scope: TSV vocabulary data at repo root (topic files) and vocab/ copies.
 - When adding new vocabulary entries, run `scripts/forvo_audio/add_forvo_audio.py` to search Forvo audio and populate `audio_file` when available.
 - Recommended command:
   - `uv run python scripts/forvo_audio/add_forvo_audio.py --vocab-glob 'vocab/*.tsv'`
-- If audio is found, store the downloaded file under `audio/` (default `audio/forvo_no/`) and keep the TSV value as the corresponding relative path.
+- If audio is found, store the downloaded file under `docs/assets/audio/forvo_no/` and keep the TSV value as the corresponding relative path.
 - If no audio is found, set `audio_file` to literal `null` rather than leaving it empty or inventing a path.
 - Because the updater writes unresolved rows as empty values, do a normalization pass after running it so empty/missing `audio_file` cells become `null`.
 

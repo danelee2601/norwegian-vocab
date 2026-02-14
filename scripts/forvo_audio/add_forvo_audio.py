@@ -17,7 +17,6 @@ import json
 import re
 import shutil
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from dataclasses import dataclass
 from pathlib import Path
 
 from scrape_forvo import scrape
@@ -25,13 +24,6 @@ from scrape_forvo import scrape
 AUDIO_COLUMN = "audio_file"
 SUPPORTED = {"noun", "verb", "adjective", "adverb"}
 SKIP = {"expression"}
-
-
-@dataclass
-class RowWork:
-    category: str
-    norwegian: str
-    query: str | None
 
 
 def extract_query(category: str, norwegian: str) -> str | None:
@@ -55,6 +47,23 @@ def extract_query(category: str, norwegian: str) -> str | None:
 
     # adjective/adverb
     return n
+
+
+def extract_row_query(row: dict[str, str]) -> str | None:
+    return extract_query(row.get("lexical-category", ""), row.get("norwegian", ""))
+
+
+def resolve_audio_path(path_ref: str, *, base_dir: Path) -> Path:
+    path = Path(path_ref)
+    return path if path.is_absolute() else base_dir / path
+
+
+def normalize_audio_path(path: Path, *, base_dir: Path) -> str:
+    abs_path = path.resolve()
+    try:
+        return abs_path.relative_to(base_dir.resolve()).as_posix()
+    except ValueError:
+        return abs_path.as_posix()
 
 
 def iter_vocab_files(pattern: str) -> list[Path]:
@@ -81,7 +90,7 @@ def build_query_set(vocab_paths: list[Path]) -> set[str]:
     for path in vocab_paths:
         _, rows = read_rows(path)
         for row in rows:
-            q = extract_query(row.get("lexical-category", ""), row.get("norwegian", ""))
+            q = extract_row_query(row)
             if q:
                 queries.add(q)
     return queries
@@ -132,7 +141,7 @@ def save_json(path: Path, data: dict[str, str]) -> None:
     )
 
 
-def hydrate_from_existing_files(audio_dir: Path, mapping: dict[str, str]) -> None:
+def hydrate_from_existing_files(audio_dir: Path, mapping: dict[str, str], *, base_dir: Path) -> None:
     # Parse labels from filenames like no_butikk_623378_001.mp3 for resume support.
     pat = re.compile(r"^no_(.+)_\d+_\d{3}\.mp3$")
     for p in sorted(audio_dir.glob("no_*.mp3")):
@@ -141,7 +150,7 @@ def hydrate_from_existing_files(audio_dir: Path, mapping: dict[str, str]) -> Non
             continue
         label = m.group(1).replace("_", " ").strip().casefold()
         if label and label not in mapping:
-            mapping[label] = p.as_posix()
+            mapping[label] = normalize_audio_path(p, base_dir=base_dir)
 
 
 def download_audio_map(
@@ -151,35 +160,28 @@ def download_audio_map(
     headed: bool,
     cache_path: Path,
     workers: int,
+    path_base: Path,
 ) -> dict[str, str]:
     temp_dir.mkdir(parents=True, exist_ok=True)
     audio_dir.mkdir(parents=True, exist_ok=True)
 
     mapping: dict[str, str] = load_json(cache_path)
-    hydrate_from_existing_files(audio_dir, mapping)
+    hydrate_from_existing_files(audio_dir, mapping, base_dir=path_base)
     query_list = sorted(queries)
     total = len(query_list)
+    pending: list[tuple[int, str]] = []
     for idx, query in enumerate(query_list, start=1):
         qkey = query.casefold()
         existing = mapping.get(qkey)
-        if existing and Path(existing).exists():
+        if existing and resolve_audio_path(existing, base_dir=path_base).exists():
             print(f"[{idx}/{total}] reuse: {query} -> {existing}")
+            continue
         elif qkey in mapping and not existing:
             print(f"[{idx}/{total}] reuse-miss: {query}")
-        else:
-            break
-    else:
-        return mapping
-
-    pending = []
-    for idx, query in enumerate(query_list, start=1):
-        qkey = query.casefold()
-        existing = mapping.get(qkey)
-        if existing and Path(existing).exists():
-            continue
-        if qkey in mapping and not existing:
             continue
         pending.append((idx, query))
+    if not pending:
+        return mapping
 
     def run_one(query: str) -> tuple[str, Path | None, str | None]:
         try:
@@ -209,7 +211,7 @@ def download_audio_map(
             target = audio_dir / downloaded.name
             if target.resolve() != downloaded.resolve():
                 shutil.move(str(downloaded), str(target))
-            mapping[qkey] = str(target.as_posix())
+            mapping[qkey] = normalize_audio_path(target, base_dir=path_base)
             print(f"[{idx}/{total}] saved: {query} -> {mapping[qkey]}")
             save_json(cache_path, mapping)
 
@@ -223,7 +225,7 @@ def update_tsv(path: Path, audio_map: dict[str, str]) -> tuple[int, int]:
     filled = 0
     skipped = 0
     for row in rows:
-        query = extract_query(row.get("lexical-category", ""), row.get("norwegian", ""))
+        query = extract_row_query(row)
         row[AUDIO_COLUMN] = audio_map.get(query.casefold(), "") if query else ""
         if row[AUDIO_COLUMN]:
             filled += 1
@@ -263,6 +265,7 @@ def main() -> int:
         headed=args.headed,
         cache_path=Path(args.cache_file),
         workers=args.workers,
+        path_base=Path.cwd(),
     )
     print(f"Downloaded audio for {len(audio_map)} queries")
 

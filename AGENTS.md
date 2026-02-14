@@ -11,6 +11,24 @@
 
 ## Build, Test, and Development Commands
 - This project uses [uv](https://github.com/astral-sh/uv) for Python dependency management and installation. Typical commands:
+  - `uv sync` to install runtime + dev dependencies.
+  - `uv run pytest -q` to run tests.
+  - `uv run pytest --cov=. --cov-report=term-missing -q` to run tests with coverage.
+  - `uv run python scripts/forvo_audio/add_forvo_audio.py --vocab-glob 'vocab/*.tsv'` to refresh audio mappings.
+
+## Testing Guide
+- Run tests before committing:
+  - `uv run pytest -q`
+- Run coverage when changing Python logic:
+  - `uv run pytest --cov=. --cov-report=term-missing -q`
+- Recommended data sanity checks for TSV changes:
+  - Confirm header/order matches across all `vocab/*.tsv`.
+  - Confirm noun rows start with `en/ei/et`.
+  - Confirm verb rows have 4 comma-separated forms.
+  - Confirm `audio_file` is a plain relative path under `audio/forvo_no/` when present.
+- If tests fail:
+  - Fix root causes first; avoid weakening assertions unless requirements changed.
+  - Re-run full test command (not only a subset) before finalizing.
 
 ## Data Style & Naming Conventions
 - TSV format with tab separators and a single header row.

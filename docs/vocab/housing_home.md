@@ -4,111 +4,111 @@ Source: `vocab/housing_home.tsv`
 
 | lexical-category | english | norwegian | pronunciation | example_sentence | audio_file |
 |---|---|---|---|---|---|
-| noun | apartment | en leilighet | /ˈlæɪlɪhɛt/ | Vi bor i en leilighet. | [Play audio](../assets/audio/forvo_no/no_leilighet_4322062_001.mp3) (`audio/forvo_no/no_leilighet_4322062_001.mp3`) |
-| noun | room | en rom | /ruːm/ | Rommet er lyst. | [Play audio](../assets/audio/forvo_no/no_rom_6056697_001.mp3) (`audio/forvo_no/no_rom_6056697_001.mp3`) |
+| noun | apartment | en leilighet | /ˈlæɪlɪhɛt/ | Vi bor i en leilighet. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_leilighet_4322062_001.mp3"></audio> |
+| noun | room | en rom | /ruːm/ | Rommet er lyst. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_rom_6056697_001.mp3"></audio> |
 | noun | kitchen | et kjøkken | /ˈçœkən/ | Kjøkkenet er nytt. | null |
-| noun | bathroom | et bad | /bɑː/ | Badet er lite. | [Play audio](../assets/audio/forvo_no/no_bad_1065954_001.mp3) (`audio/forvo_no/no_bad_1065954_001.mp3`) |
-| noun | living room | en stue | /ˈstʉːə/ | Vi sitter i stua. | [Play audio](../assets/audio/forvo_no/no_stue_294441_001.mp3) (`audio/forvo_no/no_stue_294441_001.mp3`) |
-| noun | bedroom | en soverom | /ˈsuːvəˌruːm/ | Soverommet er stille. | [Play audio](../assets/audio/forvo_no/no_soverom_2589953_001.mp3) (`audio/forvo_no/no_soverom_2589953_001.mp3`) |
-| noun | rent | en leie | /ˈlæɪə/ | Leien er høy. | [Play audio](../assets/audio/forvo_no/no_leie_4331340_001.mp3) (`audio/forvo_no/no_leie_4331340_001.mp3`) |
-| noun | landlord | en huseier | /ˈhʉːsˌæɪər/ | Huseieren kommer i morgen. | [Play audio](../assets/audio/forvo_no/no_huseier_6475914_001.mp3) (`audio/forvo_no/no_huseier_6475914_001.mp3`) |
-| noun | neighbor | en nabo | /ˈnɑːbu/ | Naboen er hyggelig. | [Play audio](../assets/audio/forvo_no/no_nabo_1065447_001.mp3) (`audio/forvo_no/no_nabo_1065447_001.mp3`) |
-| verb | to move | å flytte, flytter, flyttet, har flyttet | /ˈflʏtə/ | Vi skal flytte snart. | [Play audio](../assets/audio/forvo_no/no_flytte_1066574_001.mp3) (`audio/forvo_no/no_flytte_1066574_001.mp3`) |
-| verb | to clean | å rengjøre, rengjør, rengjorde, har rengjort | /ˈreŋˌjøːrə/ | Jeg må rengjøre kjøkkenet. | [Play audio](../assets/audio/forvo_no/no_rengj_re_4340458_001.mp3) (`audio/forvo_no/no_rengj_re_4340458_001.mp3`) |
-| verb | to repair | å reparere, reparerer, reparerte, har reparert | /repaˈreːrə/ | Han kan reparere døra. | [Play audio](../assets/audio/forvo_no/no_reparere_2355933_001.mp3) (`audio/forvo_no/no_reparere_2355933_001.mp3`) |
+| noun | bathroom | et bad | /bɑː/ | Badet er lite. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_bad_1065954_001.mp3"></audio> |
+| noun | living room | en stue | /ˈstʉːə/ | Vi sitter i stua. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_stue_294441_001.mp3"></audio> |
+| noun | bedroom | en soverom | /ˈsuːvəˌruːm/ | Soverommet er stille. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_soverom_2589953_001.mp3"></audio> |
+| noun | rent | en leie | /ˈlæɪə/ | Leien er høy. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_leie_4331340_001.mp3"></audio> |
+| noun | landlord | en huseier | /ˈhʉːsˌæɪər/ | Huseieren kommer i morgen. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_huseier_6475914_001.mp3"></audio> |
+| noun | neighbor | en nabo | /ˈnɑːbu/ | Naboen er hyggelig. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_nabo_1065447_001.mp3"></audio> |
+| verb | to move | å flytte, flytter, flyttet, har flyttet | /ˈflʏtə/ | Vi skal flytte snart. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_flytte_1066574_001.mp3"></audio> |
+| verb | to clean | å rengjøre, rengjør, rengjorde, har rengjort | /ˈreŋˌjøːrə/ | Jeg må rengjøre kjøkkenet. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_rengj_re_4340458_001.mp3"></audio> |
+| verb | to repair | å reparere, reparerer, reparerte, har reparert | /repaˈreːrə/ | Han kan reparere døra. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_reparere_2355933_001.mp3"></audio> |
 | adjective | noisy | bråkete | /ˈbroːkətə/ | Det er bråkete om kvelden. | null |
-| adjective | quiet | stille | /ˈstɪlə/ | Det er stille om natta. | [Play audio](../assets/audio/forvo_no/no_stille_767362_001.mp3) (`audio/forvo_no/no_stille_767362_001.mp3`) |
+| adjective | quiet | stille | /ˈstɪlə/ | Det er stille om natta. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_stille_767362_001.mp3"></audio> |
 | adverb | upstairs | oppe | /ˈɔpːə/ | Barna sover oppe. | null |
-| adverb | downstairs | nede | /ˈneːdə/ | Kjøkkenet er nede. | [Play audio](../assets/audio/forvo_no/no_nede_3802694_001.mp3) (`audio/forvo_no/no_nede_3802694_001.mp3`) |
+| adverb | downstairs | nede | /ˈneːdə/ | Kjøkkenet er nede. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_nede_3802694_001.mp3"></audio> |
 | noun | key | en nøkkel | /ˈnøːkəl/ | Jeg har mistet nøkkelen. | null |
-| noun | furniture | en møbler | /ˈmøːblər/ | Vi kjøper nye møbler. | [Play audio](../assets/audio/forvo_no/no_m_bler_2331010_001.mp3) (`audio/forvo_no/no_m_bler_2331010_001.mp3`) |
+| noun | furniture | en møbler | /ˈmøːblər/ | Vi kjøper nye møbler. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_m_bler_2331010_001.mp3"></audio> |
 | expression | There is a leak | Det er lekkasje | /deːt ær leˈkɑːʂə/ | Det er lekkasje på badet. | null |
-| noun | electricity | en strøm | /strøm/ | Strømmen gikk i går. | [Play audio](../assets/audio/forvo_no/no_str_m_214836_001.mp3) (`audio/forvo_no/no_str_m_214836_001.mp3`) |
-| noun | hallway | en gang | /ɡɑŋ/ | Gangen er smal. | [Play audio](../assets/audio/forvo_no/no_gang_1060324_001.mp3) (`audio/forvo_no/no_gang_1060324_001.mp3`) |
-| noun | balcony | en balkong | /bɑlˈkɔŋ/ | Balkongen er stor. | [Play audio](../assets/audio/forvo_no/no_balkong_582484_001.mp3) (`audio/forvo_no/no_balkong_582484_001.mp3`) |
-| noun | basement | en kjeller | /ˈçɛlːər/ | Vaskerommet er i kjelleren. | [Play audio](../assets/audio/forvo_no/no_kjeller_353335_001.mp3) (`audio/forvo_no/no_kjeller_353335_001.mp3`) |
-| noun | attic | et loft | /lɔft/ | Vi lagrer ting på loftet. | [Play audio](../assets/audio/forvo_no/no_loft_5030049_001.mp3) (`audio/forvo_no/no_loft_5030049_001.mp3`) |
-| noun | staircase | en trapp | /trɑp/ | Trappa er bratt. | [Play audio](../assets/audio/forvo_no/no_trapp_1034462_001.mp3) (`audio/forvo_no/no_trapp_1034462_001.mp3`) |
-| noun | door | ei dør | /døːr/ | Lukk døra. | [Play audio](../assets/audio/forvo_no/no_d_r_597972_001.mp3) (`audio/forvo_no/no_d_r_597972_001.mp3`) |
-| noun | window | et vindu | /ˈʋɪnːdʉ/ | Vinduet er åpent. | [Play audio](../assets/audio/forvo_no/no_vindu_1063781_001.mp3) (`audio/forvo_no/no_vindu_1063781_001.mp3`) |
-| noun | floor | et gulv | /ɡʉlʋ/ | Gulvet er skittent. | [Play audio](../assets/audio/forvo_no/no_gulv_3522492_001.mp3) (`audio/forvo_no/no_gulv_3522492_001.mp3`) |
-| noun | wall | en vegg | /ʋɛɡ/ | Veggen er hvit. | [Play audio](../assets/audio/forvo_no/no_vegg_1068279_001.mp3) (`audio/forvo_no/no_vegg_1068279_001.mp3`) |
-| noun | ceiling | et tak | /tɑːk/ | Taket er høyt. | [Play audio](../assets/audio/forvo_no/no_tak_805081_001.mp3) (`audio/forvo_no/no_tak_805081_001.mp3`) |
-| noun | roof | et tak | /tɑːk/ | Taket må repareres. | [Play audio](../assets/audio/forvo_no/no_tak_805081_001.mp3) (`audio/forvo_no/no_tak_805081_001.mp3`) |
-| noun | lamp | en lampe | /ˈlɑmpə/ | Lampen virker ikke. | [Play audio](../assets/audio/forvo_no/no_Lampe_4331394_001.mp3) (`audio/forvo_no/no_Lampe_4331394_001.mp3`) |
-| noun | light bulb | en lyspære | /ˈlyːsˌpæːrə/ | Jeg må bytte lyspære. | [Play audio](../assets/audio/forvo_no/no_lysp_re_4324976_001.mp3) (`audio/forvo_no/no_lysp_re_4324976_001.mp3`) |
-| noun | socket | en kontakt | /kɔnˈtɑkt/ | Kontakten er løs. | [Play audio](../assets/audio/forvo_no/no_kontakt_825806_001.mp3) (`audio/forvo_no/no_kontakt_825806_001.mp3`) |
-| noun | switch | en bryter | /ˈbrʏtər/ | Bryteren er ved døra. | [Play audio](../assets/audio/forvo_no/no_bryter_644293_001.mp3) (`audio/forvo_no/no_bryter_644293_001.mp3`) |
-| noun | heater | en ovn | /ɔʋn/ | Ovnen er varm. | [Play audio](../assets/audio/forvo_no/no_ovn_1167226_001.mp3) (`audio/forvo_no/no_ovn_1167226_001.mp3`) |
-| noun | radiator | en radiator | /rɑdɪˈɑːtʊr/ | Radiatoren er kald. | [Play audio](../assets/audio/forvo_no/no_radiator_2354786_001.mp3) (`audio/forvo_no/no_radiator_2354786_001.mp3`) |
+| noun | electricity | en strøm | /strøm/ | Strømmen gikk i går. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_str_m_214836_001.mp3"></audio> |
+| noun | hallway | en gang | /ɡɑŋ/ | Gangen er smal. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_gang_1060324_001.mp3"></audio> |
+| noun | balcony | en balkong | /bɑlˈkɔŋ/ | Balkongen er stor. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_balkong_582484_001.mp3"></audio> |
+| noun | basement | en kjeller | /ˈçɛlːər/ | Vaskerommet er i kjelleren. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_kjeller_353335_001.mp3"></audio> |
+| noun | attic | et loft | /lɔft/ | Vi lagrer ting på loftet. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_loft_5030049_001.mp3"></audio> |
+| noun | staircase | en trapp | /trɑp/ | Trappa er bratt. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_trapp_1034462_001.mp3"></audio> |
+| noun | door | ei dør | /døːr/ | Lukk døra. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_d_r_597972_001.mp3"></audio> |
+| noun | window | et vindu | /ˈʋɪnːdʉ/ | Vinduet er åpent. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_vindu_1063781_001.mp3"></audio> |
+| noun | floor | et gulv | /ɡʉlʋ/ | Gulvet er skittent. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_gulv_3522492_001.mp3"></audio> |
+| noun | wall | en vegg | /ʋɛɡ/ | Veggen er hvit. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_vegg_1068279_001.mp3"></audio> |
+| noun | ceiling | et tak | /tɑːk/ | Taket er høyt. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_tak_805081_001.mp3"></audio> |
+| noun | roof | et tak | /tɑːk/ | Taket må repareres. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_tak_805081_001.mp3"></audio> |
+| noun | lamp | en lampe | /ˈlɑmpə/ | Lampen virker ikke. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_Lampe_4331394_001.mp3"></audio> |
+| noun | light bulb | en lyspære | /ˈlyːsˌpæːrə/ | Jeg må bytte lyspære. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_lysp_re_4324976_001.mp3"></audio> |
+| noun | socket | en kontakt | /kɔnˈtɑkt/ | Kontakten er løs. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_kontakt_825806_001.mp3"></audio> |
+| noun | switch | en bryter | /ˈbrʏtər/ | Bryteren er ved døra. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_bryter_644293_001.mp3"></audio> |
+| noun | heater | en ovn | /ɔʋn/ | Ovnen er varm. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_ovn_1167226_001.mp3"></audio> |
+| noun | radiator | en radiator | /rɑdɪˈɑːtʊr/ | Radiatoren er kald. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_radiator_2354786_001.mp3"></audio> |
 | noun | fireplace | en peis | /pæɪs/ | Peisen gir varme. | null |
-| noun | smoke detector | en røykvarsler | /ˈrœykˌʋɑʂlər/ | Røykvarsleren piper. | [Play audio](../assets/audio/forvo_no/no_r_ykvarsler_1746940_001.mp3) (`audio/forvo_no/no_r_ykvarsler_1746940_001.mp3`) |
+| noun | smoke detector | en røykvarsler | /ˈrœykˌʋɑʂlər/ | Røykvarsleren piper. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_r_ykvarsler_1746940_001.mp3"></audio> |
 | noun | water heater | en bereder | /bəˈreːdər/ | Berederen er tom. | null |
-| noun | washing machine | en vaskemaskin | /ˈʋɑskəˌmɑʂiːn/ | Vaskemaskinen er full. | [Play audio](../assets/audio/forvo_no/no_vaskemaskin_805119_001.mp3) (`audio/forvo_no/no_vaskemaskin_805119_001.mp3`) |
-| noun | dryer | en tørketrommel | /ˈtœrkəˌtrʊmːəl/ | Tørketrommelen virker ikke. | [Play audio](../assets/audio/forvo_no/no_t_rketrommel_1167716_001.mp3) (`audio/forvo_no/no_t_rketrommel_1167716_001.mp3`) |
-| noun | dishwasher | en oppvaskmaskin | /ˈɔpːʋɑskəˌmɑʂiːn/ | Oppvaskmaskinen er ny. | [Play audio](../assets/audio/forvo_no/no_oppvaskmaskin_4618615_001.mp3) (`audio/forvo_no/no_oppvaskmaskin_4618615_001.mp3`) |
-| noun | fridge | et kjøleskap | /ˈçøːləˌskɑːp/ | Kjøleskapet er fullt. | [Play audio](../assets/audio/forvo_no/no_kj_leskap_2355943_001.mp3) (`audio/forvo_no/no_kj_leskap_2355943_001.mp3`) |
-| noun | freezer | en fryser | /ˈfryːsər/ | Fryseren er tom. | [Play audio](../assets/audio/forvo_no/no_fryser_4342450_001.mp3) (`audio/forvo_no/no_fryser_4342450_001.mp3`) |
+| noun | washing machine | en vaskemaskin | /ˈʋɑskəˌmɑʂiːn/ | Vaskemaskinen er full. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_vaskemaskin_805119_001.mp3"></audio> |
+| noun | dryer | en tørketrommel | /ˈtœrkəˌtrʊmːəl/ | Tørketrommelen virker ikke. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_t_rketrommel_1167716_001.mp3"></audio> |
+| noun | dishwasher | en oppvaskmaskin | /ˈɔpːʋɑskəˌmɑʂiːn/ | Oppvaskmaskinen er ny. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_oppvaskmaskin_4618615_001.mp3"></audio> |
+| noun | fridge | et kjøleskap | /ˈçøːləˌskɑːp/ | Kjøleskapet er fullt. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_kj_leskap_2355943_001.mp3"></audio> |
+| noun | freezer | en fryser | /ˈfryːsər/ | Fryseren er tom. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_fryser_4342450_001.mp3"></audio> |
 | noun | stove | en komfyr | /ˈkɔmfyːr/ | Komfyren er ødelagt. | null |
-| noun | oven | en stekeovn | /ˈsteːkəˌɔʋn/ | Stekeovnen er varm. | [Play audio](../assets/audio/forvo_no/no_stekeovn_6940096_001.mp3) (`audio/forvo_no/no_stekeovn_6940096_001.mp3`) |
-| noun | sink | en vask | /ʋɑsk/ | Vasken er tett. | [Play audio](../assets/audio/forvo_no/no_vask_2901851_001.mp3) (`audio/forvo_no/no_vask_2901851_001.mp3`) |
-| noun | tap | en kran | /krɑːn/ | Kranen drypper. | [Play audio](../assets/audio/forvo_no/no_Kran_3938739_001.mp3) (`audio/forvo_no/no_Kran_3938739_001.mp3`) |
-| noun | toilet | et toalett | /tʊɑˈlɛt/ | Toalettet er lekk. | [Play audio](../assets/audio/forvo_no/no_toalett_293668_001.mp3) (`audio/forvo_no/no_toalett_293668_001.mp3`) |
-| noun | shower | en dusj | /dʉʂ/ | Dusjen er kald. | [Play audio](../assets/audio/forvo_no/no_dusj_295869_001.mp3) (`audio/forvo_no/no_dusj_295869_001.mp3`) |
-| noun | bathtub | et badekar | /ˈbɑːdəˌkɑːr/ | Badekaret er stort. | [Play audio](../assets/audio/forvo_no/no_badekar_582514_001.mp3) (`audio/forvo_no/no_badekar_582514_001.mp3`) |
-| noun | mirror | et speil | /spæɪl/ | Speilet er rent. | [Play audio](../assets/audio/forvo_no/no_speil_767711_001.mp3) (`audio/forvo_no/no_speil_767711_001.mp3`) |
-| noun | curtain | en gardin | /ɡɑˈɖiːn/ | Gardinen er blå. | [Play audio](../assets/audio/forvo_no/no_gardin_2354801_001.mp3) (`audio/forvo_no/no_gardin_2354801_001.mp3`) |
+| noun | oven | en stekeovn | /ˈsteːkəˌɔʋn/ | Stekeovnen er varm. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_stekeovn_6940096_001.mp3"></audio> |
+| noun | sink | en vask | /ʋɑsk/ | Vasken er tett. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_vask_2901851_001.mp3"></audio> |
+| noun | tap | en kran | /krɑːn/ | Kranen drypper. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_Kran_3938739_001.mp3"></audio> |
+| noun | toilet | et toalett | /tʊɑˈlɛt/ | Toalettet er lekk. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_toalett_293668_001.mp3"></audio> |
+| noun | shower | en dusj | /dʉʂ/ | Dusjen er kald. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_dusj_295869_001.mp3"></audio> |
+| noun | bathtub | et badekar | /ˈbɑːdəˌkɑːr/ | Badekaret er stort. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_badekar_582514_001.mp3"></audio> |
+| noun | mirror | et speil | /spæɪl/ | Speilet er rent. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_speil_767711_001.mp3"></audio> |
+| noun | curtain | en gardin | /ɡɑˈɖiːn/ | Gardinen er blå. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_gardin_2354801_001.mp3"></audio> |
 | noun | carpet | et teppe | /ˈtɛpːə/ | Teppet er mykt. | null |
 | noun | closet | et skap | /skɑːp/ | Skapet er fullt. | null |
-| noun | drawer | en skuff | /skʉf/ | Skuffen er tom. | [Play audio](../assets/audio/forvo_no/no_skuff_4758457_001.mp3) (`audio/forvo_no/no_skuff_4758457_001.mp3`) |
-| noun | bed | en seng | /sɛŋ/ | Sengen er komfortabel. | [Play audio](../assets/audio/forvo_no/no_seng_724275_001.mp3) (`audio/forvo_no/no_seng_724275_001.mp3`) |
-| noun | pillow | en pute | /ˈpʉːtə/ | Jeg trenger en pute. | [Play audio](../assets/audio/forvo_no/no_Pute_2559250_001.mp3) (`audio/forvo_no/no_Pute_2559250_001.mp3`) |
+| noun | drawer | en skuff | /skʉf/ | Skuffen er tom. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_skuff_4758457_001.mp3"></audio> |
+| noun | bed | en seng | /sɛŋ/ | Sengen er komfortabel. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_seng_724275_001.mp3"></audio> |
+| noun | pillow | en pute | /ˈpʉːtə/ | Jeg trenger en pute. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_Pute_2559250_001.mp3"></audio> |
 | noun | blanket | et teppe | /ˈtɛpːə/ | Jeg tar et teppe. | null |
-| noun | sheet | et laken | /ˈlɑːkən/ | Lakenet er rent. | [Play audio](../assets/audio/forvo_no/no_laken_3481104_001.mp3) (`audio/forvo_no/no_laken_3481104_001.mp3`) |
+| noun | sheet | et laken | /ˈlɑːkən/ | Lakenet er rent. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_laken_3481104_001.mp3"></audio> |
 | noun | sofa | en sofa | /ˈsuːfɑ/ | Sofaen er stor. | null |
 | noun | armchair | en lenestol | /ˈleːnəˌstuːl/ | Lenestolen er komfortabel. | null |
 | noun | table | et bord | /buːr/ | Bordet er rundt. | null |
-| noun | chair | en stol | /stuːl/ | Stolen er løs. | [Play audio](../assets/audio/forvo_no/no_stol_316094_001.mp3) (`audio/forvo_no/no_stol_316094_001.mp3`) |
-| noun | shelf | en hylle | /ˈhʏlːə/ | Hylla henger skjevt. | [Play audio](../assets/audio/forvo_no/no_hylle_4344191_001.mp3) (`audio/forvo_no/no_hylle_4344191_001.mp3`) |
-| noun | vacuum cleaner | en støvsuger | /ˈstøːʋˌsʉːɡər/ | Støvsugeren er tung. | [Play audio](../assets/audio/forvo_no/no_st_vsuger_1197865_001.mp3) (`audio/forvo_no/no_st_vsuger_1197865_001.mp3`) |
-| noun | mop | en mopp | /mɔp/ | Jeg vasker gulvet med mopp. | [Play audio](../assets/audio/forvo_no/no_Mopp_6463509_001.mp3) (`audio/forvo_no/no_Mopp_6463509_001.mp3`) |
+| noun | chair | en stol | /stuːl/ | Stolen er løs. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_stol_316094_001.mp3"></audio> |
+| noun | shelf | en hylle | /ˈhʏlːə/ | Hylla henger skjevt. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_hylle_4344191_001.mp3"></audio> |
+| noun | vacuum cleaner | en støvsuger | /ˈstøːʋˌsʉːɡər/ | Støvsugeren er tung. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_st_vsuger_1197865_001.mp3"></audio> |
+| noun | mop | en mopp | /mɔp/ | Jeg vasker gulvet med mopp. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_Mopp_6463509_001.mp3"></audio> |
 | noun | bucket | en bøtte | /ˈbœtːə/ | Bøtta er full. | null |
-| noun | trash | en søppel | /ˈsœpːəl/ | Søpla må ut. | [Play audio](../assets/audio/forvo_no/no_s_ppel_2474433_001.mp3) (`audio/forvo_no/no_s_ppel_2474433_001.mp3`) |
-| noun | trash bag | en søppelpose | /ˈsœpːəlˌpuːsə/ | Jeg bytter søppelpose. | [Play audio](../assets/audio/forvo_no/no_s_ppelpose_1764115_001.mp3) (`audio/forvo_no/no_s_ppelpose_1764115_001.mp3`) |
-| noun | recycling | en kildesortering | /ˈçɪldəˌsuʈeːrɪŋ/ | Vi har kildesortering. | [Play audio](../assets/audio/forvo_no/no_kildesortering_1764113_001.mp3) (`audio/forvo_no/no_kildesortering_1764113_001.mp3`) |
+| noun | trash | en søppel | /ˈsœpːəl/ | Søpla må ut. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_s_ppel_2474433_001.mp3"></audio> |
+| noun | trash bag | en søppelpose | /ˈsœpːəlˌpuːsə/ | Jeg bytter søppelpose. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_s_ppelpose_1764115_001.mp3"></audio> |
+| noun | recycling | en kildesortering | /ˈçɪldəˌsuʈeːrɪŋ/ | Vi har kildesortering. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_kildesortering_1764113_001.mp3"></audio> |
 | noun | key | en nøkkel | /ˈnøːkəl/ | Jeg har mistet nøkkelen. | null |
 | noun | spare key | en ekstranøkkel | /ˈɛkstrɑˌnøːkəl/ | Har du en ekstranøkkel? | null |
 | noun | doorbell | en ringeklokke | /ˈrɪŋəˌklɔkːə/ | Ringeklokken virker ikke. | null |
 | noun | mailbox | en postkasse | /ˈpɔstˌkɑsə/ | Postkassen er full. | null |
 | noun | lease | en leiekontrakt | /ˈlæɪəˌkɔntrɑkt/ | Leiekontrakten varer et år. | null |
-| noun | deposit | et depositum | /deˈpɔsɪtʉm/ | Depositumet er betalt. | [Play audio](../assets/audio/forvo_no/no_depositum_1753665_001.mp3) (`audio/forvo_no/no_depositum_1753665_001.mp3`) |
+| noun | deposit | et depositum | /deˈpɔsɪtʉm/ | Depositumet er betalt. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_depositum_1753665_001.mp3"></audio> |
 | noun | rent increase | en leieøkning | /ˈlæɪəˌøːkniŋ/ | Leieøkningen starter i juli. | null |
 | noun | utility cost | en felleskostnad | /ˈfɛlːəsˌkɔstnɑːdər/ | Felleskostnaden er inkludert. | null |
-| noun | maintenance | en vedlikehold | /ˈʋeːdˌlɪkəˌhɔl/ | Vedlikehold er viktig. | [Play audio](../assets/audio/forvo_no/no_vedlikehold_4746845_001.mp3) (`audio/forvo_no/no_vedlikehold_4746845_001.mp3`) |
-| noun | contract | en kontrakt | /kɔnˈtrɑkt/ | Jeg signerer kontrakten. | [Play audio](../assets/audio/forvo_no/no_kontrakt_4322663_001.mp3) (`audio/forvo_no/no_kontrakt_4322663_001.mp3`) |
-| noun | insurance | en forsikring | /fɔˈʂɪkrɪŋ/ | Innboforsikring er nyttig. | [Play audio](../assets/audio/forvo_no/no_forsikring_800716_001.mp3) (`audio/forvo_no/no_forsikring_800716_001.mp3`) |
-| noun | internet | en internett | /ˈɪnːtərnɛt/ | Internett er inkludert. | [Play audio](../assets/audio/forvo_no/no_internett_2187622_001.mp3) (`audio/forvo_no/no_internett_2187622_001.mp3`) |
-| noun | electricity | en strøm | /strøm/ | Strømmen er dyr. | [Play audio](../assets/audio/forvo_no/no_str_m_214836_001.mp3) (`audio/forvo_no/no_str_m_214836_001.mp3`) |
-| noun | water | et vann | /ʋɑn/ | Vannet er stengt. | [Play audio](../assets/audio/forvo_no/no_vann_141822_001.mp3) (`audio/forvo_no/no_vann_141822_001.mp3`) |
-| noun | heating | en oppvarming | /ˈɔpːʋɑrmɪŋ/ | Oppvarming er inkludert. | [Play audio](../assets/audio/forvo_no/no_oppvarming_2559266_001.mp3) (`audio/forvo_no/no_oppvarming_2559266_001.mp3`) |
+| noun | maintenance | en vedlikehold | /ˈʋeːdˌlɪkəˌhɔl/ | Vedlikehold er viktig. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_vedlikehold_4746845_001.mp3"></audio> |
+| noun | contract | en kontrakt | /kɔnˈtrɑkt/ | Jeg signerer kontrakten. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_kontrakt_4322663_001.mp3"></audio> |
+| noun | insurance | en forsikring | /fɔˈʂɪkrɪŋ/ | Innboforsikring er nyttig. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_forsikring_800716_001.mp3"></audio> |
+| noun | internet | en internett | /ˈɪnːtərnɛt/ | Internett er inkludert. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_internett_2187622_001.mp3"></audio> |
+| noun | electricity | en strøm | /strøm/ | Strømmen er dyr. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_str_m_214836_001.mp3"></audio> |
+| noun | water | et vann | /ʋɑn/ | Vannet er stengt. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_vann_141822_001.mp3"></audio> |
+| noun | heating | en oppvarming | /ˈɔpːʋɑrmɪŋ/ | Oppvarming er inkludert. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_oppvarming_2559266_001.mp3"></audio> |
 | verb | to turn on | å slå på, slår på, slo på, har slått på | /ˈsloː pɔː/ | Slå på lyset. | null |
 | verb | to turn off | å slå av, slår av, slo av, har slått av | /ˈsloː ɑːʋ/ | Slå av ovnen. | null |
-| verb | to open | å åpne, åpner, åpnet, har åpnet | /ˈoːpnə/ | Kan du åpne vinduet? | [Play audio](../assets/audio/forvo_no/no_pne_767359_001.mp3) (`audio/forvo_no/no_pne_767359_001.mp3`) |
-| verb | to close | å lukke, lukker, lukket, har lukket | /ˈlʉkːə/ | Lukk døra, takk. | [Play audio](../assets/audio/forvo_no/no_lukke_856520_001.mp3) (`audio/forvo_no/no_lukke_856520_001.mp3`) |
-| verb | to lock | å låse, låser, låste, har låst | /ˈloːsə/ | Husk å låse døra. | [Play audio](../assets/audio/forvo_no/no_l_se_2559259_001.mp3) (`audio/forvo_no/no_l_se_2559259_001.mp3`) |
+| verb | to open | å åpne, åpner, åpnet, har åpnet | /ˈoːpnə/ | Kan du åpne vinduet? | <audio controls preload="none" src="../../assets/audio/forvo_no/no_pne_767359_001.mp3"></audio> |
+| verb | to close | å lukke, lukker, lukket, har lukket | /ˈlʉkːə/ | Lukk døra, takk. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_lukke_856520_001.mp3"></audio> |
+| verb | to lock | å låse, låser, låste, har låst | /ˈloːsə/ | Husk å låse døra. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_l_se_2559259_001.mp3"></audio> |
 | verb | to unlock | å låse opp, låser opp, låste opp, har låst opp | /ˈloːsə ɔp/ | Jeg låser opp døra. | null |
-| verb | to clean | å vaske, vasker, vasket, har vasket | /ˈʋɑskə/ | Jeg vasker badet. | [Play audio](../assets/audio/forvo_no/no_vaske_1365715_001.mp3) (`audio/forvo_no/no_vaske_1365715_001.mp3`) |
-| verb | to sweep | å feie, feier, feide, har feid | /ˈfæɪə/ | Jeg feier gulvet. | [Play audio](../assets/audio/forvo_no/no_feie_1066596_001.mp3) (`audio/forvo_no/no_feie_1066596_001.mp3`) |
-| verb | to vacuum | å støvsuge, støvsuger, støvsuget, har støvsuget | /ˈstøːʋˌsʉːɡə/ | Jeg støvsuger stua. | [Play audio](../assets/audio/forvo_no/no_st_vsuge_4328696_001.mp3) (`audio/forvo_no/no_st_vsuge_4328696_001.mp3`) |
+| verb | to clean | å vaske, vasker, vasket, har vasket | /ˈʋɑskə/ | Jeg vasker badet. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_vaske_1365715_001.mp3"></audio> |
+| verb | to sweep | å feie, feier, feide, har feid | /ˈfæɪə/ | Jeg feier gulvet. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_feie_1066596_001.mp3"></audio> |
+| verb | to vacuum | å støvsuge, støvsuger, støvsuget, har støvsuget | /ˈstøːʋˌsʉːɡə/ | Jeg støvsuger stua. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_st_vsuge_4328696_001.mp3"></audio> |
 | verb | to fix | å fikse, fikser, fikset, har fikset | /ˈfɪksə/ | Jeg må fikse kranen. | null |
-| verb | to paint | å male, maler, malte, har malt | /ˈmɑːlə/ | Vi maler veggen. | [Play audio](../assets/audio/forvo_no/no_male_3663966_001.mp3) (`audio/forvo_no/no_male_3663966_001.mp3`) |
-| adjective | clean | ren | /reːn/ | Kjøkkenet er rent. | [Play audio](../assets/audio/forvo_no/no_ren_7666954_001.mp3) (`audio/forvo_no/no_ren_7666954_001.mp3`) |
-| adjective | dirty | skitten | /ˈʂɪtːən/ | Gulvet er skittent. | [Play audio](../assets/audio/forvo_no/no_skitten_3498869_001.mp3) (`audio/forvo_no/no_skitten_3498869_001.mp3`) |
-| adjective | broken | ødelagt | /ˈøːdəˌlɑkt/ | Døra er ødelagt. | [Play audio](../assets/audio/forvo_no/no_delagt_363087_001.mp3) (`audio/forvo_no/no_delagt_363087_001.mp3`) |
-| adjective | bright | lys | /lyːs/ | Rommet er lyst. | [Play audio](../assets/audio/forvo_no/no_lys_141754_001.mp3) (`audio/forvo_no/no_lys_141754_001.mp3`) |
-| adjective | dark | mørk | /mœrk/ | Kjelleren er mørk. | [Play audio](../assets/audio/forvo_no/no_M_rk_370686_001.mp3) (`audio/forvo_no/no_M_rk_370686_001.mp3`) |
-| adjective | cold | kald | /kɑl/ | Det er kaldt inne. | [Play audio](../assets/audio/forvo_no/no_kald_3483297_001.mp3) (`audio/forvo_no/no_kald_3483297_001.mp3`) |
-| adjective | hot | varm | /ʋɑrm/ | Vannet er varmt. | [Play audio](../assets/audio/forvo_no/no_varm_805127_001.mp3) (`audio/forvo_no/no_varm_805127_001.mp3`) |
+| verb | to paint | å male, maler, malte, har malt | /ˈmɑːlə/ | Vi maler veggen. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_male_3663966_001.mp3"></audio> |
+| adjective | clean | ren | /reːn/ | Kjøkkenet er rent. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_ren_7666954_001.mp3"></audio> |
+| adjective | dirty | skitten | /ˈʂɪtːən/ | Gulvet er skittent. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_skitten_3498869_001.mp3"></audio> |
+| adjective | broken | ødelagt | /ˈøːdəˌlɑkt/ | Døra er ødelagt. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_delagt_363087_001.mp3"></audio> |
+| adjective | bright | lys | /lyːs/ | Rommet er lyst. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_lys_141754_001.mp3"></audio> |
+| adjective | dark | mørk | /mœrk/ | Kjelleren er mørk. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_M_rk_370686_001.mp3"></audio> |
+| adjective | cold | kald | /kɑl/ | Det er kaldt inne. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_kald_3483297_001.mp3"></audio> |
+| adjective | hot | varm | /ʋɑrm/ | Vannet er varmt. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_varm_805127_001.mp3"></audio> |
 | expression | There is a leak. | Det er lekkasje. | /deːt ær leˈkɑːʂə/ | Det er lekkasje på badet. | null |
 | expression | The power is out. | Strømmen har gått. | /ˈstrømːən hɑr ɡoːt/ | Strømmen har gått igjen. | null |
 | noun | balcony door | ei balkongdør | /bɑlˈkɔŋˌdøːr/ | Balkongdøra er åpen. | null |

@@ -20,7 +20,7 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-  - Home: home.md
+  - Home: index.md
   # AUTO-GENERATED VOCAB NAV START
   - Vocabulary:
       - Banking Post: vocab/banking_post.md

@@ -4,112 +4,112 @@ Source: `vocab/gp_office.tsv`
 
 | lexical-category | english | norwegian | pronunciation | example_sentence | audio_file |
 |---|---|---|---|---|---|
-| noun | GP/doctor | en lege | /ˈleːɡə/ | Jeg må til legen. | [Play audio](../assets/audio/forvo_no/no_lege_4322074_001.mp3) (`audio/forvo_no/no_lege_4322074_001.mp3`) |
+| noun | GP/doctor | en lege | /ˈleːɡə/ | Jeg må til legen. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_lege_4322074_001.mp3"></audio> |
 | noun | appointment | en avtale | /ˈɑːʋtɑːlə/ | Jeg har en avtale i morgen. | null |
-| noun | clinic | et legekontor | /ˈleːɡəˌkɔntuːr/ | Legekontoret åpner klokka åtte. | [Play audio](../assets/audio/forvo_no/no_legekontor_3427316_001.mp3) (`audio/forvo_no/no_legekontor_3427316_001.mp3`) |
-| noun | patient | en pasient | /pɑsɪˈɛnt/ | Pasienten venter i resepsjonen. | [Play audio](../assets/audio/forvo_no/no_Pasient_82353_001.mp3) (`audio/forvo_no/no_Pasient_82353_001.mp3`) |
-| noun | symptom | et symptom | /sympˈtuːm/ | Hvilke symptomer har du? | [Play audio](../assets/audio/forvo_no/no_symptom_1938215_001.mp3) (`audio/forvo_no/no_symptom_1938215_001.mp3`) |
+| noun | clinic | et legekontor | /ˈleːɡəˌkɔntuːr/ | Legekontoret åpner klokka åtte. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_legekontor_3427316_001.mp3"></audio> |
+| noun | patient | en pasient | /pɑsɪˈɛnt/ | Pasienten venter i resepsjonen. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_Pasient_82353_001.mp3"></audio> |
+| noun | symptom | et symptom | /sympˈtuːm/ | Hvilke symptomer har du? | <audio controls preload="none" src="../../assets/audio/forvo_no/no_symptom_1938215_001.mp3"></audio> |
 | noun | blood test | en blodprøve | /ˈbluːdˌprøːʋə/ | Jeg tok en blodprøve. | null |
-| noun | blood pressure | et blodtrykk | /ˈbluːdˌtrʏk/ | Legen måler blodtrykket. | [Play audio](../assets/audio/forvo_no/no_blodtrykk_4758578_001.mp3) (`audio/forvo_no/no_blodtrykk_4758578_001.mp3`) |
+| noun | blood pressure | et blodtrykk | /ˈbluːdˌtrʏk/ | Legen måler blodtrykket. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_blodtrykk_4758578_001.mp3"></audio> |
 | noun | vaccination | en vaksine | /ʋɑkˈsiːnə/ | Hun fikk vaksine i fjor. | null |
-| verb | to examine | å undersøke, undersøker, undersøket, har undersøket | /ˈʉnːdərˌsøːkə/ | Legen undersøker halsen. | [Play audio](../assets/audio/forvo_no/no_unders_ke_2346118_001.mp3) (`audio/forvo_no/no_unders_ke_2346118_001.mp3`) |
+| verb | to examine | å undersøke, undersøker, undersøket, har undersøket | /ˈʉnːdərˌsøːkə/ | Legen undersøker halsen. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_unders_ke_2346118_001.mp3"></audio> |
 | verb | to describe | å beskrive, beskriver, beskrev, har beskrevet | /beˈskriːʋə/ | Kan du beskrive smerten? | null |
 | verb | to hurt | å gjøre vondt, gjør vondt, gjorde vondt, har gjort vondt | /ˈjøːrə ʋɔnt/ | Det gjør vondt her. | null |
-| adjective | dizzy | svimmel | /ˈsʋɪmːəl/ | Jeg blir svimmel. | [Play audio](../assets/audio/forvo_no/no_svimmel_4740905_001.mp3) (`audio/forvo_no/no_svimmel_4740905_001.mp3`) |
-| adjective | swollen | hoven | /ˈhuːʋən/ | Ankelen er hoven. | [Play audio](../assets/audio/forvo_no/no_Hoven_6883782_001.mp3) (`audio/forvo_no/no_Hoven_6883782_001.mp3`) |
-| adverb | suddenly | plutselig | /ˈplʉtsəli/ | Smerten kom plutselig. | [Play audio](../assets/audio/forvo_no/no_plutselig_1091372_001.mp3) (`audio/forvo_no/no_plutselig_1091372_001.mp3`) |
+| adjective | dizzy | svimmel | /ˈsʋɪmːəl/ | Jeg blir svimmel. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_svimmel_4740905_001.mp3"></audio> |
+| adjective | swollen | hoven | /ˈhuːʋən/ | Ankelen er hoven. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_Hoven_6883782_001.mp3"></audio> |
+| adverb | suddenly | plutselig | /ˈplʉtsəli/ | Smerten kom plutselig. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_plutselig_1091372_001.mp3"></audio> |
 | expression | I have pain in ... | Jeg har smerter i ... | /jæɪ hɑr ˈsmæʈtər i/ | Jeg har smerter i ryggen. | null |
 | expression | How long have you had it? | Hvor lenge har du hatt det? | /ʋuːr ˈlɛŋə hɑr dʉ hɑt deː/ | Hvor lenge har du hatt det? | null |
-| noun | referral | en henvisning | /ˈhɛnʋiːsniŋ/ | Jeg trenger en henvisning. | [Play audio](../assets/audio/forvo_no/no_henvisning_4758409_001.mp3) (`audio/forvo_no/no_henvisning_4758409_001.mp3`) |
-| noun | sick leave | en sykmelding | /ˈsyːkmɛldiŋ/ | Jeg kan få sykmelding. | [Play audio](../assets/audio/forvo_no/no_sykmelding_7714474_001.mp3) (`audio/forvo_no/no_sykmelding_7714474_001.mp3`) |
+| noun | referral | en henvisning | /ˈhɛnʋiːsniŋ/ | Jeg trenger en henvisning. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_henvisning_4758409_001.mp3"></audio> |
+| noun | sick leave | en sykmelding | /ˈsyːkmɛldiŋ/ | Jeg kan få sykmelding. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_sykmelding_7714474_001.mp3"></audio> |
 | noun | allergy test | en allergitest | /ɑlɛrɡiˈtɛst/ | De tok en allergitest. | null |
-| noun | medical record | en journal | /ʃʊrˈnɑːl/ | Legen oppdaterer journalen. | [Play audio](../assets/audio/forvo_no/no_journal_4331290_001.mp3) (`audio/forvo_no/no_journal_4331290_001.mp3`) |
-| noun | reception | en resepsjon | /resɛpˈʂuːn/ | Resepsjonen er åpen. | [Play audio](../assets/audio/forvo_no/no_resepsjon_2903617_001.mp3) (`audio/forvo_no/no_resepsjon_2903617_001.mp3`) |
-| noun | waiting room | en venterom | /ˈʋɛntəˌrʊm/ | Jeg sitter på venterommet. | [Play audio](../assets/audio/forvo_no/no_venterom_5907488_001.mp3) (`audio/forvo_no/no_venterom_5907488_001.mp3`) |
-| noun | nurse | en sykepleier | /ˈsyːkəˌplæɪər/ | Sykepleieren hjelper meg. | [Play audio](../assets/audio/forvo_no/no_sykepleier_251077_001.mp3) (`audio/forvo_no/no_sykepleier_251077_001.mp3`) |
-| noun | receptionist | en resepsjonist | /resɛpʂuˈnɪst/ | Resepsjonisten tar imot. | [Play audio](../assets/audio/forvo_no/no_resepsjonist_4914574_001.mp3) (`audio/forvo_no/no_resepsjonist_4914574_001.mp3`) |
-| noun | appointment time | en time | /ˈtiːmə/ | Timen min er klokka to. | [Play audio](../assets/audio/forvo_no/no_time_3240092_001.mp3) (`audio/forvo_no/no_time_3240092_001.mp3`) |
+| noun | medical record | en journal | /ʃʊrˈnɑːl/ | Legen oppdaterer journalen. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_journal_4331290_001.mp3"></audio> |
+| noun | reception | en resepsjon | /resɛpˈʂuːn/ | Resepsjonen er åpen. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_resepsjon_2903617_001.mp3"></audio> |
+| noun | waiting room | en venterom | /ˈʋɛntəˌrʊm/ | Jeg sitter på venterommet. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_venterom_5907488_001.mp3"></audio> |
+| noun | nurse | en sykepleier | /ˈsyːkəˌplæɪər/ | Sykepleieren hjelper meg. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_sykepleier_251077_001.mp3"></audio> |
+| noun | receptionist | en resepsjonist | /resɛpʂuˈnɪst/ | Resepsjonisten tar imot. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_resepsjonist_4914574_001.mp3"></audio> |
+| noun | appointment time | en time | /ˈtiːmə/ | Timen min er klokka to. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_time_3240092_001.mp3"></audio> |
 | noun | queue | en kø | /køː/ | Det er lang kø i dag. | null |
 | noun | cancellation | en avbestilling | /ˈɑːʋbəˌstɪlɪŋ/ | Jeg måtte avbestille. | null |
 | noun | rescheduling | en ombooking | /ˈɔmˌbuːkɪŋ/ | Vi gjør ombooking. | null |
 | noun | symptom diary | en symptomdagbok | /sympˈtuːmˌdɑːbuːk/ | Jeg fører symptomdagbok. | null |
-| noun | pain | en smerte | /ˈsmæʈtə/ | Smerten er sterk. | [Play audio](../assets/audio/forvo_no/no_smerte_1066015_001.mp3) (`audio/forvo_no/no_smerte_1066015_001.mp3`) |
-| noun | fever | en feber | /ˈfeːbər/ | Feberen er høy. | [Play audio](../assets/audio/forvo_no/no_feber_2335261_001.mp3) (`audio/forvo_no/no_feber_2335261_001.mp3`) |
+| noun | pain | en smerte | /ˈsmæʈtə/ | Smerten er sterk. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_smerte_1066015_001.mp3"></audio> |
+| noun | fever | en feber | /ˈfeːbər/ | Feberen er høy. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_feber_2335261_001.mp3"></audio> |
 | noun | cough | en hoste | /ˈhɔstə/ | Jeg har hoste. | null |
 | noun | sore throat | en sår hals | /soːr hɑls/ | Jeg har sår hals. | null |
-| noun | headache | en hodepine | /ˈhuːdəˌpiːnə/ | Jeg har hodepine. | [Play audio](../assets/audio/forvo_no/no_hodepine_293661_001.mp3) (`audio/forvo_no/no_hodepine_293661_001.mp3`) |
-| noun | stomach ache | en magesmerter | /ˈmɑːɡəˌsmæʈtər/ | Jeg har magesmerter. | [Play audio](../assets/audio/forvo_no/no_magesmerter_6487441_001.mp3) (`audio/forvo_no/no_magesmerter_6487441_001.mp3`) |
+| noun | headache | en hodepine | /ˈhuːdəˌpiːnə/ | Jeg har hodepine. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_hodepine_293661_001.mp3"></audio> |
+| noun | stomach ache | en magesmerter | /ˈmɑːɡəˌsmæʈtər/ | Jeg har magesmerter. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_magesmerter_6487441_001.mp3"></audio> |
 | noun | back pain | en ryggsmerter | /ˈrʏɡˌsmæʈtər/ | Jeg har ryggsmerter. | null |
 | noun | rash | en utslett | /ˈʉtʂlɛt/ | Jeg har utslett på armen. | null |
 | noun | allergy | en allergi | /ɑlɛrˈɡiː/ | Jeg har allergi. | null |
-| noun | infection | en infeksjon | /ɪnˈfɛkʂuːn/ | Jeg tror det er en infeksjon. | [Play audio](../assets/audio/forvo_no/no_infeksjon_4757962_001.mp3) (`audio/forvo_no/no_infeksjon_4757962_001.mp3`) |
-| noun | inflammation | en betennelse | /bəˈtɛnːəlsə/ | Det er betennelse i øret. | [Play audio](../assets/audio/forvo_no/no_betennelse_1063302_001.mp3) (`audio/forvo_no/no_betennelse_1063302_001.mp3`) |
-| noun | feeling | en form | /fɔʈm/ | Hvordan er formen? | [Play audio](../assets/audio/forvo_no/no_form_7910426_001.mp3) (`audio/forvo_no/no_form_7910426_001.mp3`) |
+| noun | infection | en infeksjon | /ɪnˈfɛkʂuːn/ | Jeg tror det er en infeksjon. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_infeksjon_4757962_001.mp3"></audio> |
+| noun | inflammation | en betennelse | /bəˈtɛnːəlsə/ | Det er betennelse i øret. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_betennelse_1063302_001.mp3"></audio> |
+| noun | feeling | en form | /fɔʈm/ | Hvordan er formen? | <audio controls preload="none" src="../../assets/audio/forvo_no/no_form_7910426_001.mp3"></audio> |
 | noun | temperature (body) | en kroppstemperatur | /ˈkrɔpːsˌtɛmpərɑˌtʉːr/ | Kroppstemperaturen er høy. | null |
-| noun | blood sugar | et blodsukker | /ˈbluːdˌsʉkːər/ | Blodsukkeret er lavt. | [Play audio](../assets/audio/forvo_no/no_blodsukker_4616723_001.mp3) (`audio/forvo_no/no_blodsukker_4616723_001.mp3`) |
-| noun | pulse | en puls | /pʉls/ | Pulsen er rask. | [Play audio](../assets/audio/forvo_no/no_puls_4764860_001.mp3) (`audio/forvo_no/no_puls_4764860_001.mp3`) |
-| noun | weight | en vekt | /ʋɛkt/ | Vekten min er stabil. | [Play audio](../assets/audio/forvo_no/no_vekt_3518468_001.mp3) (`audio/forvo_no/no_vekt_3518468_001.mp3`) |
-| noun | height | en høyde | /ˈhøːydə/ | Høyden min er 175. | [Play audio](../assets/audio/forvo_no/no_h_yde_3828030_001.mp3) (`audio/forvo_no/no_h_yde_3828030_001.mp3`) |
+| noun | blood sugar | et blodsukker | /ˈbluːdˌsʉkːər/ | Blodsukkeret er lavt. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_blodsukker_4616723_001.mp3"></audio> |
+| noun | pulse | en puls | /pʉls/ | Pulsen er rask. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_puls_4764860_001.mp3"></audio> |
+| noun | weight | en vekt | /ʋɛkt/ | Vekten min er stabil. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_vekt_3518468_001.mp3"></audio> |
+| noun | height | en høyde | /ˈhøːydə/ | Høyden min er 175. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_h_yde_3828030_001.mp3"></audio> |
 | noun | test result | et prøvesvar | /ˈprøːʋəˌsʋɑːr/ | Prøvesvaret kom i dag. | null |
-| noun | x-ray | en røntgen | /ˈrœntɡən/ | Jeg skal ta røntgen. | [Play audio](../assets/audio/forvo_no/no_r_ntgen_3731072_001.mp3) (`audio/forvo_no/no_r_ntgen_3731072_001.mp3`) |
+| noun | x-ray | en røntgen | /ˈrœntɡən/ | Jeg skal ta røntgen. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_r_ntgen_3731072_001.mp3"></audio> |
 | noun | ultrasound | en ultralyd | /ˈʉltrɑˌlyːd/ | De bestilte ultralyd. | null |
 | noun | scan | en skanning | /ˈskɑnːɪŋ/ | Jeg skal til skanning. | null |
-| noun | specialist | en spesialist | /spɛsɪɑˈlɪst/ | Legen henviser til spesialist. | [Play audio](../assets/audio/forvo_no/no_spesialist_4757939_001.mp3) (`audio/forvo_no/no_spesialist_4757939_001.mp3`) |
-| noun | follow-up | en oppfølging | /ˈɔpːfœlɪŋ/ | Jeg får oppfølging. | [Play audio](../assets/audio/forvo_no/no_oppf_lging_4614045_001.mp3) (`audio/forvo_no/no_oppf_lging_4614045_001.mp3`) |
-| noun | treatment | en behandling | /bəˈhɑnːdlɪŋ/ | Behandlingen hjelper. | [Play audio](../assets/audio/forvo_no/no_behandling_582463_001.mp3) (`audio/forvo_no/no_behandling_582463_001.mp3`) |
-| noun | diagnosis | en diagnose | /dɪɑɡˈnuːsə/ | Diagnosen er klar. | [Play audio](../assets/audio/forvo_no/no_diagnose_4748185_001.mp3) (`audio/forvo_no/no_diagnose_4748185_001.mp3`) |
-| noun | prescription | en resept | /reˈsɛpt/ | Jeg trenger resept. | [Play audio](../assets/audio/forvo_no/no_resept_4761770_001.mp3) (`audio/forvo_no/no_resept_4761770_001.mp3`) |
-| noun | medicine | en medisin | /mɛdɪˈsiːn/ | Jeg tar medisin. | [Play audio](../assets/audio/forvo_no/no_medisin_3555506_001.mp3) (`audio/forvo_no/no_medisin_3555506_001.mp3`) |
+| noun | specialist | en spesialist | /spɛsɪɑˈlɪst/ | Legen henviser til spesialist. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_spesialist_4757939_001.mp3"></audio> |
+| noun | follow-up | en oppfølging | /ˈɔpːfœlɪŋ/ | Jeg får oppfølging. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_oppf_lging_4614045_001.mp3"></audio> |
+| noun | treatment | en behandling | /bəˈhɑnːdlɪŋ/ | Behandlingen hjelper. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_behandling_582463_001.mp3"></audio> |
+| noun | diagnosis | en diagnose | /dɪɑɡˈnuːsə/ | Diagnosen er klar. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_diagnose_4748185_001.mp3"></audio> |
+| noun | prescription | en resept | /reˈsɛpt/ | Jeg trenger resept. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_resept_4761770_001.mp3"></audio> |
+| noun | medicine | en medisin | /mɛdɪˈsiːn/ | Jeg tar medisin. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_medisin_3555506_001.mp3"></audio> |
 | noun | vaccination | en vaksine | /ʋɑkˈsiːnə/ | Jeg trenger en vaksine. | null |
-| noun | sick note | en legeerklæring | /ˈleːɡəˌæʁklæːrɪŋ/ | Jeg trenger legeerklæring. | [Play audio](../assets/audio/forvo_no/no_legeerkl_ring_4331433_001.mp3) (`audio/forvo_no/no_legeerkl_ring_4331433_001.mp3`) |
-| noun | sick leave | en sykmelding | /ˈsyːkmɛldɪŋ/ | Legen skriver sykmelding. | [Play audio](../assets/audio/forvo_no/no_sykmelding_7714474_001.mp3) (`audio/forvo_no/no_sykmelding_7714474_001.mp3`) |
-| noun | medical certificate | en legeattest | /ˈleːɡəˌɑtɛst/ | Jeg trenger legeattest. | [Play audio](../assets/audio/forvo_no/no_legeattest_6463573_001.mp3) (`audio/forvo_no/no_legeattest_6463573_001.mp3`) |
-| noun | medical history | en sykehistorie | /ˈsyːkəˌhɪstuːriə/ | Fortell om sykehistorien. | [Play audio](../assets/audio/forvo_no/no_sykehistorie_8150031_001.mp3) (`audio/forvo_no/no_sykehistorie_8150031_001.mp3`) |
+| noun | sick note | en legeerklæring | /ˈleːɡəˌæʁklæːrɪŋ/ | Jeg trenger legeerklæring. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_legeerkl_ring_4331433_001.mp3"></audio> |
+| noun | sick leave | en sykmelding | /ˈsyːkmɛldɪŋ/ | Legen skriver sykmelding. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_sykmelding_7714474_001.mp3"></audio> |
+| noun | medical certificate | en legeattest | /ˈleːɡəˌɑtɛst/ | Jeg trenger legeattest. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_legeattest_6463573_001.mp3"></audio> |
+| noun | medical history | en sykehistorie | /ˈsyːkəˌhɪstuːriə/ | Fortell om sykehistorien. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_sykehistorie_8150031_001.mp3"></audio> |
 | noun | allergy test | en allergitest | /ɑlɛrɡiˈtɛst/ | Jeg tar en allergitest. | null |
 | noun | urine test | en urinprøve | /ʉˈriːnˌprøːʋə/ | Jeg leverer en urinprøve. | null |
-| noun | sample | en prøve | /ˈprøːʋə/ | Vi tar en prøve. | [Play audio](../assets/audio/forvo_no/no_pr_ve_611356_001.mp3) (`audio/forvo_no/no_pr_ve_611356_001.mp3`) |
-| noun | bandage | en bandasje | /bɑnˈdɑːʂə/ | Jeg trenger bandasje. | [Play audio](../assets/audio/forvo_no/no_bandasje_2887125_001.mp3) (`audio/forvo_no/no_bandasje_2887125_001.mp3`) |
-| noun | wound | et sår | /soːr/ | Såret må renses. | [Play audio](../assets/audio/forvo_no/no_s_r_4344200_001.mp3) (`audio/forvo_no/no_s_r_4344200_001.mp3`) |
+| noun | sample | en prøve | /ˈprøːʋə/ | Vi tar en prøve. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_pr_ve_611356_001.mp3"></audio> |
+| noun | bandage | en bandasje | /bɑnˈdɑːʂə/ | Jeg trenger bandasje. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_bandasje_2887125_001.mp3"></audio> |
+| noun | wound | et sår | /soːr/ | Såret må renses. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_s_r_4344200_001.mp3"></audio> |
 | noun | bruise | et blåmerke | /ˈbloːˌmærkə/ | Jeg har et blåmerke. | null |
-| noun | swelling | en hevelse | /ˈheːʋəlsə/ | Det er hevelse. | [Play audio](../assets/audio/forvo_no/no_hevelse_4673354_001.mp3) (`audio/forvo_no/no_hevelse_4673354_001.mp3`) |
-| noun | sprain | en forstuing | /fʊˈstʉːɪŋ/ | Det er en forstuing. | [Play audio](../assets/audio/forvo_no/no_forstuing_4619658_001.mp3) (`audio/forvo_no/no_forstuing_4619658_001.mp3`) |
-| noun | fracture | et brudd | /brʉd/ | Det er kanskje et brudd. | [Play audio](../assets/audio/forvo_no/no_brudd_4746661_001.mp3) (`audio/forvo_no/no_brudd_4746661_001.mp3`) |
-| noun | stitch | en sting | /stɪŋ/ | Såret trenger sting. | [Play audio](../assets/audio/forvo_no/no_Sting_2846865_001.mp3) (`audio/forvo_no/no_Sting_2846865_001.mp3`) |
+| noun | swelling | en hevelse | /ˈheːʋəlsə/ | Det er hevelse. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_hevelse_4673354_001.mp3"></audio> |
+| noun | sprain | en forstuing | /fʊˈstʉːɪŋ/ | Det er en forstuing. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_forstuing_4619658_001.mp3"></audio> |
+| noun | fracture | et brudd | /brʉd/ | Det er kanskje et brudd. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_brudd_4746661_001.mp3"></audio> |
+| noun | stitch | en sting | /stɪŋ/ | Såret trenger sting. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_Sting_2846865_001.mp3"></audio> |
 | noun | allergy | en allergi | /ɑlɛrˈɡiː/ | Har du allergi? | null |
 | noun | medication list | en medisinliste | /mɛdɪˈsiːnˌlɪstə/ | Ta med medisinlisten. | null |
-| noun | side effect | en bivirkning | /ˈbiːʋɪʈkniŋ/ | Har medisinen en bivirkning? | [Play audio](../assets/audio/forvo_no/no_bivirkning_4747217_001.mp3) (`audio/forvo_no/no_bivirkning_4747217_001.mp3`) |
-| noun | dose | en dose | /ˈduːsə/ | Ta riktig dose. | [Play audio](../assets/audio/forvo_no/no_dose_4323037_001.mp3) (`audio/forvo_no/no_dose_4323037_001.mp3`) |
+| noun | side effect | en bivirkning | /ˈbiːʋɪʈkniŋ/ | Har medisinen en bivirkning? | <audio controls preload="none" src="../../assets/audio/forvo_no/no_bivirkning_4747217_001.mp3"></audio> |
+| noun | dose | en dose | /ˈduːsə/ | Ta riktig dose. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_dose_4323037_001.mp3"></audio> |
 | noun | appointment reminder | en timepåminnelse | /ˈtiːməpɔˌmɪnːəlsə/ | Du får timepåminnelse. | null |
 | verb | to book an appointment | å bestille time, bestiller time, bestillte time, har bestillt time | /beˈstɪlə ˈtiːmə/ | Jeg vil bestille time. | null |
-| verb | to cancel | å avbestille, avbestiller, avbestillte, har avbestillt | /ˈɑːʋbəˌstɪlːə/ | Jeg må avbestille timen. | [Play audio](../assets/audio/forvo_no/no_avbestille_1091423_001.mp3) (`audio/forvo_no/no_avbestille_1091423_001.mp3`) |
+| verb | to cancel | å avbestille, avbestiller, avbestillte, har avbestillt | /ˈɑːʋbəˌstɪlːə/ | Jeg må avbestille timen. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_avbestille_1091423_001.mp3"></audio> |
 | verb | to reschedule | å flytte timen, flytter timen, flyttet timen, har flyttet timen | /ˈflʏtə ˈtiːmən/ | Kan vi flytte timen? | null |
-| verb | to wait | å vente, venter, ventet, har ventet | /ˈʋɛnːtə/ | Jeg må vente litt. | [Play audio](../assets/audio/forvo_no/no_vente_7325791_001.mp3) (`audio/forvo_no/no_vente_7325791_001.mp3`) |
+| verb | to wait | å vente, venter, ventet, har ventet | /ˈʋɛnːtə/ | Jeg må vente litt. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_vente_7325791_001.mp3"></audio> |
 | verb | to measure | å måle, måler, målte, har målt | /ˈmoːlə/ | Sykepleieren måler blodtrykket. | null |
 | verb | to take a test | å ta en test, tar en test, tok en test, har tatt en test | /tɑ en tɛst/ | Vi tar en test i dag. | null |
-| verb | to prescribe | å skrive ut, skriver ut, skrev ut, har skrevet ut | /ˈskriːʋə ʉːt/ | Legen skriver ut medisin. | [Play audio](../assets/audio/forvo_no/no_skrive_ut_1331462_001.mp3) (`audio/forvo_no/no_skrive_ut_1331462_001.mp3`) |
-| verb | to refer | å henvise, henviser, henviset, har henviset | /ˈhɛnʋiːsə/ | Legen henviser videre. | [Play audio](../assets/audio/forvo_no/no_henvise_4746813_001.mp3) (`audio/forvo_no/no_henvise_4746813_001.mp3`) |
+| verb | to prescribe | å skrive ut, skriver ut, skrev ut, har skrevet ut | /ˈskriːʋə ʉːt/ | Legen skriver ut medisin. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_skrive_ut_1331462_001.mp3"></audio> |
+| verb | to refer | å henvise, henviser, henviset, har henviset | /ˈhɛnʋiːsə/ | Legen henviser videre. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_henvise_4746813_001.mp3"></audio> |
 | verb | to recover | å bli frisk, blir frisk, ble frisk, har blitt frisk | /bli frɪsk/ | Jeg håper å bli frisk. | null |
-| verb | to rest | å hvile, hviler, hvilte, har hvilt | /ˈʋiːlə/ | Du bør hvile. | [Play audio](../assets/audio/forvo_no/no_hvile_2589070_001.mp3) (`audio/forvo_no/no_hvile_2589070_001.mp3`) |
+| verb | to rest | å hvile, hviler, hvilte, har hvilt | /ˈʋiːlə/ | Du bør hvile. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_hvile_2589070_001.mp3"></audio> |
 | verb | to describe symptoms | å beskrive symptomer, beskriver symptomer, beskrev symptomer, har beskrevet symptomer | /beˈskriːʋə sympˈtuːmər/ | Kan du beskrive symptomene? | null |
 | adjective | urgent | akutt | /ɑˈkʉt/ | Det er akutt. | null |
-| adjective | mild | mild | /mɪl/ | Smerten er mild. | [Play audio](../assets/audio/forvo_no/no_mild_3243182_001.mp3) (`audio/forvo_no/no_mild_3243182_001.mp3`) |
-| adjective | severe | sterk | /stæʂk/ | Smerten er sterk. | [Play audio](../assets/audio/forvo_no/no_sterk_691825_001.mp3) (`audio/forvo_no/no_sterk_691825_001.mp3`) |
-| adjective | high (fever) | høy | /høːy/ | Feberen er høy. | [Play audio](../assets/audio/forvo_no/no_h_y_743184_001.mp3) (`audio/forvo_no/no_h_y_743184_001.mp3`) |
-| adjective | low (fever) | lav | /lɑːʋ/ | Feberen er lav nå. | [Play audio](../assets/audio/forvo_no/no_lav_4331346_001.mp3) (`audio/forvo_no/no_lav_4331346_001.mp3`) |
-| adjective | better | bedre | /ˈbeːdrə/ | Jeg føler meg bedre. | [Play audio](../assets/audio/forvo_no/no_bedre_4331335_001.mp3) (`audio/forvo_no/no_bedre_4331335_001.mp3`) |
-| adjective | worse | verre | /ˈʋæʁə/ | Jeg føler meg verre. | [Play audio](../assets/audio/forvo_no/no_verre_2346215_001.mp3) (`audio/forvo_no/no_verre_2346215_001.mp3`) |
-| adjective | tired | trøtt | /trœt/ | Jeg er veldig trøtt. | [Play audio](../assets/audio/forvo_no/no_tr_tt_805130_001.mp3) (`audio/forvo_no/no_tr_tt_805130_001.mp3`) |
-| adjective | nauseous | kvalm | /ˈkʋɑlm/ | Jeg er kvalm. | [Play audio](../assets/audio/forvo_no/no_kvalm_353330_001.mp3) (`audio/forvo_no/no_kvalm_353330_001.mp3`) |
-| adjective | short of breath | tungpustet | /ˈtʉŋˌpʉstət/ | Jeg blir tungpustet. | [Play audio](../assets/audio/forvo_no/no_tungpustet_7971067_001.mp3) (`audio/forvo_no/no_tungpustet_7971067_001.mp3`) |
+| adjective | mild | mild | /mɪl/ | Smerten er mild. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_mild_3243182_001.mp3"></audio> |
+| adjective | severe | sterk | /stæʂk/ | Smerten er sterk. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_sterk_691825_001.mp3"></audio> |
+| adjective | high (fever) | høy | /høːy/ | Feberen er høy. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_h_y_743184_001.mp3"></audio> |
+| adjective | low (fever) | lav | /lɑːʋ/ | Feberen er lav nå. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_lav_4331346_001.mp3"></audio> |
+| adjective | better | bedre | /ˈbeːdrə/ | Jeg føler meg bedre. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_bedre_4331335_001.mp3"></audio> |
+| adjective | worse | verre | /ˈʋæʁə/ | Jeg føler meg verre. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_verre_2346215_001.mp3"></audio> |
+| adjective | tired | trøtt | /trœt/ | Jeg er veldig trøtt. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_tr_tt_805130_001.mp3"></audio> |
+| adjective | nauseous | kvalm | /ˈkʋɑlm/ | Jeg er kvalm. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_kvalm_353330_001.mp3"></audio> |
+| adjective | short of breath | tungpustet | /ˈtʉŋˌpʉstət/ | Jeg blir tungpustet. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_tungpustet_7971067_001.mp3"></audio> |
 | expression | I need to see a doctor. | Jeg må til lege. | /jæɪ mɔː tɪl ˈleːɡə/ | Jeg må til lege i dag. | null |
 | expression | Do I need a referral? | Trenger jeg henvisning? | /ˈtrɛŋər jæɪ ˈhɛnʋiːsniŋ/ | Trenger jeg henvisning til spesialist? | null |
 | expression | I feel dizzy. | Jeg føler meg svimmel. | /jæɪ ˈføːlər mæɪ ˈsʋɪmːəl/ | Jeg føler meg svimmel. | null |
 | expression | I have a fever. | Jeg har feber. | /jæɪ hɑr ˈfeːbər/ | Jeg har feber i dag. | null |
 | expression | It hurts when I swallow. | Det gjør vondt å svelge. | /deːt ˈjøːr ʋɔnt o ˈsʋɛlɡə/ | Det gjør vondt å svelge. | null |
 | noun | appointment letter | et timebrev | /ˈtiːməˌbreːʋ/ | Jeg fikk et timebrev. | null |
-| noun | refill (prescription) | en fornyelse | /fɔrˈnyːəlsə/ | Jeg trenger fornyelse av resept. | [Play audio](../assets/audio/forvo_no/no_fornyelse_4761475_001.mp3) (`audio/forvo_no/no_fornyelse_4761475_001.mp3`) |
+| noun | refill (prescription) | en fornyelse | /fɔrˈnyːəlsə/ | Jeg trenger fornyelse av resept. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_fornyelse_4761475_001.mp3"></audio> |
 | noun | pain scale | en smerteskala | /ˈsmæʈtəˌskɑːlɑ/ | Smerteskala fra 1 til 10. | null |
 | verb | to take blood pressure | å måle blodtrykk, måler blodtrykk, målte blodtrykk, har målt blodtrykk | /ˈmoːlə ˈbluːdˌtrʏk/ | Sykepleieren måler blodtrykk. | null |
-| adjective | chronic | kronisk | /ˈkruːnɪsk/ | Det er en kronisk sykdom. | [Play audio](../assets/audio/forvo_no/no_kronisk_744524_001.mp3) (`audio/forvo_no/no_kronisk_744524_001.mp3`) |
+| adjective | chronic | kronisk | /ˈkruːnɪsk/ | Det er en kronisk sykdom. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_kronisk_744524_001.mp3"></audio> |
 | expression | I need a sick note. | Jeg trenger sykmelding. | /jæɪ ˈtrɛŋər ˈsyːkmɛldɪŋ/ | Jeg trenger sykmelding. | null |
 | expression | Can you check my blood pressure? | Kan du sjekke blodtrykket mitt? | /kɑn dʉ ˈʂɛkːə ˈbluːdˌtrʏkət mɪt/ | Kan du sjekke blodtrykket mitt? | null |

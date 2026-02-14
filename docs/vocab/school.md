@@ -4,112 +4,112 @@ Source: `vocab/school.tsv`
 
 | lexical-category | english | norwegian | pronunciation | example_sentence | audio_file |
 |---|---|---|---|---|---|
-| noun | school | en skole | /ˈskuːlə/ | Jeg går på skole i nærheten. | [Play audio](../assets/audio/forvo_no/no_skole_2187477_001.mp3) (`audio/forvo_no/no_skole_2187477_001.mp3`) |
+| noun | school | en skole | /ˈskuːlə/ | Jeg går på skole i nærheten. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_skole_2187477_001.mp3"></audio> |
 | noun | teacher | en lærer | /ˈlɛːrər/ | Læreren forklarer oppgaven. | null |
-| noun | student | en elev | /eˈleːv/ | Hun er en flink elev. | [Play audio](../assets/audio/forvo_no/no_elev_4742406_001.mp3) (`audio/forvo_no/no_elev_4742406_001.mp3`) |
-| noun | class (lesson) | en time | /ˈtiːmə/ | Vi har norsk time nå. | [Play audio](../assets/audio/forvo_no/no_time_3240092_001.mp3) (`audio/forvo_no/no_time_3240092_001.mp3`) |
-| noun | class (group) | en klasse | /ˈklɑsə/ | Klassen starter klokka åtte. | [Play audio](../assets/audio/forvo_no/no_klasse_1498543_001.mp3) (`audio/forvo_no/no_klasse_1498543_001.mp3`) |
+| noun | student | en elev | /eˈleːv/ | Hun er en flink elev. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_elev_4742406_001.mp3"></audio> |
+| noun | class (lesson) | en time | /ˈtiːmə/ | Vi har norsk time nå. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_time_3240092_001.mp3"></audio> |
+| noun | class (group) | en klasse | /ˈklɑsə/ | Klassen starter klokka åtte. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_klasse_1498543_001.mp3"></audio> |
 | noun | homework | en lekse | /ˈlɛksə/ | Jeg gjør en lekse etter middag. | null |
-| noun | assignment | en oppgave | /ˈɔpːɡɑːvə/ | Dette er en vanskelig oppgave. | [Play audio](../assets/audio/forvo_no/no_oppgave_1432170_001.mp3) (`audio/forvo_no/no_oppgave_1432170_001.mp3`) |
+| noun | assignment | en oppgave | /ˈɔpːɡɑːvə/ | Dette er en vanskelig oppgave. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_oppgave_1432170_001.mp3"></audio> |
 | noun | textbook | ei lærebok | /ˈlɛːrəbuːk/ | Jeg leser i læreboka. | null |
-| noun | notebook | ei notatbok | /nʊˈtɑːtbuːk/ | Hun skriver i notatboka. | [Play audio](../assets/audio/forvo_no/no_notatbok_6474605_001.mp3) (`audio/forvo_no/no_notatbok_6474605_001.mp3`) |
+| noun | notebook | ei notatbok | /nʊˈtɑːtbuːk/ | Hun skriver i notatboka. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_notatbok_6474605_001.mp3"></audio> |
 | noun | pen | en penn | /pɛn/ | Har du en ekstra penn? | null |
-| noun | exam | en eksamen | /ɛkˈsɑːmən/ | Vi har eksamen på fredag. | [Play audio](../assets/audio/forvo_no/no_eksamen_2905501_001.mp3) (`audio/forvo_no/no_eksamen_2905501_001.mp3`) |
-| verb | to learn | å lære, lærer, lærte, har lært | /ˈlɛːrə/ | Jeg lærer norsk hver dag. | [Play audio](../assets/audio/forvo_no/no_l_re_4340456_001.mp3) (`audio/forvo_no/no_l_re_4340456_001.mp3`) |
-| verb | to study | å studere, studerer, studerte, har studert | /stʉˈdeːrə/ | Han studerer på universitetet. | [Play audio](../assets/audio/forvo_no/no_studere_1167322_001.mp3) (`audio/forvo_no/no_studere_1167322_001.mp3`) |
-| verb | to understand | å forstå, forstår, forstod, har forstått | /fɔʂˈtoː/ | Jeg forstår nesten alt. | [Play audio](../assets/audio/forvo_no/no_forst_493003_001.mp3) (`audio/forvo_no/no_forst_493003_001.mp3`) |
-| adjective | difficult | vanskelig | /ˈvɑnʃəli/ | Dette er litt vanskelig. | [Play audio](../assets/audio/forvo_no/no_vanskelig_353306_001.mp3) (`audio/forvo_no/no_vanskelig_353306_001.mp3`) |
-| adjective | easy | lett | /lɛt/ | Oppgaven er lett. | [Play audio](../assets/audio/forvo_no/no_lett_4331653_001.mp3) (`audio/forvo_no/no_lett_4331653_001.mp3`) |
-| adverb | carefully | nøye | /ˈnøːjə/ | Les teksten nøye. | [Play audio](../assets/audio/forvo_no/no_n_ye_4324846_001.mp3) (`audio/forvo_no/no_n_ye_4324846_001.mp3`) |
+| noun | exam | en eksamen | /ɛkˈsɑːmən/ | Vi har eksamen på fredag. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_eksamen_2905501_001.mp3"></audio> |
+| verb | to learn | å lære, lærer, lærte, har lært | /ˈlɛːrə/ | Jeg lærer norsk hver dag. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_l_re_4340456_001.mp3"></audio> |
+| verb | to study | å studere, studerer, studerte, har studert | /stʉˈdeːrə/ | Han studerer på universitetet. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_studere_1167322_001.mp3"></audio> |
+| verb | to understand | å forstå, forstår, forstod, har forstått | /fɔʂˈtoː/ | Jeg forstår nesten alt. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_forst_493003_001.mp3"></audio> |
+| adjective | difficult | vanskelig | /ˈvɑnʃəli/ | Dette er litt vanskelig. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_vanskelig_353306_001.mp3"></audio> |
+| adjective | easy | lett | /lɛt/ | Oppgaven er lett. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_lett_4331653_001.mp3"></audio> |
+| adverb | carefully | nøye | /ˈnøːjə/ | Les teksten nøye. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_n_ye_4324846_001.mp3"></audio> |
 | expression | Can you repeat? | Kan du gjenta? | /kɑn dʉ jɛnˈtɑː/ | Kan du gjenta spørsmålet? | null |
 | noun | break (recess) | en pause | /ˈpæʉsə/ | Vi har pause klokka ti. | null |
-| noun | grade | en karakter | /kɑrɑkˈteːr/ | Hun fikk god karakter. | [Play audio](../assets/audio/forvo_no/no_karakter_1167214_001.mp3) (`audio/forvo_no/no_karakter_1167214_001.mp3`) |
-| noun | classroom | en klasserom | /ˈklɑsəˌrʊm/ | Klasserommet er lyst. | [Play audio](../assets/audio/forvo_no/no_klasserom_3243135_001.mp3) (`audio/forvo_no/no_klasserom_3243135_001.mp3`) |
-| noun | desk | en pult | /pʉlt/ | Jeg sitter ved pulten. | [Play audio](../assets/audio/forvo_no/no_pult_4772840_001.mp3) (`audio/forvo_no/no_pult_4772840_001.mp3`) |
-| noun | chair | en stol | /stuːl/ | Stolen er gammel. | [Play audio](../assets/audio/forvo_no/no_stol_316094_001.mp3) (`audio/forvo_no/no_stol_316094_001.mp3`) |
+| noun | grade | en karakter | /kɑrɑkˈteːr/ | Hun fikk god karakter. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_karakter_1167214_001.mp3"></audio> |
+| noun | classroom | en klasserom | /ˈklɑsəˌrʊm/ | Klasserommet er lyst. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_klasserom_3243135_001.mp3"></audio> |
+| noun | desk | en pult | /pʉlt/ | Jeg sitter ved pulten. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_pult_4772840_001.mp3"></audio> |
+| noun | chair | en stol | /stuːl/ | Stolen er gammel. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_stol_316094_001.mp3"></audio> |
 | noun | board | en tavle | /ˈtɑːʋlə/ | Læreren skriver på tavla. | null |
 | noun | marker | en whiteboardtusj | /ˈʋaɪtbɔːdˌtʉʂ/ | Jeg trenger en tusj. | null |
-| noun | eraser | et viskelær | /ˈʋɪskəˌlɛːr/ | Viskelæret ligger på pulten. | [Play audio](../assets/audio/forvo_no/no_viskel_r_800834_001.mp3) (`audio/forvo_no/no_viskel_r_800834_001.mp3`) |
-| noun | ruler | en linjal | /ˈlɪnːjɑːl/ | Han bruker linjal. | [Play audio](../assets/audio/forvo_no/no_linjal_1179899_001.mp3) (`audio/forvo_no/no_linjal_1179899_001.mp3`) |
-| noun | pencil | en blyant | /ˈblyːɑnt/ | Jeg skriver med blyant. | [Play audio](../assets/audio/forvo_no/no_blyant_1065706_001.mp3) (`audio/forvo_no/no_blyant_1065706_001.mp3`) |
+| noun | eraser | et viskelær | /ˈʋɪskəˌlɛːr/ | Viskelæret ligger på pulten. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_viskel_r_800834_001.mp3"></audio> |
+| noun | ruler | en linjal | /ˈlɪnːjɑːl/ | Han bruker linjal. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_linjal_1179899_001.mp3"></audio> |
+| noun | pencil | en blyant | /ˈblyːɑnt/ | Jeg skriver med blyant. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_blyant_1065706_001.mp3"></audio> |
 | noun | highlighter | en markeringstusj | /mɑʈˈkeːrɪŋsˌtʉʂ/ | Jeg bruker markeringstusj. | null |
-| noun | folder | en mappe | /ˈmɑpːə/ | Legg arket i mappa. | [Play audio](../assets/audio/forvo_no/no_Mappe_4748453_001.mp3) (`audio/forvo_no/no_Mappe_4748453_001.mp3`) |
-| noun | paper | et ark | /ɑʈ/ | Jeg trenger et ark. | [Play audio](../assets/audio/forvo_no/no_ark_1179903_001.mp3) (`audio/forvo_no/no_ark_1179903_001.mp3`) |
+| noun | folder | en mappe | /ˈmɑpːə/ | Legg arket i mappa. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_Mappe_4748453_001.mp3"></audio> |
+| noun | paper | et ark | /ɑʈ/ | Jeg trenger et ark. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_ark_1179903_001.mp3"></audio> |
 | noun | worksheet | et arbeidsark | /ˈɑːrbæɪdsˌɑʈ/ | Arbeidsarket er delt ut. | null |
 | noun | whiteboard | en whiteboard | /ˈʋaɪtbɔːd/ | Vi bruker whiteboard. | null |
 | noun | projector | en prosjektor | /prʊʂɛkˈtuːr/ | Prosjektoren virker ikke. | null |
 | noun | presentation | en presentasjon | /prɛsɛntɑˈʂuːn/ | Jeg holder en presentasjon. | null |
-| noun | group work | en gruppearbeid | /ˈɡrʉpəˌɑːrbæɪd/ | Vi har gruppearbeid i dag. | [Play audio](../assets/audio/forvo_no/no_gruppearbeid_4772613_001.mp3) (`audio/forvo_no/no_gruppearbeid_4772613_001.mp3`) |
+| noun | group work | en gruppearbeid | /ˈɡrʉpəˌɑːrbæɪd/ | Vi har gruppearbeid i dag. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_gruppearbeid_4772613_001.mp3"></audio> |
 | noun | pair work | en pararbeid | /ˈpɑːrˌɑːrbæɪd/ | Vi jobber i pararbeid. | null |
-| noun | subject | en fag | /fɑːɡ/ | Norsk er mitt favorittfag. | [Play audio](../assets/audio/forvo_no/no_fag_1065633_001.mp3) (`audio/forvo_no/no_fag_1065633_001.mp3`) |
+| noun | subject | en fag | /fɑːɡ/ | Norsk er mitt favorittfag. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_fag_1065633_001.mp3"></audio> |
 | noun | math class | en mattetime | /ˈmɑtːəˌtiːmə/ | Vi har mattetime i dag. | null |
 | noun | Norwegian class | en norsktime | /ˈnɔʂkˌtiːmə/ | Norsktimen er vanskelig. | null |
-| noun | English class | en engelsktime | /ˈɛŋəlskˌtiːmə/ | Engelsktimen er nyttig. | [Play audio](../assets/audio/forvo_no/no_engelsktime_6057273_001.mp3) (`audio/forvo_no/no_engelsktime_6057273_001.mp3`) |
+| noun | English class | en engelsktime | /ˈɛŋəlskˌtiːmə/ | Engelsktimen er nyttig. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_engelsktime_6057273_001.mp3"></audio> |
 | noun | science class | en naturfagstime | /ˈnɑtʉːrˌfɑːɡˌtiːmə/ | Vi har naturfagstime i dag. | null |
 | noun | history | en historie | /hɪˈstuːriə/ | Historie handler om fortiden. | null |
-| noun | geography | en geografi | /ɡɛʊɡrɑˈfiː/ | Geografi lærer oss om land. | [Play audio](../assets/audio/forvo_no/no_geografi_617462_001.mp3) (`audio/forvo_no/no_geografi_617462_001.mp3`) |
+| noun | geography | en geografi | /ɡɛʊɡrɑˈfiː/ | Geografi lærer oss om land. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_geografi_617462_001.mp3"></audio> |
 | noun | gym class | en gymtime | /ˈjʏmˌtiːmə/ | Vi har gymtime i dag. | null |
 | noun | art class | en kunsttime | /ˈkʉnstˌtiːmə/ | Kunsttimen er morsom. | null |
 | noun | music class | en musikktime | /mʉˈsɪkˌtiːmə/ | Vi har musikktime i dag. | null |
-| noun | break time | et friminutt | /ˈfriːmɪnʉt/ | Friminuttet er kort. | [Play audio](../assets/audio/forvo_no/no_friminutt_5030058_001.mp3) (`audio/forvo_no/no_friminutt_5030058_001.mp3`) |
+| noun | break time | et friminutt | /ˈfriːmɪnʉt/ | Friminuttet er kort. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_friminutt_5030058_001.mp3"></audio> |
 | noun | calendar | en kalender | /kɑˈlɛnːdər/ | Datoen står i kalenderen. | null |
-| noun | semester | et semester | /səˈmɛstər/ | Semesteret starter i august. | [Play audio](../assets/audio/forvo_no/no_semester_2349285_001.mp3) (`audio/forvo_no/no_semester_2349285_001.mp3`) |
-| noun | term | en termin | /tærˈmiːn/ | Terminprøven er snart. | [Play audio](../assets/audio/forvo_no/no_Termin_4772690_001.mp3) (`audio/forvo_no/no_Termin_4772690_001.mp3`) |
-| noun | test | en prøve | /ˈprøːʋə/ | Vi har prøve i morgen. | [Play audio](../assets/audio/forvo_no/no_pr_ve_611356_001.mp3) (`audio/forvo_no/no_pr_ve_611356_001.mp3`) |
-| noun | quiz | en quiz | /kwɪs/ | Det er en kort quiz. | [Play audio](../assets/audio/forvo_no/no_quiz_4556372_001.mp3) (`audio/forvo_no/no_quiz_4556372_001.mp3`) |
-| noun | report | en innlevering | /ˈɪnːləˌʋeːrɪŋ/ | Innleveringen er på fredag. | [Play audio](../assets/audio/forvo_no/no_innlevering_4764773_001.mp3) (`audio/forvo_no/no_innlevering_4764773_001.mp3`) |
-| noun | deadline | en frist | /frɪst/ | Fristen er klokka to. | [Play audio](../assets/audio/forvo_no/no_Frist_6914564_001.mp3) (`audio/forvo_no/no_Frist_6914564_001.mp3`) |
+| noun | semester | et semester | /səˈmɛstər/ | Semesteret starter i august. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_semester_2349285_001.mp3"></audio> |
+| noun | term | en termin | /tærˈmiːn/ | Terminprøven er snart. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_Termin_4772690_001.mp3"></audio> |
+| noun | test | en prøve | /ˈprøːʋə/ | Vi har prøve i morgen. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_pr_ve_611356_001.mp3"></audio> |
+| noun | quiz | en quiz | /kwɪs/ | Det er en kort quiz. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_quiz_4556372_001.mp3"></audio> |
+| noun | report | en innlevering | /ˈɪnːləˌʋeːrɪŋ/ | Innleveringen er på fredag. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_innlevering_4764773_001.mp3"></audio> |
+| noun | deadline | en frist | /frɪst/ | Fristen er klokka to. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_Frist_6914564_001.mp3"></audio> |
 | noun | schedule | en timeplan | /ˈtiːməˌplɑːn/ | Timeplanen henger på veggen. | null |
 | noun | attendance | en oppmøte | /ˈɔpːmøːtə/ | Oppmøte er obligatorisk. | null |
-| noun | absence | en fravær | /ˈfrɑːʋæːr/ | Fravær må meldes. | [Play audio](../assets/audio/forvo_no/no_frav_r_2589904_001.mp3) (`audio/forvo_no/no_frav_r_2589904_001.mp3`) |
-| noun | certificate | en bevis | /ˈbæɪʋɪs/ | Jeg trenger kursbevis. | [Play audio](../assets/audio/forvo_no/no_bevis_1065582_001.mp3) (`audio/forvo_no/no_bevis_1065582_001.mp3`) |
-| noun | course | et kurs | /kʉːʂ/ | Kurset er på kvelden. | [Play audio](../assets/audio/forvo_no/no_Kurs_724295_001.mp3) (`audio/forvo_no/no_Kurs_724295_001.mp3`) |
-| noun | level | en nivå | /nɪˈʋoː/ | Jeg er på A2-nivå. | [Play audio](../assets/audio/forvo_no/no_niv_8261992_001.mp3) (`audio/forvo_no/no_niv_8261992_001.mp3`) |
+| noun | absence | en fravær | /ˈfrɑːʋæːr/ | Fravær må meldes. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_frav_r_2589904_001.mp3"></audio> |
+| noun | certificate | en bevis | /ˈbæɪʋɪs/ | Jeg trenger kursbevis. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_bevis_1065582_001.mp3"></audio> |
+| noun | course | et kurs | /kʉːʂ/ | Kurset er på kvelden. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_Kurs_724295_001.mp3"></audio> |
+| noun | level | en nivå | /nɪˈʋoː/ | Jeg er på A2-nivå. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_niv_8261992_001.mp3"></audio> |
 | noun | grade scale | en karakterskala | /kɑˈrɑktərˌskɑːlɑ/ | Karakterskalaen er 1 til 6. | null |
 | verb | to explain | å forklare, forklarer, forklarte, har forklart | /fɔˈklɑːrə/ | Læreren forklarer igjen. | null |
-| verb | to write | å skrive, skriver, skrev, har skrevet | /ˈskriːʋə/ | Jeg skriver et svar. | [Play audio](../assets/audio/forvo_no/no_skrive_1167436_001.mp3) (`audio/forvo_no/no_skrive_1167436_001.mp3`) |
+| verb | to write | å skrive, skriver, skrev, har skrevet | /ˈskriːʋə/ | Jeg skriver et svar. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_skrive_1167436_001.mp3"></audio> |
 | verb | to read | å lese, leser, leste, har lest | /ˈleːsə/ | Vi leser teksten høyt. | null |
-| verb | to listen | å lytte, lytter, lyttet, har lyttet | /ˈlʏtːə/ | Lytt til dialogen. | [Play audio](../assets/audio/forvo_no/no_lytte_3555504_001.mp3) (`audio/forvo_no/no_lytte_3555504_001.mp3`) |
-| verb | to speak | å snakke, snakker, snakket, har snakket | /ˈsnɑkːə/ | Vi snakker norsk. | [Play audio](../assets/audio/forvo_no/no_snakke_1268979_001.mp3) (`audio/forvo_no/no_snakke_1268979_001.mp3`) |
-| verb | to practice | å øve, øver, øvde, har øvd | /ˈøːʋə/ | Vi øver på uttale. | [Play audio](../assets/audio/forvo_no/no_ve_1065691_001.mp3) (`audio/forvo_no/no_ve_1065691_001.mp3`) |
-| verb | to ask | å spørre, spør, spurte, har spurt | /ˈspøːrə/ | Spør læreren hvis du lurer. | [Play audio](../assets/audio/forvo_no/no_sp_rre_1365716_001.mp3) (`audio/forvo_no/no_sp_rre_1365716_001.mp3`) |
-| verb | to answer | å svare, svarer, svarte, har svart | /ˈsʋɑːrə/ | Jeg svarer på spørsmålet. | [Play audio](../assets/audio/forvo_no/no_svare_1331464_001.mp3) (`audio/forvo_no/no_svare_1331464_001.mp3`) |
+| verb | to listen | å lytte, lytter, lyttet, har lyttet | /ˈlʏtːə/ | Lytt til dialogen. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_lytte_3555504_001.mp3"></audio> |
+| verb | to speak | å snakke, snakker, snakket, har snakket | /ˈsnɑkːə/ | Vi snakker norsk. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_snakke_1268979_001.mp3"></audio> |
+| verb | to practice | å øve, øver, øvde, har øvd | /ˈøːʋə/ | Vi øver på uttale. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_ve_1065691_001.mp3"></audio> |
+| verb | to ask | å spørre, spør, spurte, har spurt | /ˈspøːrə/ | Spør læreren hvis du lurer. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_sp_rre_1365716_001.mp3"></audio> |
+| verb | to answer | å svare, svarer, svarte, har svart | /ˈsʋɑːrə/ | Jeg svarer på spørsmålet. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_svare_1331464_001.mp3"></audio> |
 | verb | to correct | å rette, retter, rettet, har rettet | /ˈrɛtːə/ | Læreren retter teksten. | null |
 | verb | to hand in | å levere inn, leverer inn, leverte inn, har levert inn | /ˈleːʋərə ɪn/ | Jeg leverer inn oppgaven. | null |
 | verb | to take notes | å ta notater, tar notater, tok notater, har tatt notater | /tɑ nuˈtɑːtər/ | Jeg tar notater i timen. | null |
 | verb | to repeat | å gjenta, gjentar, gjentok, har gjentatt | /jɛnˈtɑː/ | Kan du gjenta det? | null |
-| verb | to translate | å oversette, oversetter, oversatte, har oversatt | /ˈuːʋərsɛtːə/ | Vi oversetter teksten. | [Play audio](../assets/audio/forvo_no/no_oversette_293670_001.mp3) (`audio/forvo_no/no_oversette_293670_001.mp3`) |
-| verb | to pronounce | å uttale, uttaler, uttalte, har uttalt | /ˈʉtːɑːlə/ | Hvordan uttaler man dette? | [Play audio](../assets/audio/forvo_no/no_uttale_222948_001.mp3) (`audio/forvo_no/no_uttale_222948_001.mp3`) |
-| verb | to improve | å forbedre, forbedrer, forbedret, har forbedret | /fʊrˈbeːdrə/ | Jeg vil forbedre norsken min. | [Play audio](../assets/audio/forvo_no/no_forbedre_4340446_001.mp3) (`audio/forvo_no/no_forbedre_4340446_001.mp3`) |
-| verb | to check | å kontrollere, kontrollerer, kontrollerte, har kontrollert | /kʊnˈtrɔlːeːrə/ | Vi kontrollerer svarene. | [Play audio](../assets/audio/forvo_no/no_kontrollere_4071940_001.mp3) (`audio/forvo_no/no_kontrollere_4071940_001.mp3`) |
-| verb | to pass | å bestå, består, bestod, har bestått | /bəˈstoː/ | Jeg håper å bestå prøven. | [Play audio](../assets/audio/forvo_no/no_best_1068366_001.mp3) (`audio/forvo_no/no_best_1068366_001.mp3`) |
-| verb | to fail | å stryke, stryker, strøk, har strøket | /ˈstryːkə/ | Jeg vil ikke stryke. | [Play audio](../assets/audio/forvo_no/no_stryke_4741794_001.mp3) (`audio/forvo_no/no_stryke_4741794_001.mp3`) |
-| adjective | correct | riktig | /ˈrɪkːtɪ/ | Svaret er riktig. | [Play audio](../assets/audio/forvo_no/no_riktig_821073_001.mp3) (`audio/forvo_no/no_riktig_821073_001.mp3`) |
-| adjective | wrong | feil | /fæɪl/ | Dette er feil. | [Play audio](../assets/audio/forvo_no/no_feil_805065_001.mp3) (`audio/forvo_no/no_feil_805065_001.mp3`) |
-| adjective | quiet | stille | /ˈstɪlːə/ | Vær stille i timen. | [Play audio](../assets/audio/forvo_no/no_stille_767362_001.mp3) (`audio/forvo_no/no_stille_767362_001.mp3`) |
+| verb | to translate | å oversette, oversetter, oversatte, har oversatt | /ˈuːʋərsɛtːə/ | Vi oversetter teksten. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_oversette_293670_001.mp3"></audio> |
+| verb | to pronounce | å uttale, uttaler, uttalte, har uttalt | /ˈʉtːɑːlə/ | Hvordan uttaler man dette? | <audio controls preload="none" src="../../assets/audio/forvo_no/no_uttale_222948_001.mp3"></audio> |
+| verb | to improve | å forbedre, forbedrer, forbedret, har forbedret | /fʊrˈbeːdrə/ | Jeg vil forbedre norsken min. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_forbedre_4340446_001.mp3"></audio> |
+| verb | to check | å kontrollere, kontrollerer, kontrollerte, har kontrollert | /kʊnˈtrɔlːeːrə/ | Vi kontrollerer svarene. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_kontrollere_4071940_001.mp3"></audio> |
+| verb | to pass | å bestå, består, bestod, har bestått | /bəˈstoː/ | Jeg håper å bestå prøven. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_best_1068366_001.mp3"></audio> |
+| verb | to fail | å stryke, stryker, strøk, har strøket | /ˈstryːkə/ | Jeg vil ikke stryke. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_stryke_4741794_001.mp3"></audio> |
+| adjective | correct | riktig | /ˈrɪkːtɪ/ | Svaret er riktig. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_riktig_821073_001.mp3"></audio> |
+| adjective | wrong | feil | /fæɪl/ | Dette er feil. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_feil_805065_001.mp3"></audio> |
+| adjective | quiet | stille | /ˈstɪlːə/ | Vær stille i timen. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_stille_767362_001.mp3"></audio> |
 | adjective | noisy | bråkete | /ˈbrɔːkətə/ | Klassen er bråkete. | null |
 | adjective | prepared | forberedt | /fɔrˈbæːrt/ | Jeg er forberedt. | null |
 | adjective | late | for sen | /fɔr seːn/ | Jeg er for sen i dag. | null |
-| adjective | hard | krevende | /ˈkreːʋəndə/ | Dette er krevende stoff. | [Play audio](../assets/audio/forvo_no/no_krevende_6474632_001.mp3) (`audio/forvo_no/no_krevende_6474632_001.mp3`) |
-| adjective | interesting | interessant | /ɪntəˈrɛsːɑnt/ | Dette er interessant. | [Play audio](../assets/audio/forvo_no/no_interessant_6333896_001.mp3) (`audio/forvo_no/no_interessant_6333896_001.mp3`) |
+| adjective | hard | krevende | /ˈkreːʋəndə/ | Dette er krevende stoff. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_krevende_6474632_001.mp3"></audio> |
+| adjective | interesting | interessant | /ɪntəˈrɛsːɑnt/ | Dette er interessant. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_interessant_6333896_001.mp3"></audio> |
 | expression | What does it mean? | Hva betyr det? | /ʋɑ bəˈtyːr deː/ | Hva betyr dette ordet? | null |
 | expression | How do you say ...? | Hvordan sier man ...? | /ʋuˈdɑn ˈsiːr mɑn/ | Hvordan sier man det på norsk? | null |
 | expression | I don't understand. | Jeg forstår ikke. | /jæɪ fɔʂˈtoːr ˈɪkə/ | Jeg forstår ikke oppgaven. | null |
 | expression | Can you help me? | Kan du hjelpe meg? | /kɑn dʉ ˈjɛlpə mæɪ/ | Kan du hjelpe meg med dette? | null |
 | expression | I am finished. | Jeg er ferdig. | /jæɪ ær ˈfæːɖɪ/ | Jeg er ferdig med prøven. | null |
-| noun | principal | en rektor | /ˈrɛkːtʊr/ | Rektoren holder tale. | [Play audio](../assets/audio/forvo_no/no_rektor_141785_001.mp3) (`audio/forvo_no/no_rektor_141785_001.mp3`) |
-| noun | classmate | en klassekamerat | /ˈklɑsəˌkɑməˌrɑːt/ | Klassekameraten min er hyggelig. | [Play audio](../assets/audio/forvo_no/no_klassekamerat_6365762_001.mp3) (`audio/forvo_no/no_klassekamerat_6365762_001.mp3`) |
+| noun | principal | en rektor | /ˈrɛkːtʊr/ | Rektoren holder tale. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_rektor_141785_001.mp3"></audio> |
+| noun | classmate | en klassekamerat | /ˈklɑsəˌkɑməˌrɑːt/ | Klassekameraten min er hyggelig. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_klassekamerat_6365762_001.mp3"></audio> |
 | noun | school library | et skolebibliotek | /ˈskuːləˌbɪbliɔˌteːk/ | Jeg låner bøker på skolebiblioteket. | null |
-| noun | dictionary | en ordbok | /ˈuːʈbuːk/ | Jeg bruker ordbok i timen. | [Play audio](../assets/audio/forvo_no/no_ordbok_315683_001.mp3) (`audio/forvo_no/no_ordbok_315683_001.mp3`) |
-| noun | graduation | en avslutning | /ˈɑːʋslʉtːnɪŋ/ | Avslutningen er i juni. | [Play audio](../assets/audio/forvo_no/no_avslutning_1065982_001.mp3) (`audio/forvo_no/no_avslutning_1065982_001.mp3`) |
-| noun | semester break | en ferie | /ˈfeːriə/ | Vi har ferie i juli. | [Play audio](../assets/audio/forvo_no/no_ferie_743145_001.mp3) (`audio/forvo_no/no_ferie_743145_001.mp3`) |
-| noun | computer | en datamaskin | /ˈdɑːtɑˌmɑʂiːn/ | Vi bruker datamaskin i undervisningen. | [Play audio](../assets/audio/forvo_no/no_datamaskin_623369_001.mp3) (`audio/forvo_no/no_datamaskin_623369_001.mp3`) |
+| noun | dictionary | en ordbok | /ˈuːʈbuːk/ | Jeg bruker ordbok i timen. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_ordbok_315683_001.mp3"></audio> |
+| noun | graduation | en avslutning | /ˈɑːʋslʉtːnɪŋ/ | Avslutningen er i juni. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_avslutning_1065982_001.mp3"></audio> |
+| noun | semester break | en ferie | /ˈfeːriə/ | Vi har ferie i juli. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_ferie_743145_001.mp3"></audio> |
+| noun | computer | en datamaskin | /ˈdɑːtɑˌmɑʂiːn/ | Vi bruker datamaskin i undervisningen. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_datamaskin_623369_001.mp3"></audio> |
 | noun | online class | en nettundervisning | /ˈnɛtːʉnˌdæʁʋɪsnɪŋ/ | Vi har nettundervisning i dag. | null |
 | noun | blackboard | en tavle | /ˈtɑːʋlə/ | Tavla er ren. | null |
-| noun | whiteboard marker | en tusj | /tʉʂ/ | Jeg trenger en tusj. | [Play audio](../assets/audio/forvo_no/no_tusj_4614037_001.mp3) (`audio/forvo_no/no_tusj_4614037_001.mp3`) |
+| noun | whiteboard marker | en tusj | /tʉʂ/ | Jeg trenger en tusj. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_tusj_4614037_001.mp3"></audio> |
 | noun | schedule change | en timeplanendring | /ˈtiːməˌplɑːnˌɛndrɪŋ/ | Det er en timeplanendring. | null |
-| noun | group | en gruppe | /ˈɡrʉpə/ | Vi jobber i en gruppe. | [Play audio](../assets/audio/forvo_no/no_Gruppe_1167212_001.mp3) (`audio/forvo_no/no_Gruppe_1167212_001.mp3`) |
+| noun | group | en gruppe | /ˈɡrʉpə/ | Vi jobber i en gruppe. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_Gruppe_1167212_001.mp3"></audio> |
 | verb | to hand out | å dele ut, deler ut, delte ut, har delt ut | /ˈdeːlə ʉːt/ | Læreren deler ut ark. | null |
 | verb | to review | å gå gjennom, går gjennom, gikk gjennom, har gått gjennom | /ɡoː ˈjɛnːəm/ | Vi går gjennom oppgaven. | null |
-| adjective | absent | fraværende | /ˈfrɑːʋæːrənə/ | Han er fraværende i dag. | [Play audio](../assets/audio/forvo_no/no_frav_rende_2077484_001.mp3) (`audio/forvo_no/no_frav_rende_2077484_001.mp3`) |
+| adjective | absent | fraværende | /ˈfrɑːʋæːrənə/ | Han er fraværende i dag. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_frav_rende_2077484_001.mp3"></audio> |
 | expression | May I ask a question? | Kan jeg stille et spørsmål? | /kɑn jæɪ ˈstɪlːə et ˈspøːrsmɔːl/ | Kan jeg stille et spørsmål? | null |

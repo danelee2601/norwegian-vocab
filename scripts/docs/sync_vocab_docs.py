@@ -77,8 +77,8 @@ def render_audio_cell(audio_value: str) -> str:
         return escape_md_cell(audio_value)
 
     filename = Path(audio_value).name
-    src = f"../assets/audio/forvo_no/{filename}"
-    return f"[Play audio]({src}) (`{escape_md_cell(audio_value)}`)"
+    src = f"../../assets/audio/forvo_no/{filename}"
+    return f'<audio controls preload="none" src="{src}"></audio>'
 
 
 def render_topic_markdown(stem: str, rows: list[dict[str, str]]) -> str:

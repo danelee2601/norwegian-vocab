@@ -29,6 +29,7 @@ Open any TSV in a spreadsheet or editor:
 
 ## How to Update `vocab/`
 
+### 1. Add new words
 Use `.agents/skills/add-new-words/SKILL.md` when you want Codex to add vocabulary rows into `vocab/*.tsv` files.
 
 What the skill does:
@@ -49,20 +50,14 @@ Example 2: Create a new TSV file and populate it
 $add-new-words create a new vocab/pets_animals.tsv file and add 30 practical everyday words
 ```
 
-## Docs (MkDocs)
+### 2. Update Docs (MkDocs)
 
 Generate docs from TSV files and serve with MkDocs:
 
 ```bash
-uv sync
-uv run python scripts/docs/sync_vocab_docs.py --write
+uv run pre-commit run --all-files
 uv run mkdocs serve
 ```
 
-Useful commands:
-
-```bash
-uv run mkdocs build
-uv run python scripts/docs/sync_vocab_docs.py --check
-uv run pre-commit run --all-files
-```
+## TODOs
+- [ ] github action CD integration for automatic github page deployment on github page.

@@ -10,6 +10,10 @@ dependencies = [
 
 [dependency-groups]
 dev = [
+    "mdformat>=0.7.22",
+    "mkdocs>=1.6.1",
+    "mkdocs-material>=9.6.20",
+    "pre-commit>=4.3.0",
     "pytest>=9.0.2",
     "pytest-cov>=7.0.0",
 ]

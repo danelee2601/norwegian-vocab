@@ -48,3 +48,21 @@ Example 2: Create a new TSV file and populate it
 ```text
 $add-new-words create a new vocab/pets_animals.tsv file and add 30 practical everyday words
 ```
+
+## Docs (MkDocs)
+
+Generate docs from TSV files and serve with MkDocs:
+
+```bash
+uv sync
+uv run python scripts/docs/sync_vocab_docs.py --write
+uv run mkdocs serve
+```
+
+Useful commands:
+
+```bash
+uv run mkdocs build
+uv run python scripts/docs/sync_vocab_docs.py --check
+uv run pre-commit run --all-files
+```

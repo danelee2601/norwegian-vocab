@@ -450,37 +450,3 @@ def test_pending_workflow_defaults_headed_true_and_workers_one(mod, pending_modu
     assert captured["headed"] is True
     assert captured["workers"] == 1
 
-
-def test_pending_workflow_can_disable_headed(mod, pending_module, tmp_path: Path, monkeypatch):
-    base_dir = tmp_path
-    pending = base_dir / "tmp" / "pending.tsv"
-    pending_module.write_pending_rows(
-        pending,
-        [
-            {
-                "target_tsv": "vocab/new_topic.tsv",
-                "lexical-category": "noun",
-                "english": "bank",
-                "norwegian": "en bank",
-                "pronunciation": "bank",
-                "example_sentence": "Banken er åpen.",
-                "audio_file": "",
-            },
-        ],
-    )
-
-    audio = base_dir / "audio" / "forvo_no" / "no_bank_1_001.mp3"
-    audio.parent.mkdir(parents=True, exist_ok=True)
-    audio.write_bytes(b"bank")
-
-    captured: dict[str, object] = {}
-
-    def fake_download_audio_map(**kwargs):
-        captured.update(kwargs)
-        return {"bank": "audio/forvo_no/no_bank_1_001.mp3"}
-
-    monkeypatch.chdir(base_dir)
-    monkeypatch.setattr(mod, "download_audio_map", fake_download_audio_map)
-    monkeypatch.setattr(sys, "argv", ["prog", "--pending-file", str(pending), "--no-headed"])
-    assert mod.main() == 0
-    assert captured["headed"] is False

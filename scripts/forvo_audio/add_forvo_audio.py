@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Download Norwegian audio from Forvo and update vocab TSV files.
+"""Download Norwegian audio from Forvo for pending rows and append to vocab TSV files.
 
 Rules:
 - noun: remove leading article en/ei/et
@@ -18,8 +18,8 @@ from pathlib import Path
 if __package__ is None or __package__ == "":
     sys.path.append(str(Path(__file__).resolve().parent))
 
-from audio_paths import normalize_audio_path, resolve_audio_path
-from audio_queries import extract_query, extract_row_query
+from audio_paths import resolve_audio_path
+from audio_queries import extract_row_query
 from forvo_download import (
     download_audio_map,
 )
@@ -33,11 +33,7 @@ from pending_words import (
 from vocab_tsv import (
     AUDIO_COLUMN,
     build_audio_map_from_vocab,
-    build_query_set,
-    ensure_audio_column,
-    iter_vocab_files,
     read_rows,
-    update_tsv,
 )
 
 NULL_AUDIO = "null"
@@ -47,7 +43,7 @@ def _resolve_headed_mode(args: argparse.Namespace) -> bool:
     if args.headed is not None:
         return args.headed
     # Pending flow defaults to visible browser for interactive Forvo scraping.
-    return bool(args.pending_file)
+    return True
 
 
 def _effective_workers(*, workers: int, headed: bool) -> int:
@@ -152,8 +148,7 @@ def _run_pending_workflow(args: argparse.Namespace, *, base_dir: Path) -> int:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--vocab-glob", default="vocab/*.tsv")
-    parser.add_argument("--pending-file", help="TSV containing rows to append, with a target_tsv column")
+    parser.add_argument("--pending-file", required=True, help="TSV containing rows to append, with a target_tsv column")
     parser.add_argument("--temp-dir", default="forvo_mp3")
     parser.add_argument("--audio-dir", default="audio/forvo_no")
     parser.add_argument("--workers", type=int, default=4)
@@ -165,41 +160,7 @@ def main() -> int:
 
     base_dir = Path.cwd()
     args.headed = _resolve_headed_mode(args)
-
-    if args.pending_file:
-        return _run_pending_workflow(args, base_dir=base_dir)
-
-    vocab_paths = iter_vocab_files(args.vocab_glob)
-    if not vocab_paths:
-        print("No vocab files found.")
-        return 1
-
-    queries = build_query_set(vocab_paths)
-    print(f"Unique queries: {len(queries)}")
-
-    existing_map = build_audio_map_from_vocab(vocab_paths, base_dir=base_dir)
-    audio_map = download_audio_map(
-        queries=queries,
-        temp_dir=Path(args.temp_dir),
-        audio_dir=Path(args.audio_dir),
-        headed=args.headed,
-        workers=_effective_workers(workers=args.workers, headed=args.headed),
-        base_dir=base_dir,
-        query_timeout_sec=args.query_timeout_sec,
-        initial_map=existing_map,
-    )
-    print(f"Resolved audio for {len(audio_map)} queries")
-
-    total_filled = 0
-    total_empty = 0
-    for path in vocab_paths:
-        filled, empty = update_tsv(path, audio_map)
-        total_filled += filled
-        total_empty += empty
-        print(f"updated {path}: filled={filled} empty={empty}")
-
-    print(f"Done. Total rows with audio: {total_filled}, without audio: {total_empty}")
-    return 0
+    return _run_pending_workflow(args, base_dir=base_dir)
 
 
 if __name__ == "__main__":

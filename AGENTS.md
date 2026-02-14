@@ -14,7 +14,7 @@
   - `uv sync` to install runtime + dev dependencies.
   - `uv run pytest -q` to run tests.
   - `uv run pytest --cov=. --cov-report=term-missing -q` to run tests with coverage.
-  - `uv run python scripts/forvo_audio/add_forvo_audio.py --vocab-glob 'vocab/*.tsv'` to refresh audio mappings.
+  - `uv run python scripts/forvo_audio/add_forvo_audio.py --pending-file tmp/pending.tsv` to process staged rows and append them to target vocab files.
 
 ## Testing Guide
 - Run tests before committing:

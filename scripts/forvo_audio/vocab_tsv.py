@@ -8,7 +8,8 @@ from audio_paths import normalize_audio_path, resolve_audio_path
 from audio_queries import extract_row_query
 
 AUDIO_COLUMN = "audio_file"
-NULL_AUDIO = "null"
+NULL_AUDIO = ""
+LEGACY_NULL_AUDIO = "null"
 
 
 def iter_vocab_files(pattern: str) -> list[Path]:
@@ -47,7 +48,9 @@ def build_audio_map_from_vocab(vocab_paths: list[Path], *, base_dir: Path) -> di
         for row in rows:
             query = extract_row_query(row)
             audio_path_ref = row.get(AUDIO_COLUMN, "").strip()
-            if not query or not audio_path_ref or audio_path_ref.casefold() == NULL_AUDIO:
+            if not query or not audio_path_ref:
+                continue
+            if audio_path_ref.casefold() in {NULL_AUDIO.casefold(), LEGACY_NULL_AUDIO}:
                 continue
 
             resolved_path = resolve_audio_path(audio_path_ref, base_dir=base_dir)
@@ -71,7 +74,7 @@ def update_tsv(path: Path, audio_map: dict[str, str]) -> tuple[int, int]:
         query = extract_row_query(row)
         resolved_audio = audio_map.get(query.casefold(), "") if query else ""
         row[AUDIO_COLUMN] = resolved_audio if resolved_audio else NULL_AUDIO
-        if row[AUDIO_COLUMN] != NULL_AUDIO:
+        if row[AUDIO_COLUMN]:
             filled += 1
         else:
             empty += 1

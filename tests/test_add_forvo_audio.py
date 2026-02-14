@@ -110,7 +110,7 @@ def test_build_query_set_and_update_tsv(mod, tmp_path: Path):
     assert out_headers[-1] == "audio_file"
     assert out_rows[0]["audio_file"] == "audio/forvo_no/no_bank_1_001.mp3"
     assert out_rows[1]["audio_file"] == "audio/forvo_no/no_ga_1_001.mp3"
-    assert out_rows[2]["audio_file"] == "null"
+    assert out_rows[2]["audio_file"] == ""
 
 
 def test_build_audio_map_from_vocab(mod, tmp_path: Path):
@@ -176,7 +176,7 @@ def test_update_tsv_adds_audio_column_when_missing(mod, tmp_path: Path):
     assert out_rows[0]["audio_file"] == "audio/forvo_no/no_bok_1_001.mp3"
 
 
-def test_update_tsv_never_leaves_audio_file_empty(mod, tmp_path: Path):
+def test_update_tsv_uses_empty_audio_for_unresolved_entries(mod, tmp_path: Path):
     vocab = tmp_path / "vocab.tsv"
     headers = ["lexical-category", "english", "norwegian", "pronunciation", "example_sentence"]
     rows = [
@@ -191,8 +191,7 @@ def test_update_tsv_never_leaves_audio_file_empty(mod, tmp_path: Path):
     out_headers, out_rows = read_tsv(vocab)
     assert out_headers[-1] == "audio_file"
     for row in out_rows:
-        assert row["audio_file"] != ""
-        assert row["audio_file"] == "null" or row["audio_file"].startswith("audio/")
+        assert row["audio_file"] == "" or row["audio_file"].startswith("audio/")
 
 
 def test_download_audio_map_reuse_and_download(mod, downloader_module, tmp_path: Path, monkeypatch):

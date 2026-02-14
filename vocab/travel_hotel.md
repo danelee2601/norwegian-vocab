@@ -1,0 +1,111 @@
+| lexical-category | english | norwegian | pronunciation | example_sentence | audio_file |
+| --- | --- | --- | --- | --- | --- |
+| noun | hotel | et hotell | /hʊˈtɛl/ | Hotellet ligger nær stasjonen. | <audio controls src="../audio/forvo_no/no_hotell_206548_001.mp3"></audio> |
+| noun | reservation | en reservasjon | /resɛrʋɑˈʂuːn/ | Jeg har en reservasjon. | <audio controls src="../audio/forvo_no/no_reservasjon_1482707_001.mp3"></audio> |
+| noun | check-in | en innsjekk | /ˈɪnːʂɛk/ | Innsjekk er fra klokka tre. |  |
+| noun | check-out | en utsjekk | /ˈʉtʂɛk/ | Utsjekk er klokka tolv. |  |
+| noun | reception | en resepsjon | /resɛpˈʂuːn/ | Resepsjonen er åpen hele døgnet. | <audio controls src="../audio/forvo_no/no_resepsjon_2903617_001.mp3"></audio> |
+| noun | room key | et nøkkelkort | /ˈnøːkəlˌkɔʈ/ | Nøkkelkortet fungerer ikke. |  |
+| noun | passport | en pass | /pɑs/ | Jeg må vise pass. | <audio controls src="../audio/forvo_no/no_pass_6993850_001.mp3"></audio> |
+| noun | luggage | en bagasje | /bɑˈɡɑːʂə/ | Bagasjen min er tung. | <audio controls src="../audio/forvo_no/no_bagasje_294439_001.mp3"></audio> |
+| noun | single room | et enkeltrom | /ˈɛŋkəlˌtrʊm/ | Jeg vil ha et enkeltrom. | <audio controls src="../audio/forvo_no/no_enkeltrom_2335123_001.mp3"></audio> |
+| noun | double room | et dobbeltrom | /ˈdɔbːəlˌtrʊm/ | Vi trenger et dobbeltrom. | <audio controls src="../audio/forvo_no/no_dobbeltrom_2850662_001.mp3"></audio> |
+| noun | breakfast | en frokost | /ˈfruːkɔst/ | Frokosten er inkludert. | <audio controls src="../audio/forvo_no/no_frokost_152550_001.mp3"></audio> |
+| noun | elevator | en heis | /hæɪs/ | Heisen er til høyre. | <audio controls src="../audio/forvo_no/no_heis_6011227_001.mp3"></audio> |
+| noun | floor | en etasje | /ɛˈtɑːʂə/ | Rommet er i femte etasje. | <audio controls src="../audio/forvo_no/no_etasje_805139_001.mp3"></audio> |
+| verb | to stay | å bo, bor, bodde, har bodd | /buː/ | Vi skal bo her i tre netter. | <audio controls src="../audio/forvo_no/no_bo_1068257_001.mp3"></audio> |
+| verb | to book | å bestille, bestiller, bestillte, har bestillt | /beˈstɪlə/ | Jeg vil bestille et rom. | <audio controls src="../audio/forvo_no/no_bestille_1068661_001.mp3"></audio> |
+| adjective | available | ledig | /ˈleːdi/ | Har dere et ledig rom? | <audio controls src="../audio/forvo_no/no_ledig_4331367_001.mp3"></audio> |
+| expression | Is Wi-Fi included? | Er Wi-Fi inkludert? | /ær ˈʋiːfi ɪnkluˈdeːʈ/ | Er Wi-Fi inkludert? |  |
+| expression | Can I have a late check-out? | Kan jeg få sen utsjekk? | /kɑn jæɪ foː seːn ˈʉtʂɛk/ | Kan jeg få sen utsjekk? |  |
+| noun | map | et kart | /kɑʈ/ | Har dere et kart over byen? |  |
+| noun | booking | en bestilling | /beˈstɪlɪŋ/ | Bestillingen er bekreftet. | <audio controls src="../audio/forvo_no/no_bestilling_2905433_001.mp3"></audio> |
+| noun | confirmation | en bekreftelse | /bəˈkrɛftəlsə/ | Jeg har bekreftelse på e-post. | <audio controls src="../audio/forvo_no/no_bekreftelse_1167287_001.mp3"></audio> |
+| noun | guest | en gjest | /jɛst/ | Gjestene venter. |  |
+| noun | room | en rom | /ruːm/ | Rommet er klart. | <audio controls src="../audio/forvo_no/no_rom_6056697_001.mp3"></audio> |
+| noun | room number | et romnummer | /ˈrʊmˌnʉmːər/ | Romnummeret er 504. |  |
+| noun | key card | et nøkkelkort | /ˈnøːkəlˌkɔʈ/ | Nøkkelkortet virker ikke. |  |
+| noun | luggage | en bagasje | /bɑˈɡɑːʂə/ | Bagasjen er tung. | <audio controls src="../audio/forvo_no/no_bagasje_294439_001.mp3"></audio> |
+| noun | suitcase | en koffert | /kʊˈfɛʈ/ | Kofferten står her. | <audio controls src="../audio/forvo_no/no_koffert_2330519_001.mp3"></audio> |
+| noun | bag | en bag | /bɑːɡ/ | Jeg har en bag. | <audio controls src="../audio/forvo_no/no_bag_4768911_001.mp3"></audio> |
+| noun | backpack | en ryggsekk | /ˈrʏɡˌsɛk/ | Ryggsekken er stor. | <audio controls src="../audio/forvo_no/no_ryggsekk_2355944_001.mp3"></audio> |
+| noun | breakfast buffet | en frokostbuffé | /ˈfruːkɔstˌbʉfeː/ | Frokostbufféen åpner klokka sju. |  |
+| noun | lunch | en lunsj | /lʉnʂ/ | Lunsj er fra tolv. | <audio controls src="../audio/forvo_no/no_lunsj_152553_001.mp3"></audio> |
+| noun | dinner | en middag | /ˈmɪdɑɡ/ | Middagen serveres klokka seks. | <audio controls src="../audio/forvo_no/no_middag_296841_001.mp3"></audio> |
+| noun | restaurant | en restaurant | /rɛstʉˈrɑŋ/ | Hotellet har restaurant. | <audio controls src="../audio/forvo_no/no_restaurant_743130_001.mp3"></audio> |
+| noun | bar | en bar | /bɑːr/ | Baren er åpen. | <audio controls src="../audio/forvo_no/no_bar_3243585_001.mp3"></audio> |
+| noun | lobby | en lobby | /ˈlɔbi/ | Vi møtes i lobbyen. |  |
+| noun | lounge | en salong | /sɑˈlɔŋ/ | Salongen er rolig. |  |
+| noun | gym | en treningsrom | /ˈtreːnɪŋsˌrʊm/ | Treningsrommet er i kjelleren. |  |
+| noun | pool | et basseng | /bɑˈsɛŋ/ | Bassenget er stengt. | <audio controls src="../audio/forvo_no/no_basseng_1811688_001.mp3"></audio> |
+| noun | sauna | en badstue | /ˈbɑːdstʉə/ | Badstua er varm. | <audio controls src="../audio/forvo_no/no_badstue_5026086_001.mp3"></audio> |
+| noun | laundry | et vaskeri | /ʋɑˈskɛːri/ | Vaskeriet er i første etasje. | <audio controls src="../audio/forvo_no/no_vaskeri_5026091_001.mp3"></audio> |
+| noun | towel | et håndkle | /ˈhɔnːklə/ | Jeg trenger et håndkle. | <audio controls src="../audio/forvo_no/no_h_ndkle_1059589_001.mp3"></audio> |
+| noun | bed | en seng | /sɛŋ/ | Sengen er komfortabel. | <audio controls src="../audio/forvo_no/no_seng_724275_001.mp3"></audio> |
+| noun | blanket | et teppe | /ˈtɛpːə/ | Kan jeg få et ekstra teppe? |  |
+| noun | pillow | en pute | /ˈpʉːtə/ | Jeg trenger en ekstra pute. | <audio controls src="../audio/forvo_no/no_Pute_2559250_001.mp3"></audio> |
+| noun | air conditioning | en aircondition | /ˈæːrˌkɔndɪʂuːn/ | Aircondition virker ikke. |  |
+| noun | heating | en varme | /ˈʋɑrmə/ | Varmeen er av. | <audio controls src="../audio/forvo_no/no_varme_3244037_001.mp3"></audio> |
+| noun | noise | en støy | /stœy/ | Det er mye støy. |  |
+| noun | view | en utsikt | /ˈʉtˌsɪkt/ | Rommet har fin utsikt. |  |
+| noun | sea view | en havutsikt | /ˈhɑːʋˌʉtˌsɪkt/ | Jeg vil ha havutsikt. |  |
+| noun | city center | en sentrum | /ˈsɛntrʉm/ | Hotellet ligger i sentrum. | <audio controls src="../audio/forvo_no/no_sentrum_16194_001.mp3"></audio> |
+| noun | address | en adresse | /ɑˈdrɛsə/ | Hva er adressen? | <audio controls src="../audio/forvo_no/no_Adresse_351590_001.mp3"></audio> |
+| noun | tourist information | en turistinformasjon | /tʉˈrɪstˌɪnfɔrˈmɑʂuːn/ | Turistinformasjonen er der. | <audio controls src="../audio/forvo_no/no_turistinformasjon_744502_001.mp3"></audio> |
+| noun | sight | en severdighet | /ˈseːʋərdɪˌheːt/ | Det er mange severdigheter. | <audio controls src="../audio/forvo_no/no_severdighet_769273_001.mp3"></audio> |
+| noun | ticket | en billett | /bɪˈlɛt/ | Jeg kjøper en billett. | <audio controls src="../audio/forvo_no/no_Billett_294351_001.mp3"></audio> |
+| noun | guide | en guide | /ˈɡaɪdə/ | Guiden starter klokka ti. | <audio controls src="../audio/forvo_no/no_guide_3243568_001.mp3"></audio> |
+| noun | tour | en omvisning | /ˈɔmˌʋiːsniŋ/ | Vi blir med på omvisning. |  |
+| noun | reservation number | et reservasjonsnummer | /resɛrʋɑˈʂuːnsˌnʉmːər/ | Reservasjonsnummeret er her. |  |
+| verb | to check in | å sjekke inn, sjekker inn, sjekket inn, har sjekket inn | /ˈʂɛkːə ɪn/ | Vi sjekker inn nå. | <audio controls src="../audio/forvo_no/no_sjekke_inn_2904450_001.mp3"></audio> |
+| verb | to check out | å sjekke ut, sjekker ut, sjekket ut, har sjekket ut | /ˈʂɛkːə ʉːt/ | Vi sjekker ut klokka tolv. | <audio controls src="../audio/forvo_no/no_sjekke_ut_2904449_001.mp3"></audio> |
+| verb | to book | å bestille, bestiller, bestillte, har bestillt | /beˈstɪlə/ | Jeg vil bestille rom. | <audio controls src="../audio/forvo_no/no_bestille_1068661_001.mp3"></audio> |
+| verb | to cancel | å avbestille, avbestiller, avbestillte, har avbestillt | /ˈɑːʋbəˌstɪlːə/ | Jeg må avbestille. | <audio controls src="../audio/forvo_no/no_avbestille_1091423_001.mp3"></audio> |
+| verb | to pay | å betale, betaler, betalte, har betalt | /beˈtɑːlə/ | Jeg betaler nå. | <audio controls src="../audio/forvo_no/no_betale_3819645_001.mp3"></audio> |
+| verb | to extend stay | å forlenge oppholdet, forlenger oppholdet, forlenget oppholdet, har forlenget oppholdet | /fɔrˈlɛŋə ˈɔpˌhɔlːət/ | Jeg vil forlenge oppholdet. |  |
+| verb | to store luggage | å oppbevare bagasje, oppbevarer bagasje, oppbevarte bagasje, har oppbevart bagasje | /ˈɔpːbəˌʋɑːrə bɑˈɡɑːʂə/ | Kan dere oppbevare bagasjen? |  |
+| verb | to wake up | å våkne, våkner, våknet, har våknet | /ˈʋoːknə/ | Jeg våkner tidlig. | <audio controls src="../audio/forvo_no/no_v_kne_1068290_001.mp3"></audio> |
+| verb | to order a taxi | å bestille taxi, bestiller taxi, bestillte taxi, har bestillt taxi | /beˈstɪlə ˈtɑkːsi/ | Kan du bestille taxi? |  |
+| verb | to recommend | å anbefale, anbefaler, anbefalte, har anbefalt | /ˈɑnbəˌfɑːlə/ | Kan du anbefale en restaurant? |  |
+| adjective | available | ledig | /ˈleːdi/ | Er det ledig rom? | <audio controls src="../audio/forvo_no/no_ledig_4331367_001.mp3"></audio> |
+| adjective | occupied | opptatt | /ˈɔpːtɑt/ | Rommet er opptatt. | <audio controls src="../audio/forvo_no/no_opptatt_1951848_001.mp3"></audio> |
+| adjective | clean | ren | /reːn/ | Rommet er rent. | <audio controls src="../audio/forvo_no/no_ren_7666954_001.mp3"></audio> |
+| adjective | dirty | skittent | /ˈʂɪtːənt/ | Badet er skittent. | <audio controls src="../audio/forvo_no/no_skittent_5026190_001.mp3"></audio> |
+| adjective | quiet | stille | /ˈstɪlːə/ | Rommet er stille. | <audio controls src="../audio/forvo_no/no_stille_767362_001.mp3"></audio> |
+| adjective | noisy | bråkete | /ˈbrɔːkətə/ | Det er bråkete om natten. |  |
+| adjective | included | inkludert | /ɪnkluˈdeːʈ/ | Frokost er inkludert. | <audio controls src="../audio/forvo_no/no_inkludert_1630206_001.mp3"></audio> |
+| adjective | extra | ekstra | /ˈɛkstrɑ/ | Ekstra håndkle koster. | <audio controls src="../audio/forvo_no/no_ekstra_4758321_001.mp3"></audio> |
+| expression | I have a reservation. | Jeg har en reservasjon. | /jæɪ hɑr en resɛrʋɑˈʂuːn/ | Jeg har en reservasjon. |  |
+| expression | Can I have a room with a view? | Kan jeg få et rom med utsikt? | /kɑn jæɪ foː et rʊm meː ˈʉtˌsɪkt/ | Kan jeg få et rom med utsikt? |  |
+| expression | Is breakfast included? | Er frokost inkludert? | /æːr ˈfruːkɔst ɪnkluˈdeːʈ/ | Er frokost inkludert? |  |
+| expression | Can I get a wake-up call? | Kan jeg få vekking? | /kɑn jæɪ foː ˈʋɛkːɪŋ/ | Kan jeg få vekking klokka sju? |  |
+| expression | Where is the elevator? | Hvor er heisen? | /ʋuːr ær ˈhæɪsən/ | Hvor er heisen? |  |
+| noun | late check-out | en sen utsjekk | /seːn ˈʉtʂɛk/ | Sen utsjekk koster ekstra. |  |
+| noun | early check-in | en tidlig innsjekk | /ˈtiːdli ˈɪnːʂɛk/ | Tidlig innsjekk er mulig. |  |
+| noun | room service | en romservice | /ˈrʊmˌsærʋɪs/ | Romservice er åpen. |  |
+| noun | minibar | en minibar | /ˈmiːnɪˌbɑːr/ | Minibaren er tom. |  |
+| noun | parking | en parkering | /pɑrˈkeːrɪŋ/ | Parkering er bak hotellet. | <audio controls src="../audio/forvo_no/no_parkering_5643967_001.mp3"></audio> |
+| noun | Wi-Fi | en Wi-Fi | /ˈʋiːfi/ | Wi-Fi-koden er her. |  |
+| noun | password | et passord | /ˈpɑsɔʈ/ | Hva er passordet? | <audio controls src="../audio/forvo_no/no_passord_3243134_001.mp3"></audio> |
+| noun | map | et kart | /kɑʈ/ | Kan jeg få et kart? |  |
+| noun | receipt | en kvittering | /kʋɪˈteːrɪŋ/ | Kan jeg få kvittering? | <audio controls src="../audio/forvo_no/no_kvittering_4342473_001.mp3"></audio> |
+| noun | bill | en regning | /ˈreːnɪŋ/ | Kan vi få regningen? | <audio controls src="../audio/forvo_no/no_regning_3483292_001.mp3"></audio> |
+| verb | to complain | å klage, klager, klaget, har klaget | /ˈklɑːɡə/ | Jeg vil klage. | <audio controls src="../audio/forvo_no/no_Klage_1167216_001.mp3"></audio> |
+| verb | to report | å melde, melder, meldte, har meldt | /ˈmɛlːə/ | Jeg melder fra om støy. | <audio controls src="../audio/forvo_no/no_melde_1065559_001.mp3"></audio> |
+| verb | to lose | å miste, mister, mistet, har mistet | /ˈmɪstə/ | Jeg har mistet nøkkelkortet. |  |
+| adjective | broken | ødelagt | /ˈøːdəˌlɑkt/ | TV-en er ødelagt. | <audio controls src="../audio/forvo_no/no_delagt_363087_001.mp3"></audio> |
+| adjective | comfortable | komfortabel | /kɔmfʊrˈtɑːbəl/ | Sengen er komfortabel. | <audio controls src="../audio/forvo_no/no_komfortabel_4761536_001.mp3"></audio> |
+| expression | The key card doesn't work. | Nøkkelkortet virker ikke. | /ˈnøːkəlˌkɔʈət ˈʋɪrːkər ˈɪkə/ | Nøkkelkortet virker ikke. |  |
+| expression | Can I leave my luggage? | Kan jeg sette igjen bagasjen? | /kɑn jæɪ ˈsɛtːə jæɪn bɑˈɡɑːʂən/ | Kan jeg sette igjen bagasjen? |  |
+| expression | Is there parking? | Er det parkering? | /æːr dɛ parkəˈreːrɪŋ/ | Er det parkering her? |  |
+| expression | I need a receipt. | Jeg trenger kvittering. | /jæɪ ˈtrɛŋər kʋɪˈteːrɪŋ/ | Jeg trenger kvittering. |  |
+| expression | Can you call a taxi? | Kan du ringe taxi? | /kɑn dʉ ˈrɪŋə ˈtɑkːsi/ | Kan du ringe taxi? |  |
+| noun | city map | et bykart | /ˈbyːˌkɑʈ/ | Kan jeg få et bykart? | <audio controls src="../audio/forvo_no/no_bykart_6475930_001.mp3"></audio> |
+| noun | guest name | et gjestenavn | /ˈjɛstənɑʋn/ | Gjestenavnet står her. |  |
+| noun | ID | en legitimasjon | /leɡitɪmɑˈʂuːn/ | Jeg må vise legitimasjon. | <audio controls src="../audio/forvo_no/no_legitimasjon_2330746_001.mp3"></audio> |
+| noun | tourist tax | en turistskatt | /tʉˈrɪstˌskɑt/ | Turistskatten er inkludert. |  |
+| verb | to check availability | å sjekke tilgjengelighet, sjekker tilgjengelighet, sjekket tilgjengelighet, har sjekket tilgjengelighet | /ˈʂɛkːə tɪlˈjɛŋəlɪheːt/ | Kan du sjekke tilgjengelighet? |  |
+| verb | to pay with card | å betale med kort, betaler med kort, betalte med kort, har betalt med kort | /bəˈtɑːlə meː kɔʈ/ | Jeg betaler med kort. |  |
+| adjective | full | fullt | /fʉlt/ | Hotellet er fullt. | <audio controls src="../audio/forvo_no/no_fullt_1630176_001.mp3"></audio> |
+| expression | Do you have a quiet room? | Har dere et stille rom? | /hɑr ˈdeːrə et ˈstɪlːə rʊm/ | Har dere et stille rom? |  |
+| expression | Can I get an extra blanket? | Kan jeg få et ekstra teppe? | /kɑn jæɪ foː et ˈɛkstrɑ ˈtɛpːə/ | Kan jeg få et ekstra teppe? |  |

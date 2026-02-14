@@ -1,0 +1,41 @@
+site_name: Norwegian Vocab
+site_description: Everyday Norwegian vocabulary by topic
+site_url: ""
+repo_name: norwegian_vocab
+repo_url: ""
+
+docs_dir: docs
+
+theme:
+  name: material
+  features:
+    - navigation.expand
+
+markdown_extensions:
+  - tables
+  - admonition
+  - attr_list
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: home.md
+  # AUTO-GENERATED VOCAB NAV START
+  - Vocabulary:
+      - Banking Post: vocab/banking_post.md
+      - Gp Office: vocab/gp_office.md
+      - Grocery Store: vocab/grocery_store.md
+      - Health Pharmacy: vocab/health_pharmacy.md
+      - Housing Home: vocab/housing_home.md
+      - Library Media: vocab/library_media.md
+      - Phone Internet: vocab/phone_internet.md
+      - Restaurant Cafe: vocab/restaurant_cafe.md
+      - School: vocab/school.md
+      - Shopping Clothes: vocab/shopping_clothes.md
+      - Social Chitchat: vocab/social_chitchat.md
+      - Transportation: vocab/transportation.md
+      - Travel Hotel: vocab/travel_hotel.md
+      - Weather Outdoors: vocab/weather_outdoors.md
+      - Work Office: vocab/work_office.md
+  # AUTO-GENERATED VOCAB NAV END

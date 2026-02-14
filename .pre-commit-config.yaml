@@ -1,0 +1,9 @@
+repos:
+  - repo: local
+    hooks:
+      - id: sync-vocab-docs
+        name: sync vocab docs (check with auto-fix)
+        entry: scripts/docs/precommit_sync_vocab_docs.sh
+        language: system
+        pass_filenames: false
+        always_run: true

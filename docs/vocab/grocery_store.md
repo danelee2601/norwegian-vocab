@@ -1,0 +1,115 @@
+# Grocery Store
+
+Source: `vocab/grocery_store.tsv`
+
+| lexical-category | english | norwegian | pronunciation | example_sentence | audio_file |
+|---|---|---|---|---|---|
+| noun | store | en butikk | /bʉˈtɪk/ | Butikken er åpen til ni. | [Play audio](../assets/audio/forvo_no/no_butikk_623378_001.mp3) (`audio/forvo_no/no_butikk_623378_001.mp3`) |
+| noun | grocery store | en matbutikk | /ˈmɑːtʉˌtɪk/ | Jeg går til matbutikken. | [Play audio](../assets/audio/forvo_no/no_matbutikk_5388422_001.mp3) (`audio/forvo_no/no_matbutikk_5388422_001.mp3`) |
+| noun | cart | en handlevogn | /ˈhɑnːləvɔŋ/ | Ta en handlevogn ved inngangen. | [Play audio](../assets/audio/forvo_no/no_handlevogn_6436441_001.mp3) (`audio/forvo_no/no_handlevogn_6436441_001.mp3`) |
+| noun | basket | en kurv | /kʉrv/ | Jeg trenger en kurv. | [Play audio](../assets/audio/forvo_no/no_kurv_4761319_001.mp3) (`audio/forvo_no/no_kurv_4761319_001.mp3`) |
+| noun | receipt | en kvittering | /kʋɪˈteːrɪŋ/ | Vil du ha kvittering? | [Play audio](../assets/audio/forvo_no/no_kvittering_4342473_001.mp3) (`audio/forvo_no/no_kvittering_4342473_001.mp3`) |
+| noun | price | en pris | /priːs/ | Prisen er litt høy. | [Play audio](../assets/audio/forvo_no/no_pris_1630217_001.mp3) (`audio/forvo_no/no_pris_1630217_001.mp3`) |
+| noun | discount | en rabatt | /rɑˈbɑt/ | De har rabatt på frukt. | null |
+| noun | cashier | en kasserer | /kɑˈseːrər/ | Kassereren smiler. | [Play audio](../assets/audio/forvo_no/no_kasserer_2968488_001.mp3) (`audio/forvo_no/no_kasserer_2968488_001.mp3`) |
+| verb | to pay | å betale, betaler, betalte, har betalt | /beˈtɑːlə/ | Kan jeg betale med kort? | [Play audio](../assets/audio/forvo_no/no_betale_3819645_001.mp3) (`audio/forvo_no/no_betale_3819645_001.mp3`) |
+| verb | to choose | å velge, velger, valgte, har valgt | /ˈʋɛlɡə/ | Jeg skal velge ost. | [Play audio](../assets/audio/forvo_no/no_velge_1365714_001.mp3) (`audio/forvo_no/no_velge_1365714_001.mp3`) |
+| verb | to weigh | å veie, veier, veide, har veid | /ˈʋæɪə/ | Vi må veie grønnsakene. | null |
+| noun | fruit | en frukt | /frʉkt/ | Jeg kjøper frukt. | [Play audio](../assets/audio/forvo_no/no_frukt_339212_001.mp3) (`audio/forvo_no/no_frukt_339212_001.mp3`) |
+| noun | vegetable | en grønnsak | /ˈɡrønːsɑːkər/ | Grønnsaken er fersk. | [Play audio](../assets/audio/forvo_no/no_gr_nnsak_590347_001.mp3) (`audio/forvo_no/no_gr_nnsak_590347_001.mp3`) |
+| noun | milk | en liter melk | /en ˈliːtər mɛlk/ | Jeg trenger en liter melk. | null |
+| noun | bread | et brød | /brøːd/ | Brødet er varmt. | [Play audio](../assets/audio/forvo_no/no_br_d_152336_001.mp3) (`audio/forvo_no/no_br_d_152336_001.mp3`) |
+| noun | cheese | en ost | /ʊst/ | Osten er dyr. | [Play audio](../assets/audio/forvo_no/no_ost_214676_001.mp3) (`audio/forvo_no/no_ost_214676_001.mp3`) |
+| adjective | fresh | fersk | /fæʂk/ | Fisken er fersk. | [Play audio](../assets/audio/forvo_no/no_fersk_4344226_001.mp3) (`audio/forvo_no/no_fersk_4344226_001.mp3`) |
+| adjective | ripe | moden | /ˈmuːdən/ | Bananen er moden. | [Play audio](../assets/audio/forvo_no/no_moden_2345981_001.mp3) (`audio/forvo_no/no_moden_2345981_001.mp3`) |
+| expression | Do you have ...? | Har dere ...? | /hɑr ˈdeːrə/ | Har dere glutenfritt brød? | null |
+| expression | Where can I find ...? | Hvor finner jeg ...? | /ʋuːr ˈfɪnːər jæɪ/ | Hvor finner jeg pasta? | null |
+| noun | egg | et egg | /ɛɡ/ | Jeg kjøper et egg. | [Play audio](../assets/audio/forvo_no/no_egg_1498541_001.mp3) (`audio/forvo_no/no_egg_1498541_001.mp3`) |
+| noun | butter | en pakke smør | /en ˈpɑkːə smøːr/ | Smøret står i kjøledisken. | null |
+| noun | yogurt | en yoghurt | /ˈjɔɡʉʈ/ | Jeg vil ha naturell yoghurt. | [Play audio](../assets/audio/forvo_no/no_yoghurt_309887_001.mp3) (`audio/forvo_no/no_yoghurt_309887_001.mp3`) |
+| noun | cream | en fløte | /ˈfløːtə/ | Fløten er på tilbud. | [Play audio](../assets/audio/forvo_no/no_fl_te_151918_001.mp3) (`audio/forvo_no/no_fl_te_151918_001.mp3`) |
+| noun | chicken | en kylling | /ˈçʏlːɪŋ/ | Vi spiser kylling til middag. | [Play audio](../assets/audio/forvo_no/no_kylling_837453_001.mp3) (`audio/forvo_no/no_kylling_837453_001.mp3`) |
+| noun | beef | en pakke storfekjøtt | /en ˈpɑkːə ˈstuːrfeˌçœt/ | Storfekjøtt er dyrt. | null |
+| noun | pork | en pakke svinekjøtt | /en ˈpɑkːə ˈsviːnəˌçœt/ | Svinekjøtt er vanlig her. | null |
+| noun | fish | en fisk | /fɪsk/ | Jeg kjøper fisk på fredager. | [Play audio](../assets/audio/forvo_no/no_fisk_3133431_001.mp3) (`audio/forvo_no/no_fisk_3133431_001.mp3`) |
+| noun | salmon | en laks | /lɑks/ | Laksen er fersk. | [Play audio](../assets/audio/forvo_no/no_laks_2187586_001.mp3) (`audio/forvo_no/no_laks_2187586_001.mp3`) |
+| noun | sausage | en pølse | /ˈpœlːsə/ | Vi skal grille pølse. | [Play audio](../assets/audio/forvo_no/no_p_lse_2117342_001.mp3) (`audio/forvo_no/no_p_lse_2117342_001.mp3`) |
+| noun | ham | en skinke | /ˈʂɪŋkə/ | Skinken ligger ved pålegg. | [Play audio](../assets/audio/forvo_no/no_skinke_295873_001.mp3) (`audio/forvo_no/no_skinke_295873_001.mp3`) |
+| noun | sausage roll | en pølsebrød | /ˈpœlːsəbrøːd/ | Jeg tar pølsebrød. | [Play audio](../assets/audio/forvo_no/no_p_lsebr_d_152335_001.mp3) (`audio/forvo_no/no_p_lsebr_d_152335_001.mp3`) |
+| noun | apple | et eple | /ˈeːplər/ | Eplet ser fint ut. | [Play audio](../assets/audio/forvo_no/no_eple_294398_001.mp3) (`audio/forvo_no/no_eple_294398_001.mp3`) |
+| noun | banana | en banan | /bɑˈnɑːnər/ | Bananen er billig. | [Play audio](../assets/audio/forvo_no/no_banan_623404_001.mp3) (`audio/forvo_no/no_banan_623404_001.mp3`) |
+| noun | orange | en appelsin | /ɑpəˈsiːnər/ | Jeg kjøper en appelsin. | [Play audio](../assets/audio/forvo_no/no_appelsin_582573_001.mp3) (`audio/forvo_no/no_appelsin_582573_001.mp3`) |
+| noun | grape | en vindrue | /ˈʋiːndrʉər/ | Vindruen er søt. | [Play audio](../assets/audio/forvo_no/no_vindrue_3808932_001.mp3) (`audio/forvo_no/no_vindrue_3808932_001.mp3`) |
+| noun | berry | et bær | /bæːr/ | Bæret er godt til frokost. | [Play audio](../assets/audio/forvo_no/no_b_r_1167200_001.mp3) (`audio/forvo_no/no_b_r_1167200_001.mp3`) |
+| noun | potato | en potet | /pʊˈteːtər/ | Poteten er en basisvare. | [Play audio](../assets/audio/forvo_no/no_potet_297117_001.mp3) (`audio/forvo_no/no_potet_297117_001.mp3`) |
+| noun | onion | en løk | /lœk/ | Løken står i grønnsaksavdelingen. | [Play audio](../assets/audio/forvo_no/no_l_k_223031_001.mp3) (`audio/forvo_no/no_l_k_223031_001.mp3`) |
+| noun | garlic | en hvitløk | /ˈʋiːtlœk/ | Jeg trenger hvitløk. | [Play audio](../assets/audio/forvo_no/no_hvitl_k_2474407_001.mp3) (`audio/forvo_no/no_hvitl_k_2474407_001.mp3`) |
+| noun | carrot | en gulrot | /ˈɡʉːlrœtːər/ | Gulroten er sprø. | [Play audio](../assets/audio/forvo_no/no_gulrot_780212_001.mp3) (`audio/forvo_no/no_gulrot_780212_001.mp3`) |
+| noun | tomato | en tomat | /tʊˈmɑːtər/ | Tomaten er moden. | [Play audio](../assets/audio/forvo_no/no_tomat_1432281_001.mp3) (`audio/forvo_no/no_tomat_1432281_001.mp3`) |
+| noun | cucumber | en agurk | /ɑˈɡʉrːkər/ | Agurken ligger ved salaten. | [Play audio](../assets/audio/forvo_no/no_agurk_1751468_001.mp3) (`audio/forvo_no/no_agurk_1751468_001.mp3`) |
+| noun | lettuce | en salat | /sɑˈlɑːt/ | Jeg tar en salat. | [Play audio](../assets/audio/forvo_no/no_salat_3243537_001.mp3) (`audio/forvo_no/no_salat_3243537_001.mp3`) |
+| noun | mushroom | en sopp | /sɔp/ | Soppen brukes i suppe. | [Play audio](../assets/audio/forvo_no/no_sopp_1063830_001.mp3) (`audio/forvo_no/no_sopp_1063830_001.mp3`) |
+| noun | bean | en bønne | /ˈbønːər/ | Bønnen er billig. | null |
+| noun | rice | en pose ris | /en ˈpuːsə riːs/ | Ris er lett å lage. | null |
+| noun | pasta | en pakke pasta | /en ˈpɑkːə ˈpɑstɑ/ | Pasta er på tilbud. | null |
+| noun | flour | en pose mel | /en ˈpuːsə meːl/ | Jeg trenger mel til brød. | null |
+| noun | sugar | en pose sukker | /en ˈpuːsə ˈsʉkːər/ | Hvor står sukkeret? | null |
+| noun | salt | en pakke salt | /en ˈpɑkːə sɑlt/ | Jeg mangler en pakke salt. | null |
+| noun | pepper | en boks pepper | /en bɔks ˈpɛpːər/ | Pepper står ved krydder. | null |
+| noun | oil | en flaske olje | /en ˈflɑskə ˈɔljə/ | Olje til steking. | null |
+| noun | vinegar | en flaske eddik | /en ˈflɑskə ˈeːdɪk/ | Vi trenger eddik til salat. | null |
+| noun | spice | et krydder | /ˈkryːdər/ | Krydderet er her. | null |
+| noun | soup | en suppe | /ˈsʉpːə/ | Suppe er lett middag. | [Play audio](../assets/audio/forvo_no/no_Suppe_1167080_001.mp3) (`audio/forvo_no/no_Suppe_1167080_001.mp3`) |
+| noun | frozen food | en frysevare | /ˈfryːsəˌʋɑːrə/ | Frysevaren er bakerst. | null |
+| noun | ice cream | en iskrem | /ˈiːskrem/ | Barna vil ha iskrem. | [Play audio](../assets/audio/forvo_no/no_iskrem_16196_001.mp3) (`audio/forvo_no/no_iskrem_16196_001.mp3`) |
+| noun | cookie | en kjeks | /çɛks/ | Kjeksen er ved snackshylla. | [Play audio](../assets/audio/forvo_no/no_kjeks_152342_001.mp3) (`audio/forvo_no/no_kjeks_152342_001.mp3`) |
+| noun | chocolate | en sjokolade | /ʂʊkʊˈlɑːdə/ | Jeg kjøper sjokolade. | [Play audio](../assets/audio/forvo_no/no_sjokolade_7902293_001.mp3) (`audio/forvo_no/no_sjokolade_7902293_001.mp3`) |
+| noun | candy | en godteri | /ˈɡuːdərɪ/ | Godteri er ved kassen. | [Play audio](../assets/audio/forvo_no/no_godteri_3498874_001.mp3) (`audio/forvo_no/no_godteri_3498874_001.mp3`) |
+| noun | snack | en snack | /snɑks/ | Vi tar en snack. | null |
+| noun | coffee | en pose kaffe | /en ˈpuːsə ˈkɑfːə/ | Kaffen står ved te. | null |
+| noun | tea | en pakke te | /en ˈpɑkːə teː/ | Jeg vil ha grønn te. | null |
+| noun | juice | en juice | /jʉːs/ | Juicen er kald. | null |
+| noun | water | et vann | /eːt ʋɑn/ | Vi trenger vann. | [Play audio](../assets/audio/forvo_no/no_vann_141822_001.mp3) (`audio/forvo_no/no_vann_141822_001.mp3`) |
+| noun | soda | en brus | /brʉːs/ | Brus er på tilbud. | [Play audio](../assets/audio/forvo_no/no_brus_152377_001.mp3) (`audio/forvo_no/no_brus_152377_001.mp3`) |
+| noun | can | en boks | /bɔks/ | Hermetikk i boks. | [Play audio](../assets/audio/forvo_no/no_boks_3510713_001.mp3) (`audio/forvo_no/no_boks_3510713_001.mp3`) |
+| noun | jar | en glass | /ɡlɑs/ | Syltetøy i glass. | [Play audio](../assets/audio/forvo_no/no_glass_3243556_001.mp3) (`audio/forvo_no/no_glass_3243556_001.mp3`) |
+| noun | jam | en syltetøy | /ˈsʏltəˌtœy/ | Jeg liker jordbærsyltetøy. | [Play audio](../assets/audio/forvo_no/no_syltet_y_297125_001.mp3) (`audio/forvo_no/no_syltet_y_297125_001.mp3`) |
+| noun | honey | en honning | /ˈhɔnːɪŋ/ | Honning er dyrt. | null |
+| noun | egg carton | en eggkartong | /ˈɛɡkɑˌʈɔŋ/ | Eggkartongen er hel. | null |
+| noun | bag | en pose | /ˈpuːsə/ | Trenger du pose? | [Play audio](../assets/audio/forvo_no/no_pose_770095_001.mp3) (`audio/forvo_no/no_pose_770095_001.mp3`) |
+| noun | reusable bag | en stoffpose | /ˈstɔfːpuːsə/ | Jeg har med stoffpose. | null |
+| noun | bottle | en flaske | /ˈflɑskə/ | Flaskene står her. | [Play audio](../assets/audio/forvo_no/no_flaske_622354_001.mp3) (`audio/forvo_no/no_flaske_622354_001.mp3`) |
+| noun | deposit | en pant | /pɑnt/ | Det er pant på flasken. | null |
+| noun | barcode | en strekkode | /ˈstrɛkːuˌdə/ | Strekkoden skannes. | [Play audio](../assets/audio/forvo_no/no_strekkode_6090346_001.mp3) (`audio/forvo_no/no_strekkode_6090346_001.mp3`) |
+| noun | self-checkout | en selvbetjening | /ˈsɛlkbəˌtjɛːnɪŋ/ | Vi bruker selvbetjening. | [Play audio](../assets/audio/forvo_no/no_selvbetjening_3752127_001.mp3) (`audio/forvo_no/no_selvbetjening_3752127_001.mp3`) |
+| noun | queue | en kø | /køː/ | Det er lang kø. | null |
+| verb | to scan | å skanne, skanner, skannet, har skannet | /ˈskɑnːə/ | Jeg skanner varene. | [Play audio](../assets/audio/forvo_no/no_skanne_5950762_001.mp3) (`audio/forvo_no/no_skanne_5950762_001.mp3`) |
+| verb | to bag | å pose, poser, poset, har poset | /ˈpuːsə/ | Vi poser varene raskt. | [Play audio](../assets/audio/forvo_no/no_pose_770095_001.mp3) (`audio/forvo_no/no_pose_770095_001.mp3`) |
+| verb | to return | å returnere, returnerer, returnerte, har returnert | /ˌʈæʉnˈeːrə/ | Du kan returnere varen. | [Play audio](../assets/audio/forvo_no/no_returnere_4768903_001.mp3) (`audio/forvo_no/no_returnere_4768903_001.mp3`) |
+| verb | to refund | å refundere, refunderer, refunderte, har refundert | /ˌrɛfʉnˈdeːrə/ | De refunderer pengene. | [Play audio](../assets/audio/forvo_no/no_refundere_8261859_001.mp3) (`audio/forvo_no/no_refundere_8261859_001.mp3`) |
+| verb | to check | å kontrollere, kontrollerer, kontrollerte, har kontrollert | /kʊnˈtrɔlːeːrə/ | Jeg må kontrollere datoen. | [Play audio](../assets/audio/forvo_no/no_kontrollere_4071940_001.mp3) (`audio/forvo_no/no_kontrollere_4071940_001.mp3`) |
+| verb | to compare | å sammenligne, sammenligner, sammenlignet, har sammenlignet | /ˈsɑmːənˌliːnə/ | Jeg sammenligner priser. | null |
+| verb | to grab | å ta, tar, tok, har tatt | /tɑ/ | Jeg tar melk og brød. | [Play audio](../assets/audio/forvo_no/no_ta_743175_001.mp3) (`audio/forvo_no/no_ta_743175_001.mp3`) |
+| verb | to need | å trenge, trenger, trenget, har trenget | /ˈtrɛŋə/ | Jeg trenger mer kaffe. | [Play audio](../assets/audio/forvo_no/no_trenge_1671555_001.mp3) (`audio/forvo_no/no_trenge_1671555_001.mp3`) |
+| adjective | cheap | billig | /ˈbɪlːi/ | Denne er billig. | [Play audio](../assets/audio/forvo_no/no_billig_1066003_001.mp3) (`audio/forvo_no/no_billig_1066003_001.mp3`) |
+| adjective | expensive | dyr | /ˈdyːr/ | Den osten er dyr. | [Play audio](../assets/audio/forvo_no/no_dyr_7295609_001.mp3) (`audio/forvo_no/no_dyr_7295609_001.mp3`) |
+| adjective | organic | økologisk | /ˌøːkʊˈlɔːɡɪsk/ | De har økologisk melk. | null |
+| adjective | gluten-free | glutenfri | /ˈɡlʉːtənˌfriː/ | Har dere glutenfri pasta? | null |
+| adjective | lactose-free | laktosefri | /ˈlɑktuːsəˌfriː/ | Jeg trenger laktosefri melk. | null |
+| adjective | frozen | frossen | /ˈfrɔsːən/ | Frossen fisk er billig. | [Play audio](../assets/audio/forvo_no/no_frossen_4321045_001.mp3) (`audio/forvo_no/no_frossen_4321045_001.mp3`) |
+| adjective | local | lokal | /lʊˈkɑːl/ | Vi vil ha lokal mat. | [Play audio](../assets/audio/forvo_no/no_lokal_4914767_001.mp3) (`audio/forvo_no/no_lokal_4914767_001.mp3`) |
+| adjective | reduced price | på tilbud | /pɔː tɪlˈbʉːd/ | Denne er på tilbud. | null |
+| adjective | full | full | /fʉlː/ | Kurven er full. | [Play audio](../assets/audio/forvo_no/no_full_1671578_001.mp3) (`audio/forvo_no/no_full_1671578_001.mp3`) |
+| expression | Can I pay by card? | Kan jeg betale med kort? | /kɑn jæɪ beˈtɑːlə mɛ kʊʈ/ | Kan jeg betale med kort? | null |
+| expression | I forgot my bag. | Jeg glemte posen. | /jæɪ ˈɡlɛmːtə ˈpuːsən/ | Jeg glemte posen hjemme. | null |
+| expression | Where is the dairy section? | Hvor er meieriavdelingen? | /ʋuːr ɛr mɛɪˈriːɑʋdɛlɪŋən/ | Hvor er meieriavdelingen? | null |
+| expression | Is this on sale? | Er denne på tilbud? | /æːr ˈdɛnːə pɔː tɪlˈbʉːd/ | Er denne på tilbud? | null |
+| expression | Do you have a smaller size? | Har dere en mindre pakke? | /hɑr ˈdeːrə en ˈmɪnːrə ˈpɑkə/ | Har dere en mindre pakke? | null |
+| expression | I only need one. | Jeg trenger bare én. | /jæɪ ˈtrɛŋər ˈbɑːrə eːn/ | Jeg trenger bare én. | null |
+| noun | dairy | en meieri | /ˈmɛɪəri/ | Meieri er ved siden av kjøtt. | [Play audio](../assets/audio/forvo_no/no_meieri_7325694_001.mp3) (`audio/forvo_no/no_meieri_7325694_001.mp3`) |
+| noun | bakery | et bakeri | /bɑˈkeːri/ | Bakeriet er ved inngangen. | [Play audio](../assets/audio/forvo_no/no_bakeri_582513_001.mp3) (`audio/forvo_no/no_bakeri_582513_001.mp3`) |
+| noun | counter | en disk | /dɪsk/ | Osten ligger i disken. | [Play audio](../assets/audio/forvo_no/no_disk_1671519_001.mp3) (`audio/forvo_no/no_disk_1671519_001.mp3`) |
+| noun | checkout | en kasse | /ˈkɑsə/ | Det er kø i kassa. | [Play audio](../assets/audio/forvo_no/no_kasse_1167215_001.mp3) (`audio/forvo_no/no_kasse_1167215_001.mp3`) |
+| noun | label | en etikett | /etɪˈkɛt/ | Les etiketten. | null |
+| verb | to search | å lete etter, leter etter, letet etter, har letet etter | /ˈleːtə ˈɛtər/ | Jeg leter etter quinoa. | [Play audio](../assets/audio/forvo_no/no_lete_etter_2045894_001.mp3) (`audio/forvo_no/no_lete_etter_2045894_001.mp3`) |
+| adjective | out of stock | utsolgt | /ˈʉtˌsɔlkt/ | Brødet er utsolgt. | [Play audio](../assets/audio/forvo_no/no_utsolgt_4764775_001.mp3) (`audio/forvo_no/no_utsolgt_4764775_001.mp3`) |

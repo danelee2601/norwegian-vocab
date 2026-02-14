@@ -27,6 +27,7 @@ Scope: TSV vocabulary data at repo root (topic files) and vocab/ copies.
 - Every noun must start with `en`, `ei`, or `et` in the Norwegian field.
 - Every verb must contain exactly four comma-separated forms.
 - Keep format uniform across files (spacing after commas, slashes around IPA).
+- Do not include redundant/duplicate vocabulary within the same `.tsv` file.
 - `audio_file` values must be either:
   - plain text relative paths under `audio/forvo_no/`, or
   - literal `null` when audio is not available.

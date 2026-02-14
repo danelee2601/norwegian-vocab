@@ -6,7 +6,7 @@
 - Audio assets are stored under `audio/forvo_no/`.
 - Audio tooling lives in `scripts/forvo_audio/`:
   - `add_forvo_audio.py` updates TSV `audio_file` values.
-  - `audio_index.json` stores the query-to-audio lookup map.
+  - helper modules split query extraction, path handling, TSV I/O, and Forvo download orchestration.
 - Python metadata/dependencies are defined in `pyproject.toml` and locked in `uv.lock`.
 
 ## Build, Test, and Development Commands
@@ -45,9 +45,8 @@
   - Ensure every noun starts with `en/ei/et`.
   - Ensure every verb contains exactly four comma‑separated forms.
   - Ensure `audio_file` paths are relative, plain text, and point into `audio/forvo_no/`.
-  - Ensure `audio_file` paths are specified for an entry/row if the entry's vocabulary word contains a valid audio file according to scripts/forvo_audio/audio_index.json (= cache file for the word <-> audio_file pairs)
 
 ## Agent Notes
 - Changes should be consistent across all TSV files to keep formats uniform.
 - When adjusting translations, update example sentences to match the revised Norwegian terms.
-- Keep `scripts/forvo_audio/audio_index.json` and TSV `audio_file` values in sync when running audio updates.
+- Treat TSV `audio_file` values as the source of truth for persisted audio mappings.

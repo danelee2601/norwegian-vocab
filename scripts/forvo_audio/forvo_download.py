@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import multiprocessing as mp
 import re
 import shutil
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -14,8 +15,6 @@ def scrape_query(query: str, temp_dir: Path, headed: bool) -> Path | None:
     result = scrape(
         query,
         outdir=str(temp_dir),
-        limit=1,
-        no_head=True,
         lang="no",
         use_playwright=True,
         headed=headed,
@@ -29,6 +28,47 @@ def scrape_query(query: str, temp_dir: Path, headed: bool) -> Path | None:
 
     out_path = Path(candidates[0].out_path)
     return out_path if out_path.exists() else None
+
+
+def _scrape_query_worker(query: str, temp_dir: str, headed: bool, queue: mp.Queue) -> None:
+    try:
+        downloaded = scrape_query(query, temp_dir=Path(temp_dir), headed=headed)
+        queue.put({"path": str(downloaded) if downloaded else "", "error": ""})
+    except Exception as exc:  # noqa: BLE001
+        queue.put({"path": "", "error": str(exc)})
+
+
+def scrape_query_with_timeout(
+    query: str,
+    *,
+    temp_dir: Path,
+    headed: bool,
+    timeout_sec: int,
+) -> tuple[Path | None, str | None, bool]:
+    context = mp.get_context("spawn")
+    queue: mp.Queue = context.Queue()
+    process = context.Process(target=_scrape_query_worker, args=(query, str(temp_dir), headed, queue))
+    process.start()
+    process.join(timeout=max(1, timeout_sec))
+
+    if process.is_alive():
+        process.terminate()
+        process.join()
+        return None, f"timeout after {timeout_sec}s", True
+
+    if queue.empty():
+        return None, None, False
+
+    result = queue.get()
+    error = result.get("error", "") if isinstance(result, dict) else ""
+    path_str = result.get("path", "") if isinstance(result, dict) else ""
+    if error:
+        return None, error, False
+    if not path_str:
+        return None, None, False
+
+    out_path = Path(path_str)
+    return (out_path if out_path.exists() else None), None, False
 
 
 def hydrate_from_existing_files(audio_dir: Path, mapping: dict[str, str], *, base_dir: Path) -> None:
@@ -71,6 +111,7 @@ def download_audio_map(
     headed: bool,
     workers: int,
     base_dir: Path,
+    query_timeout_sec: int = 45,
     initial_map: dict[str, str] | None = None,
 ) -> dict[str, str]:
     temp_dir.mkdir(parents=True, exist_ok=True)
@@ -83,20 +124,28 @@ def download_audio_map(
     if not pending:
         return mapping
 
-    def run_one(query: str) -> tuple[str, Path | None, str | None]:
+    def run_one(query: str) -> tuple[str, Path | None, str | None, bool]:
         try:
-            downloaded = scrape_query(query, temp_dir=temp_dir, headed=headed)
-            return query, downloaded, None
+            downloaded, err, timed_out = scrape_query_with_timeout(
+                query,
+                temp_dir=temp_dir,
+                headed=headed,
+                timeout_sec=query_timeout_sec,
+            )
+            return query, downloaded, err, timed_out
         except Exception as exc:  # noqa: BLE001
-            return query, None, str(exc)
+            return query, None, str(exc), False
 
     with ThreadPoolExecutor(max_workers=max(1, workers)) as executor:
         futures = {executor.submit(run_one, query): (idx, query) for idx, query in pending}
         for future in as_completed(futures):
             idx, query = futures[future]
             qkey = query.casefold()
-            query, downloaded, err = future.result()
+            query, downloaded, err, timed_out = future.result()
             if err:
+                if timed_out:
+                    print(f"[{idx}/{total}] timeout: {query}: {err}")
+                    continue
                 print(f"[{idx}/{total}] failed: {query}: {err}")
                 continue
 

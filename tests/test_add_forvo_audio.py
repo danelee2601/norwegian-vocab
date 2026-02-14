@@ -207,12 +207,12 @@ def test_download_audio_map_reuse_and_download(mod, downloader_module, tmp_path:
     downloaded = temp_dir / "no_bok_2_001.mp3"
     downloaded.write_bytes(b"bok")
 
-    def fake_scrape_query(query: str, temp_dir: Path, headed: bool):
+    def fake_scrape_query_with_timeout(query: str, **kwargs):
         if query == "bok":
-            return downloaded
-        return None
+            return downloaded, None, False
+        return None, None, False
 
-    monkeypatch.setattr(downloader_module, "scrape_query", fake_scrape_query)
+    monkeypatch.setattr(downloader_module, "scrape_query_with_timeout", fake_scrape_query_with_timeout)
 
     mapping = mod.download_audio_map(
         queries={"bank", "bok", "missing"},
@@ -241,9 +241,9 @@ def test_download_audio_map_all_reused_does_not_scrape(mod, downloader_module, t
     existing.write_bytes(b"bank")
 
     def should_not_run(*args, **kwargs):
-        raise AssertionError("scrape_query should not be called when everything is reused")
+        raise AssertionError("scrape_query_with_timeout should not be called when everything is reused")
 
-    monkeypatch.setattr(downloader_module, "scrape_query", should_not_run)
+    monkeypatch.setattr(downloader_module, "scrape_query_with_timeout", should_not_run)
     mapping = mod.download_audio_map(
         queries={"bank"},
         temp_dir=temp_dir,
@@ -263,12 +263,12 @@ def test_download_audio_map_handles_no_download_and_error(mod, downloader_module
     temp_dir = base_dir / "tmp_dl"
     temp_dir.mkdir()
 
-    def fake_scrape_query(query: str, temp_dir: Path, headed: bool):
+    def fake_scrape_query_with_timeout(query: str, **kwargs):
         if query == "none":
-            return None
-        raise RuntimeError("boom")
+            return None, None, False
+        return None, "boom", False
 
-    monkeypatch.setattr(downloader_module, "scrape_query", fake_scrape_query)
+    monkeypatch.setattr(downloader_module, "scrape_query_with_timeout", fake_scrape_query_with_timeout)
     mapping = mod.download_audio_map(
         queries={"none", "err"},
         temp_dir=temp_dir,
@@ -280,7 +280,216 @@ def test_download_audio_map_handles_no_download_and_error(mod, downloader_module
     assert mapping == {}
 
 
+def test_download_audio_map_handles_timeout(mod, downloader_module, tmp_path: Path, monkeypatch):
+    base_dir = tmp_path
+    audio_dir = base_dir / "audio/forvo_no"
+    audio_dir.mkdir(parents=True)
+    temp_dir = base_dir / "tmp_dl"
+    temp_dir.mkdir()
+
+    def fake_scrape_query_with_timeout(query: str, **kwargs):
+        return None, "timeout after 1s", True
+
+    monkeypatch.setattr(downloader_module, "scrape_query_with_timeout", fake_scrape_query_with_timeout)
+    mapping = mod.download_audio_map(
+        queries={"bank"},
+        temp_dir=temp_dir,
+        audio_dir=audio_dir,
+        headed=True,
+        workers=1,
+        base_dir=base_dir,
+        query_timeout_sec=1,
+    )
+    assert mapping == {}
+
+
 def test_main_returns_1_when_no_vocab_files(mod, monkeypatch):
     monkeypatch.setattr(sys, "argv", ["prog"])
     monkeypatch.setattr(mod, "iter_vocab_files", lambda _pattern: [])
     assert mod.main() == 1
+
+
+def test_pending_workflow_appends_rows_and_sets_null_when_unresolved(mod, tmp_path: Path, monkeypatch):
+    base_dir = tmp_path
+    vocab = base_dir / "vocab" / "food.tsv"
+    vocab.parent.mkdir(parents=True, exist_ok=True)
+    write_tsv(
+        vocab,
+        [
+            "lexical-category",
+            "english",
+            "norwegian",
+            "pronunciation",
+            "example_sentence",
+            "audio_file",
+        ],
+        [
+            ["noun", "bread", "et brød", "brod", "Jeg kjøper et brød.", "null"],
+        ],
+    )
+
+    pending = base_dir / "tmp" / "pending.tsv"
+    mod.write_pending_rows(
+        pending,
+        [
+            {
+                "target_tsv": "vocab/food.tsv",
+                "lexical-category": "noun",
+                "english": "egg",
+                "norwegian": "et egg",
+                "pronunciation": "egg",
+                "example_sentence": "Jeg spiser et egg.",
+                "audio_file": "",
+            },
+            {
+                "target_tsv": "vocab/food.tsv",
+                "lexical-category": "expression",
+                "english": "thanks",
+                "norwegian": "takk",
+                "pronunciation": "takk",
+                "example_sentence": "Takk for maten.",
+                "audio_file": "",
+            },
+        ],
+    )
+
+    audio = base_dir / "audio" / "forvo_no" / "no_egg_1_001.mp3"
+    audio.parent.mkdir(parents=True, exist_ok=True)
+    audio.write_bytes(b"egg")
+
+    monkeypatch.chdir(base_dir)
+    monkeypatch.setattr(
+        mod,
+        "download_audio_map",
+        lambda **kwargs: {"egg": "audio/forvo_no/no_egg_1_001.mp3"},
+    )
+    monkeypatch.setattr(
+        sys,
+        "argv",
+        ["prog", "--pending-file", str(pending)],
+    )
+
+    assert mod.main() == 0
+
+    _headers, rows = read_tsv(vocab)
+    assert len(rows) == 3
+    assert rows[1]["english"] == "egg"
+    assert rows[1]["audio_file"] == "audio/forvo_no/no_egg_1_001.mp3"
+    assert rows[2]["english"] == "thanks"
+    assert rows[2]["audio_file"] == "null"
+
+
+def test_pending_workflow_can_create_new_target_file(mod, tmp_path: Path, monkeypatch):
+    base_dir = tmp_path
+    pending = base_dir / "tmp" / "pending.tsv"
+    mod.write_pending_rows(
+        pending,
+        [
+            {
+                "target_tsv": "vocab/new_topic.tsv",
+                "lexical-category": "noun",
+                "english": "bank",
+                "norwegian": "en bank",
+                "pronunciation": "bank",
+                "example_sentence": "Banken er åpen.",
+                "audio_file": "",
+            },
+        ],
+    )
+
+    audio = base_dir / "audio" / "forvo_no" / "no_bank_1_001.mp3"
+    audio.parent.mkdir(parents=True, exist_ok=True)
+    audio.write_bytes(b"bank")
+
+    monkeypatch.chdir(base_dir)
+    monkeypatch.setattr(
+        mod,
+        "download_audio_map",
+        lambda **kwargs: {"bank": "audio/forvo_no/no_bank_1_001.mp3"},
+    )
+    monkeypatch.setattr(sys, "argv", ["prog", "--pending-file", str(pending)])
+
+    assert mod.main() == 0
+    new_vocab = base_dir / "vocab" / "new_topic.tsv"
+    headers, rows = read_tsv(new_vocab)
+    assert headers == [
+        "lexical-category",
+        "english",
+        "norwegian",
+        "pronunciation",
+        "example_sentence",
+        "audio_file",
+    ]
+    assert len(rows) == 1
+    assert rows[0]["audio_file"] == "audio/forvo_no/no_bank_1_001.mp3"
+
+
+def test_pending_workflow_defaults_headed_true_and_workers_one(mod, tmp_path: Path, monkeypatch):
+    base_dir = tmp_path
+    pending = base_dir / "tmp" / "pending.tsv"
+    mod.write_pending_rows(
+        pending,
+        [
+            {
+                "target_tsv": "vocab/new_topic.tsv",
+                "lexical-category": "noun",
+                "english": "bank",
+                "norwegian": "en bank",
+                "pronunciation": "bank",
+                "example_sentence": "Banken er åpen.",
+                "audio_file": "",
+            },
+        ],
+    )
+
+    audio = base_dir / "audio" / "forvo_no" / "no_bank_1_001.mp3"
+    audio.parent.mkdir(parents=True, exist_ok=True)
+    audio.write_bytes(b"bank")
+
+    captured: dict[str, object] = {}
+
+    def fake_download_audio_map(**kwargs):
+        captured.update(kwargs)
+        return {"bank": "audio/forvo_no/no_bank_1_001.mp3"}
+
+    monkeypatch.chdir(base_dir)
+    monkeypatch.setattr(mod, "download_audio_map", fake_download_audio_map)
+    monkeypatch.setattr(sys, "argv", ["prog", "--pending-file", str(pending), "--workers", "4"])
+    assert mod.main() == 0
+    assert captured["headed"] is True
+    assert captured["workers"] == 1
+
+
+def test_pending_workflow_can_disable_headed(mod, tmp_path: Path, monkeypatch):
+    base_dir = tmp_path
+    pending = base_dir / "tmp" / "pending.tsv"
+    mod.write_pending_rows(
+        pending,
+        [
+            {
+                "target_tsv": "vocab/new_topic.tsv",
+                "lexical-category": "noun",
+                "english": "bank",
+                "norwegian": "en bank",
+                "pronunciation": "bank",
+                "example_sentence": "Banken er åpen.",
+                "audio_file": "",
+            },
+        ],
+    )
+
+    audio = base_dir / "audio" / "forvo_no" / "no_bank_1_001.mp3"
+    audio.parent.mkdir(parents=True, exist_ok=True)
+    audio.write_bytes(b"bank")
+
+    captured: dict[str, object] = {}
+
+    def fake_download_audio_map(**kwargs):
+        captured.update(kwargs)
+        return {"bank": "audio/forvo_no/no_bank_1_001.mp3"}
+
+    monkeypatch.chdir(base_dir)
+    monkeypatch.setattr(mod, "download_audio_map", fake_download_audio_map)
+    monkeypatch.setattr(sys, "argv", ["prog", "--pending-file", str(pending), "--no-headed"])
+    assert mod.main() == 0
+    assert captured["headed"] is False

@@ -26,37 +26,44 @@ def mod():
 
 @pytest.fixture
 def downloader_module(mod):
-    import forvo_download
+    import core.forvo_download as forvo_download
 
     return forvo_download
 
 
 @pytest.fixture
 def queries_module(mod):
-    import audio_queries
+    import core.audio_queries as audio_queries
 
     return audio_queries
 
 
 @pytest.fixture
 def paths_module(mod):
-    import audio_paths
+    import core.audio_paths as audio_paths
 
     return audio_paths
 
 
 @pytest.fixture
 def naming_module(mod):
-    import audio_naming
+    import core.audio_naming as audio_naming
 
     return audio_naming
 
 
 @pytest.fixture
 def vocab_module(mod):
-    import vocab_tsv
+    import core.vocab_tsv as vocab_tsv
 
     return vocab_tsv
+
+
+@pytest.fixture
+def pending_module(mod):
+    import core.pending_words as pending_words
+
+    return pending_words
 
 
 def write_tsv(path: Path, headers: list[str], rows: list[list[str]]) -> None:
@@ -293,7 +300,7 @@ def test_main_requires_pending_file(mod, monkeypatch):
     assert exc_info.value.code == 2
 
 
-def test_pending_workflow_appends_rows_and_sets_null_when_unresolved(mod, tmp_path: Path, monkeypatch):
+def test_pending_workflow_appends_rows_and_sets_null_when_unresolved(mod, pending_module, tmp_path: Path, monkeypatch):
     base_dir = tmp_path
     vocab = base_dir / "vocab" / "food.tsv"
     vocab.parent.mkdir(parents=True, exist_ok=True)
@@ -313,7 +320,7 @@ def test_pending_workflow_appends_rows_and_sets_null_when_unresolved(mod, tmp_pa
     )
 
     pending = base_dir / "tmp" / "pending.tsv"
-    mod.write_pending_rows(
+    pending_module.write_pending_rows(
         pending,
         [
             {
@@ -363,10 +370,10 @@ def test_pending_workflow_appends_rows_and_sets_null_when_unresolved(mod, tmp_pa
     assert rows[2]["audio_file"] == "null"
 
 
-def test_pending_workflow_can_create_new_target_file(mod, tmp_path: Path, monkeypatch):
+def test_pending_workflow_can_create_new_target_file(mod, pending_module, tmp_path: Path, monkeypatch):
     base_dir = tmp_path
     pending = base_dir / "tmp" / "pending.tsv"
-    mod.write_pending_rows(
+    pending_module.write_pending_rows(
         pending,
         [
             {
@@ -408,10 +415,10 @@ def test_pending_workflow_can_create_new_target_file(mod, tmp_path: Path, monkey
     assert rows[0]["audio_file"] == "audio/forvo_no/no_bank_1_001.mp3"
 
 
-def test_pending_workflow_defaults_headed_true_and_workers_one(mod, tmp_path: Path, monkeypatch):
+def test_pending_workflow_defaults_headed_true_and_workers_one(mod, pending_module, tmp_path: Path, monkeypatch):
     base_dir = tmp_path
     pending = base_dir / "tmp" / "pending.tsv"
-    mod.write_pending_rows(
+    pending_module.write_pending_rows(
         pending,
         [
             {
@@ -444,10 +451,10 @@ def test_pending_workflow_defaults_headed_true_and_workers_one(mod, tmp_path: Pa
     assert captured["workers"] == 1
 
 
-def test_pending_workflow_can_disable_headed(mod, tmp_path: Path, monkeypatch):
+def test_pending_workflow_can_disable_headed(mod, pending_module, tmp_path: Path, monkeypatch):
     base_dir = tmp_path
     pending = base_dir / "tmp" / "pending.tsv"
-    mod.write_pending_rows(
+    pending_module.write_pending_rows(
         pending,
         [
             {

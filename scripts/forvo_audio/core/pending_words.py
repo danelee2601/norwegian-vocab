@@ -4,8 +4,8 @@ import csv
 from collections import defaultdict
 from pathlib import Path
 
-from audio_paths import resolve_path_ref
-from vocab_tsv import AUDIO_COLUMN, VOCAB_FIELDS, ensure_audio_column, read_rows
+from .audio_paths import resolve_path_ref
+from .vocab_tsv import AUDIO_COLUMN, VOCAB_FIELDS, ensure_audio_column, read_rows
 
 PENDING_TARGET_COLUMN = "target_tsv"
 PENDING_HEADER = [

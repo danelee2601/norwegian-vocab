@@ -3,8 +3,8 @@ from __future__ import annotations
 import csv
 from pathlib import Path
 
-from audio_paths import normalize_audio_path, resolve_audio_path
-from audio_queries import extract_row_query
+from .audio_paths import normalize_audio_path, resolve_audio_path
+from .audio_queries import extract_row_query
 
 AUDIO_COLUMN = "audio_file"
 VOCAB_FIELDS = [

@@ -7,8 +7,8 @@ from pathlib import Path
 
 from scrape_forvo import scrape
 
-from audio_naming import query_from_forvo_filename
-from audio_paths import normalize_audio_path, resolve_audio_path
+from .audio_naming import query_from_forvo_filename
+from .audio_paths import normalize_audio_path, resolve_audio_path
 
 
 def scrape_query(query: str, temp_dir: Path, headed: bool) -> Path | None:

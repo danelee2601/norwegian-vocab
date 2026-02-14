@@ -23,7 +23,7 @@ Update existing vocabulary TSV files and create new topic TSV files that follow 
 
 ## Canonical Rules (DRY)
 
-- Treat `codex/rules/vocab_rules.md` as the single source of truth for:
+- Treat `.agents/rules/vocab_rules.md` as the single source of truth for:
   - TSV schema and header order
   - word-form constraints (noun articles, verb 4-form pattern, etc.)
   - pronunciation/example/audio formatting rules
@@ -59,7 +59,6 @@ Update existing vocabulary TSV files and create new topic TSV files that follow 
 5. Download audio for staged words using `scrape_forvo`.
 - Run:
   - `uv run python scripts/forvo_audio/add_forvo_audio.py --pending-file <tmp_pending.tsv> --headed`
-  - use `--no-headed` only when running non-interactively/CI
 - Script behavior:
   - reads staged rows
   - extracts Forvo query from each row
@@ -72,12 +71,14 @@ Update existing vocabulary TSV files and create new topic TSV files that follow 
 - Unresolved audio is written as literal `null`.
 7. Validate before finishing.
 - Header matches repository standard.
-- Rows comply with `codex/rules/vocab_rules.md`.
+- Rows comply with `.agents/rules/vocab_rules.md`.
 - `audio_file` is either a plain relative path under `audio/forvo_no/` or literal `null`.
 8. Recheck correctness explicitly.
 - Confirm staged row count equals appended row count across all targets.
 - Confirm every appended row has `audio_file` as path or `null` (no blanks).
 - Confirm each non-null audio path exists on disk.
+9. Cleanup temporary artifacts.
+- After the operation is done, remove all files within `.tmp/`.
 
 ## Generation Guidance
 

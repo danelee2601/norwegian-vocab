@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Convert vocab TSV files to Markdown tables with playable audio cells."""
+"""Convert vocab TSV files to Markdown tables with GitHub-safe audio links."""
 
 from __future__ import annotations
 
@@ -35,7 +35,7 @@ def audio_cell(raw: str, output_dir: Path) -> str:
     src = normalize_audio_src(raw, output_dir)
     if not src:
         return ""
-    return f'<audio controls src="{src}"></audio>'
+    return f"[Play audio]({src})"
 
 
 def convert_tsv(tsv_path: Path) -> None:

@@ -1,4 +1,4 @@
 interface:
-  display_name: "Vocab TSV Manager"
+  display_name: "Add New Words"
   short_description: "Add or create Norwegian vocab TSVs"
   default_prompt: "Update an existing vocab TSV or create a new topic TSV with practical everyday Norwegian entries that follow repository format and validation rules."

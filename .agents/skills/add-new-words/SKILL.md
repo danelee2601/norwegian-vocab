@@ -1,5 +1,5 @@
 ---
-name: vocab-tsv-manager
+name: add-new-words
 description: Add or generate Norwegian vocabulary entries in this repository's TSV format. Use when asked to update an existing `vocab/*.tsv` file with user-provided words, infer and propose suitable words for a requested topic, or create a new topic TSV and populate it with practical everyday Bokmal vocabulary that matches repository rules.
 ---
 

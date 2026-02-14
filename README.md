@@ -27,19 +27,24 @@ Open any TSV in a spreadsheet or editor:
 | noun | school | en skole | /ˈskuːlə/ | Jeg går på skole i nærheten. | audio/forvo_no/no_skole_293669_001.mp3 |
 | verb | to learn | å lære, lærer, lærte, har lært | /ˈlɛːrə/ | Jeg lærer norsk hver dag. | audio/forvo_no/no_l_re_4343434_001.mp3 |
 
-## Structure Overview
+## How to Update `vocab/`
 
-```mermaid
-graph TD
-  A[Repository Root] --> B[vocab/ Topic TSV Files]
-  B --> C[school.tsv]
-  B --> D[grocery_store.tsv]
-  B --> E[travel_hotel.tsv]
-  B --> F[...other topics]
-  C --> G[lexical-category]
-  C --> H[english]
-  C --> I[norwegian]
-  C --> J[pronunciation]
-  C --> K[example_sentence]
-  C --> L[audio_file]
+Use `.agents/skills/add-new-words/SKILL.md` when you want Codex to add vocabulary rows into `vocab/*.tsv` files.
+
+What the skill does:
+- Follows repository TSV rules in `.agents/rules/vocab_rules.md`.
+- Stages new rows in `.tmp/` with `target_tsv`.
+- Runs `scripts/forvo_audio/add_forvo_audio.py --pending-file ...` to resolve audio.
+- Appends rows to target TSV files and writes unresolved audio as `null`.
+
+Example 1: Add words to an existing TSV file
+
+```text
+$add-new-words add 10 new "noun" words in vocab/social_chitchat.tsv
+```
+
+Example 2: Create a new TSV file and populate it
+
+```text
+$add-new-words create a new vocab/pets_animals.tsv file and add 30 practical everyday words
 ```

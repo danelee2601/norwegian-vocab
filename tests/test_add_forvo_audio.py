@@ -46,6 +46,13 @@ def paths_module(mod):
 
 
 @pytest.fixture
+def naming_module(mod):
+    import audio_naming
+
+    return audio_naming
+
+
+@pytest.fixture
 def vocab_module(mod):
     import vocab_tsv
 
@@ -87,6 +94,12 @@ def test_extract_row_query_and_ensure_audio_column(queries_module, vocab_module)
     assert vocab_module.ensure_audio_column(out) == out
 
 
+def test_query_from_forvo_filename(naming_module):
+    assert naming_module.query_from_forvo_filename("no_bank_744497_001.mp3") == "bank"
+    assert naming_module.query_from_forvo_filename("no_sjekke_inn_2904450_001.mp3") == "sjekke inn"
+    assert naming_module.query_from_forvo_filename("bad_name.mp3") is None
+
+
 def test_path_resolution_and_normalization(paths_module, tmp_path: Path):
     base_dir = tmp_path
     rel = "audio/forvo_no/no_bank_1_001.mp3"
@@ -96,6 +109,7 @@ def test_path_resolution_and_normalization(paths_module, tmp_path: Path):
 
     assert paths_module.resolve_audio_path(rel, base_dir=base_dir) == abs_path
     assert paths_module.resolve_audio_path(str(abs_path), base_dir=base_dir) == abs_path
+    assert paths_module.resolve_path_ref(rel, base_dir=base_dir) == abs_path
     assert paths_module.normalize_audio_path(abs_path, base_dir=base_dir) == rel
 
     outside = tmp_path.parent / "outside.mp3"
@@ -128,6 +142,17 @@ def test_build_audio_map_from_vocab(vocab_module, tmp_path: Path):
 
     audio_map = vocab_module.build_audio_map_from_vocab([vocab], base_dir=base_dir)
     assert audio_map == {"bank": "audio/forvo_no/no_bank_1_001.mp3"}
+
+
+def test_vocab_fields_constant(vocab_module):
+    assert vocab_module.VOCAB_FIELDS == [
+        "lexical-category",
+        "english",
+        "norwegian",
+        "pronunciation",
+        "example_sentence",
+        "audio_file",
+    ]
 
 
 def test_build_audio_map_from_vocab_ignores_null_audio(vocab_module, tmp_path: Path):

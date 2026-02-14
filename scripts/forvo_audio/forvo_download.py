@@ -1,13 +1,13 @@
 from __future__ import annotations
 
 import multiprocessing as mp
-import re
 import shutil
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 from scrape_forvo import scrape
 
+from audio_naming import query_from_forvo_filename
 from audio_paths import normalize_audio_path, resolve_audio_path
 
 
@@ -69,14 +69,8 @@ def scrape_query_with_timeout(
 
 
 def hydrate_from_existing_files(audio_dir: Path, mapping: dict[str, str], *, base_dir: Path) -> None:
-    # Parse labels from filenames like no_butikk_623378_001.mp3.
-    pattern = re.compile(r"^no_(.+)_\d+_\d{3}\.mp3$")
     for path in sorted(audio_dir.glob("no_*.mp3")):
-        match = pattern.match(path.name)
-        if not match:
-            continue
-
-        label = match.group(1).replace("_", " ").strip().casefold()
+        label = query_from_forvo_filename(path.name)
         if label and label not in mapping:
             mapping[label] = normalize_audio_path(path, base_dir=base_dir)
 

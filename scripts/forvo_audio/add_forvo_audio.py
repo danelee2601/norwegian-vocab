@@ -32,12 +32,10 @@ from pending_words import (
 )
 from vocab_tsv import (
     AUDIO_COLUMN,
+    LEGACY_NULL_AUDIO,
     build_audio_map_from_vocab,
     read_rows,
 )
-
-NULL_AUDIO = "null"
-
 
 def _resolve_headed_mode(args: argparse.Namespace) -> bool:
     if args.headed is not None:
@@ -85,7 +83,7 @@ def _verify_pending_rows(
         if not audio_value:
             print(f"verify failed: missing {AUDIO_COLUMN} value in pending rows")
             return False
-        if audio_value == NULL_AUDIO:
+        if audio_value == LEGACY_NULL_AUDIO:
             continue
         resolved = resolve_audio_path(audio_value, base_dir=base_dir)
         if not resolved.exists():
@@ -126,7 +124,7 @@ def _run_pending_workflow(args: argparse.Namespace, *, base_dir: Path) -> int:
     for row in pending_rows:
         query = extract_row_query(row)
         resolved_audio = audio_map.get(query.casefold(), "") if query else ""
-        row[AUDIO_COLUMN] = resolved_audio if resolved_audio else NULL_AUDIO
+        row[AUDIO_COLUMN] = resolved_audio if resolved_audio else LEGACY_NULL_AUDIO
 
     write_pending_rows(pending_file, pending_rows)
     appended_counts = append_pending_rows_to_vocab(pending_rows, base_dir=base_dir)

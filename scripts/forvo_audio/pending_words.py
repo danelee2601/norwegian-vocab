@@ -4,26 +4,18 @@ import csv
 from collections import defaultdict
 from pathlib import Path
 
-from vocab_tsv import AUDIO_COLUMN, ensure_audio_column, read_rows
+from audio_paths import resolve_path_ref
+from vocab_tsv import AUDIO_COLUMN, VOCAB_FIELDS, ensure_audio_column, read_rows
 
 PENDING_TARGET_COLUMN = "target_tsv"
-DEFAULT_TSV_FIELDS = [
-    "lexical-category",
-    "english",
-    "norwegian",
-    "pronunciation",
-    "example_sentence",
-    AUDIO_COLUMN,
-]
 PENDING_HEADER = [
     PENDING_TARGET_COLUMN,
-    *DEFAULT_TSV_FIELDS,
+    *VOCAB_FIELDS,
 ]
 
 
 def resolve_pending_target(target_ref: str, *, base_dir: Path) -> Path:
-    target = Path(target_ref)
-    return target if target.is_absolute() else base_dir / target
+    return resolve_path_ref(target_ref, base_dir=base_dir)
 
 
 def read_pending_rows(path: Path) -> list[dict[str, str]]:
@@ -64,7 +56,7 @@ def append_pending_rows_to_vocab(
         if target.exists():
             fieldnames, existing_rows = read_rows(target)
         else:
-            fieldnames, existing_rows = DEFAULT_TSV_FIELDS, []
+            fieldnames, existing_rows = VOCAB_FIELDS, []
             target.parent.mkdir(parents=True, exist_ok=True)
         out_fields = ensure_audio_column(fieldnames)
 

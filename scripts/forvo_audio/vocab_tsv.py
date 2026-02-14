@@ -7,8 +7,17 @@ from audio_paths import normalize_audio_path, resolve_audio_path
 from audio_queries import extract_row_query
 
 AUDIO_COLUMN = "audio_file"
+VOCAB_FIELDS = [
+    "lexical-category",
+    "english",
+    "norwegian",
+    "pronunciation",
+    "example_sentence",
+    AUDIO_COLUMN,
+]
 NULL_AUDIO = ""
 LEGACY_NULL_AUDIO = "null"
+NO_AUDIO_VALUES = {NULL_AUDIO.casefold(), LEGACY_NULL_AUDIO.casefold()}
 
 
 def read_rows(path: Path) -> tuple[list[str], list[dict[str, str]]]:
@@ -34,7 +43,7 @@ def build_audio_map_from_vocab(vocab_paths: list[Path], *, base_dir: Path) -> di
             audio_path_ref = row.get(AUDIO_COLUMN, "").strip()
             if not query or not audio_path_ref:
                 continue
-            if audio_path_ref.casefold() in {NULL_AUDIO.casefold(), LEGACY_NULL_AUDIO}:
+            if audio_path_ref.casefold() in NO_AUDIO_VALUES:
                 continue
 
             resolved_path = resolve_audio_path(audio_path_ref, base_dir=base_dir)
@@ -46,4 +55,3 @@ def build_audio_map_from_vocab(vocab_paths: list[Path], *, base_dir: Path) -> di
                 normalize_audio_path(resolved_path, base_dir=base_dir),
             )
     return mapping
-

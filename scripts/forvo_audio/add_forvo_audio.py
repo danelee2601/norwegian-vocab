@@ -22,12 +22,12 @@ from audio_paths import normalize_audio_path, resolve_audio_path
 from audio_queries import extract_query, extract_row_query
 from forvo_download import (
     download_audio_map,
-    scrape_query,
 )
 from pending_words import (
     PENDING_TARGET_COLUMN,
     append_pending_rows_to_vocab,
     read_pending_rows,
+    resolve_pending_target,
     write_pending_rows,
 )
 from vocab_tsv import (
@@ -43,14 +43,28 @@ from vocab_tsv import (
 NULL_AUDIO = "null"
 
 
+def _resolve_headed_mode(args: argparse.Namespace) -> bool:
+    if args.headed is not None:
+        return args.headed
+    # Pending flow defaults to visible browser for interactive Forvo scraping.
+    return bool(args.pending_file)
+
+
+def _effective_workers(*, workers: int, headed: bool) -> int:
+    normalized = max(1, workers)
+    if headed and normalized > 1:
+        print("Headed mode requires workers=1 to avoid Playwright popup contention. Using workers=1.")
+        return 1
+    return normalized
+
+
 def _pending_target_paths(pending_rows: list[dict[str, str]], *, base_dir: Path) -> list[Path]:
     targets: set[Path] = set()
     for row in pending_rows:
         target_ref = row.get(PENDING_TARGET_COLUMN, "").strip()
         if not target_ref:
             continue
-        target = Path(target_ref)
-        targets.add(target if target.is_absolute() else base_dir / target)
+        targets.add(resolve_pending_target(target_ref, base_dir=base_dir))
     return sorted(targets)
 
 
@@ -101,17 +115,12 @@ def _run_pending_workflow(args: argparse.Namespace, *, base_dir: Path) -> int:
     if not queries:
         print("No audio-eligible queries in pending rows. All staged rows will use audio_file=null.")
 
-    workers = max(1, args.workers)
-    if args.headed and workers > 1:
-        print("Headed mode requires workers=1 to avoid Playwright popup contention. Using workers=1.")
-        workers = 1
-
     audio_map = download_audio_map(
         queries=queries,
         temp_dir=Path(args.temp_dir),
         audio_dir=Path(args.audio_dir),
         headed=args.headed,
-        workers=workers,
+        workers=_effective_workers(workers=args.workers, headed=args.headed),
         base_dir=base_dir,
         query_timeout_sec=args.query_timeout_sec,
         initial_map=existing_map,
@@ -155,9 +164,7 @@ def main() -> int:
     args = parser.parse_args()
 
     base_dir = Path.cwd()
-    if args.headed is None:
-        # Pending flow defaults to visible browser for interactive Forvo scraping.
-        args.headed = bool(args.pending_file)
+    args.headed = _resolve_headed_mode(args)
 
     if args.pending_file:
         return _run_pending_workflow(args, base_dir=base_dir)
@@ -171,17 +178,12 @@ def main() -> int:
     print(f"Unique queries: {len(queries)}")
 
     existing_map = build_audio_map_from_vocab(vocab_paths, base_dir=base_dir)
-    workers = max(1, args.workers)
-    if args.headed and workers > 1:
-        print("Headed mode requires workers=1 to avoid Playwright popup contention. Using workers=1.")
-        workers = 1
-
     audio_map = download_audio_map(
         queries=queries,
         temp_dir=Path(args.temp_dir),
         audio_dir=Path(args.audio_dir),
         headed=args.headed,
-        workers=workers,
+        workers=_effective_workers(workers=args.workers, headed=args.headed),
         base_dir=base_dir,
         query_timeout_sec=args.query_timeout_sec,
         initial_map=existing_map,

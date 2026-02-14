@@ -56,10 +56,7 @@ def scrape_query_with_timeout(
         process.join()
         return None, f"timeout after {timeout_sec}s", True
 
-    if queue.empty():
-        return None, None, False
-
-    result = queue.get()
+    result = queue.get() if not queue.empty() else {}
     error = result.get("error", "") if isinstance(result, dict) else ""
     path_str = result.get("path", "") if isinstance(result, dict) else ""
     if error:
@@ -141,7 +138,7 @@ def download_audio_map(
         for future in as_completed(futures):
             idx, query = futures[future]
             qkey = query.casefold()
-            query, downloaded, err, timed_out = future.result()
+            _, downloaded, err, timed_out = future.result()
             if err:
                 if timed_out:
                     print(f"[{idx}/{total}] timeout: {query}: {err}")

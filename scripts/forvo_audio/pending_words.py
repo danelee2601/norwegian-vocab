@@ -21,6 +21,11 @@ PENDING_HEADER = [
 ]
 
 
+def resolve_pending_target(target_ref: str, *, base_dir: Path) -> Path:
+    target = Path(target_ref)
+    return target if target.is_absolute() else base_dir / target
+
+
 def read_pending_rows(path: Path) -> list[dict[str, str]]:
     with path.open("r", encoding="utf-8", newline="") as handle:
         reader = csv.DictReader(handle, delimiter="\t")
@@ -52,11 +57,7 @@ def append_pending_rows_to_vocab(
         target_ref = row.get(PENDING_TARGET_COLUMN, "").strip()
         if not target_ref:
             raise ValueError(f"Pending row missing {PENDING_TARGET_COLUMN}: {row}")
-
-        target = Path(target_ref)
-        if not target.is_absolute():
-            target = base_dir / target
-        grouped[target].append(row)
+        grouped[resolve_pending_target(target_ref, base_dir=base_dir)].append(row)
 
     appended_counts: dict[Path, int] = {}
     for target, new_rows in grouped.items():
@@ -70,14 +71,13 @@ def append_pending_rows_to_vocab(
         rows_to_append: list[dict[str, str]] = []
         for row in new_rows:
             payload = {key: row.get(key, "") for key in out_fields}
-            payload.pop(PENDING_TARGET_COLUMN, None)
             rows_to_append.append(payload)
 
-        all_rows = [*existing_rows, *rows_to_append]
         with target.open("w", encoding="utf-8", newline="") as handle:
             writer = csv.DictWriter(handle, fieldnames=out_fields, delimiter="\t")
             writer.writeheader()
-            writer.writerows(all_rows)
+            writer.writerows(existing_rows)
+            writer.writerows(rows_to_append)
         appended_counts[target] = len(rows_to_append)
 
     return appended_counts

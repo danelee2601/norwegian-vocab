@@ -18,6 +18,9 @@ A curated collection of Norwegian vocabulary lists organized by real-life contex
 - **Pronunciation** is provided for the infinitive form only.
 - **Audio paths** in `audio_file` are stored as plain relative paths (for example, `audio/forvo_no/no_bank_744497_001.mp3`).
 
+## Audio Index
+- `scripts/forvo_audio/audio_index.json` stores a word-to-audio lookup map used when filling `audio_file` values in TSV entries.
+
 ## Quick Peek
 Open any TSV in a spreadsheet or editor:
 

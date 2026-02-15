@@ -78,7 +78,7 @@ Update existing vocabulary TSV files and create new topic TSV files that follow 
 10. ensure the sync between `.tsv` file and `.md` by running `uv run pre-commit run --all-files`
 11. run git add, commit, and push for all the updated files.
   - write descriptive commit message -- concise summary, followed by detailed comments. 
-12. add and push git tag by increasing the version number by 0.0.1 from the latest one. (e.g., if the latest tag is `v1.0.2`, update it to `v1.0.3`)
+12. add and push git tag by increasing the version number by 0.0.1 from the latest one. (e.g., if the latest tag is `v1.0.2`, update it to `v1.0.3`). This automatically triggers the github action for deploying MkDocs.
 
 ## Generation Guidance
 

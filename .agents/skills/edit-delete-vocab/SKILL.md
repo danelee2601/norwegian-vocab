@@ -43,6 +43,9 @@ description: Edit or delete vocabulary data in this repo. Use when asked to remo
 5. Validate the result.
   - Confirm the target TSV still has the correct header and no malformed rows.
   - Confirm generated docs changes are present (if any) and pre-commit passes.
+6. run git add, commit, and push for all the updated files.
+  - write descriptive commit message -- concise summary, followed by detailed comments. 
+7. add and push git tag by increasing the version number by 0.0.1 from the latest one. (e.g., if the latest tag is `v1.0.2`, update it to `v1.0.3`)
 
 ## Workflow (Delete: Remove a Topic File)
 
@@ -55,6 +58,10 @@ description: Edit or delete vocabulary data in this repo. Use when asked to remo
 3. Delete the corresponding MD file -- `docs/vocab/<topic>.md` using `rm docs/vocab/<topic>.md`. 
 4. Validate the result.
   - Confirm delete of the TSV and MD files with the same basename.
+5. run git add, commit, and push for all the updated files.
+  - write descriptive commit message -- concise summary, followed by detailed comments. 
+6. add and push git tag by increasing the version number by 0.0.1 from the latest one. (e.g., if the latest tag is `v1.0.2`, update it to `v1.0.3`)
+
 
 ## When To Ask Questions (Hard Stops)
 

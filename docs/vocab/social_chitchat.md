@@ -143,3 +143,13 @@ Source: `vocab/social_chitchat.tsv`
 | noun | break | en pause | /ˈpæʉsə/ | Skal vi ta en pause? | null |
 | noun | recommendation | en anbefaling | /ˈɑːnbəfɑːlɪŋ/ | Har du en anbefaling? | null |
 | noun | podcast | en podkast | /ˈpɔdkast/ | Jeg hører på en podkast på vei til jobb. | null |
+| noun | hug | en klem | /klɛm/ | Jeg ga henne en klem. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_klem_294341_001.mp3"></audio> |
+| noun | handshake | et håndtrykk | /ˈhɔnːtrʏk/ | Vi hilste med et håndtrykk. | null |
+| noun | introduction | en introduksjon | /ɪntrʉdʉkˈʂuːn/ | La meg gi en kort introduksjon. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_introduksjon_4761404_001.mp3"></audio> |
+| noun | impression | et inntrykk | /ˈɪnːtrʏk/ | Det ga et godt inntrykk. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_inntrykk_3317262_001.mp3"></audio> |
+| noun | atmosphere | en stemning | /ˈstɛmːnɪŋ/ | Det var god stemning på festen. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_stemning_1066842_001.mp3"></audio> |
+| noun | event | et arrangement | /ɑrɑŋəˈmɑŋ/ | Det er et hyggelig arrangement i kveld. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_arrangement_2330673_001.mp3"></audio> |
+| noun | phone number | et telefonnummer | /tɛləˈfuːnˌnʉmːər/ | Kan jeg få telefonnummeret ditt? | <audio controls preload="none" src="../../assets/audio/forvo_no/no_Telefonnummer_2187542_001.mp3"></audio> |
+| noun | address | en adresse | /ɑˈdrɛsːə/ | Hva er adressen din? | <audio controls preload="none" src="../../assets/audio/forvo_no/no_Adresse_351590_001.mp3"></audio> |
+| noun | chance | en sjanse | /ˈʂɑnsə/ | Jeg har en sjanse til å snakke med henne i morgen. | null |
+| noun | promise | et løfte | /ˈlœftə/ | Jeg ga ham et løfte. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_l_fte_1065513_001.mp3"></audio> |

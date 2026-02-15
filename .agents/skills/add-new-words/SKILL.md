@@ -15,10 +15,10 @@ Update existing vocabulary TSV files and create new topic TSV files that follow 
 - Keep this exact header and order:
   `lexical-category	english	norwegian	pronunciation	example_sentence	audio_file`
 - Keep one entry per line and no embedded newlines.
-- Write `audio_file` as either:
+- In vocab TSVs, write `audio_file` as either:
   - plain relative text under `docs/assets/audio/forvo_no/` when audio exists, or
   - literal `null` when audio is unavailable.
-- During audio-sync only, empty `audio_file` is allowed as a temporary "needs lookup" state.
+- During pending audio staging only, empty `audio_file` is allowed as a temporary "needs lookup" state.
 - Do not insert Markdown links in TSV fields.
 
 ## Canonical Rules (DRY)
@@ -53,18 +53,14 @@ Update existing vocabulary TSV files and create new topic TSV files that follow 
 4. Build staged rows in a temporary file first (do not write target TSV yet).
 - Fill all six vocab columns for each new entry.
 - Include `target_tsv` per row so each staged entry knows its destination file.
-- Write the temp TSV with this exact header:
+- Write the temp TSV `<tmp_pending.tsv>` with this exact header:
   `target_tsv	lexical-category	english	norwegian	pronunciation	example_sentence	audio_file`
 - Set staged `audio_file` to empty (`""`) before lookup.
-5. Download audio for staged words using `scrape_forvo`.
+5. Download audio for staged words using `add_forvo_audio.py` (it uses `scrape_forvo` internally).
 - Run:
-  - `uv run python scripts/forvo_audio/add_forvo_audio.py --pending-file <tmp_pending.tsv> --headed`
-- Script behavior:
-  - reads staged rows
-  - extracts Forvo query from each row
-  - calls `scrape_forvo.scrape(..., outdir='forvo_mp3', lang='no', use_playwright=True, headed=<flag>)`
-  - moves downloads into `docs/assets/audio/forvo_no/`
-  - writes back staged rows with resolved `audio_file`
+  - `uv run python scripts/forvo_audio/add_forvo_audio.py --pending-file <tmp_pending.tsv>`
+- If audio is found, store the downloaded file under `docs/assets/audio/forvo_no/` and keep the TSV value as the corresponding relative path.
+- If no audio is found, set `audio_file` to literal `null` rather than leaving it empty or inventing a path.
 6. Apply staged rows to target TSV file(s).
 - `--pending-file` flow appends rows into each `target_tsv` and creates missing target TSV files when needed.
 - Resolved audio is written as plain relative paths under `docs/assets/audio/forvo_no/`.
@@ -78,7 +74,7 @@ Update existing vocabulary TSV files and create new topic TSV files that follow 
 - Confirm every appended row has `audio_file` as path or `null` (no blanks).
 - Confirm each non-null audio path exists on disk.
 9. Cleanup temporary artifacts.
-- After the operation is done, remove all files within `.tmp/`.
+- After the operation is done, remove the pending TSV and the temporary download directory (default: `forvo_mp3/`) if you do not need them.
 
 ## Generation Guidance
 

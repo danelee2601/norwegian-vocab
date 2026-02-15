@@ -32,12 +32,6 @@ Open any TSV in a spreadsheet or editor:
 ### 1. Add new words
 Use `.agents/skills/add-new-words/SKILL.md` when you want Codex to add vocabulary rows into `vocab/*.tsv` files.
 
-What the skill does:
-- Follows repository TSV rules in `.agents/rules/vocab_rules.md`.
-- Stages new rows in `.tmp/` with `target_tsv`.
-- Runs `scripts/forvo_audio/add_forvo_audio.py --pending-file ...` to resolve audio.
-- Appends rows to target TSV files and writes unresolved audio as `null`.
-
 Example 1: Add words to an existing TSV file
 
 ```text
@@ -60,4 +54,4 @@ uv run mkdocs serve
 ```
 
 ## TODOs
-- [ ] github action CD integration for automatic github page deployment on github page.
+- [ ] Add GitHub Actions CI to deploy the MkDocs site to GitHub Pages.

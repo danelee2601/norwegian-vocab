@@ -1,9 +1,9 @@
 # Norwegian Vocab Rules
 
-Scope: TSV vocabulary data at repo root (topic files) and vocab/ copies.
+Scope: TSV vocabulary data in `vocab/*.tsv`.
 
 ## File layout
-- One TSV per topic (e.g., `school.tsv`, `grocery_store.tsv`).
+- One TSV per topic under `vocab/` (e.g., `vocab/school.tsv`, `vocab/grocery_store.tsv`).
 - Single header row:
   - lexical-category, english, norwegian, pronunciation, example_sentence, audio_file
 - Tab-separated fields; no embedded newlines inside any field.
@@ -31,15 +31,6 @@ Scope: TSV vocabulary data at repo root (topic files) and vocab/ copies.
 - `audio_file` values must be either:
   - plain text relative paths under `docs/assets/audio/forvo_no/`, or
   - literal `null` when audio is not available.
-- Never leave `audio_file` empty and do not use markdown links.
-
-## Audio file policy for new entries
-- When adding new vocabulary entries, run `scripts/forvo_audio/add_forvo_audio.py` to search Forvo audio and populate `audio_file` when available.
-- Recommended command:
-  - `uv run python scripts/forvo_audio/add_forvo_audio.py --vocab-glob 'vocab/*.tsv'`
-- If audio is found, store the downloaded file under `docs/assets/audio/forvo_no/` and keep the TSV value as the corresponding relative path.
-- If no audio is found, set `audio_file` to literal `null` rather than leaving it empty or inventing a path.
-- Because the updater writes unresolved rows as empty values, do a normalization pass after running it so empty/missing `audio_file` cells become `null`.
 
 ## When editing translations
 - Update the example sentence to align with the updated Norwegian term.

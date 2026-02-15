@@ -141,6 +141,12 @@ def collect_stems(paths: Paths) -> list[str]:
 
 
 def write_outputs(paths: Paths) -> None:
+    """Generate docs outputs from vocab TSV files.
+
+    Produces one markdown page per TSV stem under `docs/vocab/`, removes
+    orphaned markdown pages that no longer have a TSV source, and rewrites the
+    vocabulary nav block in `mkdocs.yml` to match the current stems.
+    """
     stems = collect_stems(paths)
     rows_by_stem: dict[str, list[dict[str, str]]] = {
         stem: read_tsv_rows(paths.vocab_dir / f"{stem}.tsv") for stem in stems
@@ -165,6 +171,17 @@ def write_outputs(paths: Paths) -> None:
 
 
 def check_outputs(paths: Paths) -> list[str]:
+    """Validate docs/vocab pages and mkdocs nav are in sync with vocab TSV files.
+
+    Checks:
+    - Each vocab TSV has a corresponding docs/vocab/{stem}.md page
+    - No orphan docs pages exist (md without TSV source)
+    - Each docs page content matches the rendered form of its TSV
+    - mkdocs.yml vocabulary nav block matches the TSV stems
+
+    Returns:
+        List of error messages. Empty list means all checks passed.
+    """
     errors: list[str] = []
     stems = collect_stems(paths)
 

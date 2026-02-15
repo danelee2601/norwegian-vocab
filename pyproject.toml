@@ -1,7 +1,7 @@
 [project]
 name = "norwegian-vocab"
 version = "1.0.2"
-description = "Add your description here"
+description = "Everyday Norwegian vocabulary lists by topic, with optional Forvo audio and MkDocs docs."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [

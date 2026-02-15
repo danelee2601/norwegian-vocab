@@ -16,6 +16,7 @@ Source: `vocab/social_chitchat.tsv`
 | verb | to meet | å møte, møter, møtte, har møtt | /ˈmøːtə/ | Skal vi møtes i morgen? | <audio controls preload="none" src="../../assets/audio/forvo_no/no_m_te_1482709_001.mp3"></audio> |
 | verb | to invite | å invitere, inviterer, inviterte, har invitert | /ɪnʋiˈteːrə/ | Jeg inviterer deg på middag. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_invitere_2717361_001.mp3"></audio> |
 | adjective | exhausted | sliten | /ˈʂliːtən/ | Jeg er litt sliten. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_sliten_3696453_001.mp3"></audio> |
+| adjective | tired | trøtt | /trøtː/ | Jeg er trøtt i dag. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_tr_tt_805130_001.mp3"></audio> |
 | adjective | hungry | sulten | /ˈsʉltən/ | Jeg er sulten nå. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_sulten_2902163_001.mp3"></audio> |
 | adverb | maybe | kanskje | /ˈkɑnʂə/ | Kanskje vi kan gå en tur. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_kanskje_4322068_001.mp3"></audio> |
 | adverb | together | sammen | /ˈsɑmːən/ | Vi spiser sammen. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_sammen_724274_001.mp3"></audio> |

@@ -53,6 +53,12 @@ uv run pre-commit run --all-files
 uv run mkdocs serve 
 ```-->
 
+Exaple 3. Delete words or topic
+
+```text
+$edit-delete-vocab <your request>
+```
+
 
 ## TODOs
 [ ] Add GitHub Actions CI to deploy the MkDocs site to GitHub Pages.

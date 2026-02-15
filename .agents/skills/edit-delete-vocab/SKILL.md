@@ -18,6 +18,7 @@ description: Edit or delete vocabulary data in this repo. Use when asked to remo
 - User must not ask to delete any .md file since the sync is done from .tsv to .md, so deleting any entry in .md won't do anything. <basename.tsv> is the single source of truth for word data.
 - If a removal request is ambiguous (multiple matching rows, partial matches, similar words), ask the user which exact row(s) to remove by showing the candidate rows.
 - Do not delete audio assets under `docs/assets/audio/forvo_no/` unless the user explicitly asks. Audio files may be shared across topics.
+- If norweigan word(s) is updated, add the corresponding audio file for the norwegian word(s). Refer to `.agents/skills/add-new-words/SKILL.md` for searching, downloading, and adding the audio file.
 
 ## TSV Rules
 

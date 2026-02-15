@@ -60,7 +60,7 @@ Source: `vocab/social_chitchat.tsv`
 | noun | friendship | en vennskap | /ˈʋɛnːskɑp/ | Vennskap er viktig. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_vennskap_691835_001.mp3"></audio> |
 | noun | conversation | en samtale | /ˈsɑmːtɑːlə/ | Vi har en god samtale. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_samtale_743141_001.mp3"></audio> |
 | noun | topic | et tema | /ˈteːmɑ/ | Hva er temaet? | <audio controls preload="none" src="../../assets/audio/forvo_no/no_tema_4615117_001.mp3"></audio> |
-| noun | news item | en nyhet | /ˈnyːheːtər/ | Har du lest en nyhet? | <audio controls preload="none" src="../../assets/audio/forvo_no/no_nyhet_825785_001.mp3"></audio> |
+| noun | news | en nyhet | /ˈnyːheːtər/ | Har du lest en nyhet? | <audio controls preload="none" src="../../assets/audio/forvo_no/no_nyhet_825785_001.mp3"></audio> |
 | noun | weather | et vær | /ʋæːr/ | Været er fint i dag. | null |
 | noun | sport | en sport | /spɔʈ/ | Driver du med sport? | <audio controls preload="none" src="../../assets/audio/forvo_no/no_sport_1624443_001.mp3"></audio> |
 | noun | football | en fotball | /ˈfuːtbɑl/ | Jeg spiller fotball. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_fotball_2820039_001.mp3"></audio> |

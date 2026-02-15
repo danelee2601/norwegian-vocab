@@ -1,16 +1,17 @@
-# Norwegian Vocabulary Docs
+# Norwegian Everyday Vocabulary
 
-This site mirrors the TSV data under `vocab/`.
+A practical, topic-based Norwegian (Bokmal) vocabulary list for real situations in Norway (shopping, health, services, home, etc.).
 
-## Sections
+## How To Use
 
-- `vocab/`: one page per topic TSV file.
+- Pick a topic under the "Vocabulary" section and skim the table.
+- Use your browser's find/search on the page to jump to the word you need.
+- Press play on any audio clips to hear a native pronunciation (when available).
 
-## Source Of Truth
+## What's Included
 
-- Vocabulary source: `vocab/*.tsv`
-- Generated docs: `docs/vocab/*.md`
+Each entry includes a lexical category, English meaning, Norwegian form (nouns include an article; verbs include key conjugations), pronunciation, an everyday example sentence, and an audio clip when available.
 
-- Generated audio assets for docs: `docs/assets/audio/forvo_no/`
+## Notes For Contributors
 
-<!-- Use `uv run python scripts/docs/sync_vocab_docs.py --write` to regenerate docs after TSV updates. -->
+Vocabulary lives in `vocab/*.tsv`; topic pages under `docs/vocab/` (and any Forvo audio under `docs/assets/audio/forvo_no/`) are generated from that data.

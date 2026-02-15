@@ -133,3 +133,13 @@ Source: `vocab/social_chitchat.tsv`
 | noun | compliment | et kompliment | /kʊmplɪˈmɛnt/ | Takk for et fint kompliment. | null |
 | noun | opinion | en mening | /ˈmeːnɪŋ/ | Jeg vil høre meningen din. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_mening_856519_001.mp3"></audio> |
 | noun | chat | en prat | /prɑːt/ | Vi tok en kort prat etter møtet. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_prat_4328322_001.mp3"></audio> |
+| noun | small talk | en småprat | /ˈsmoːprɑːt/ | Vi tok en liten småprat i køen. | null |
+| noun | message | en melding | /ˈmɛlːɪŋ/ | Jeg sendte deg en melding. | null |
+| noun | smile | et smil | /smiːl/ | Hun ga meg et smil. | null |
+| noun | laugh | en latter | /ˈlɑtːər/ | Han har en smittsom latter. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_latter_4331378_001.mp3"></audio> |
+| noun | story | en historie | /hɪsˈtuːrɪə/ | Kan du fortelle en historie? | null |
+| noun | song | en sang | /sɑŋ/ | Har du en favorittsang? | <audio controls preload="none" src="../../assets/audio/forvo_no/no_sang_780309_001.mp3"></audio> |
+| noun | suggestion | et forslag | /ˈfɔrslɑːɡ/ | Jeg har et forslag. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_forslag_7666960_001.mp3"></audio> |
+| noun | break | en pause | /ˈpæʉsə/ | Skal vi ta en pause? | null |
+| noun | recommendation | en anbefaling | /ˈɑːnbəfɑːlɪŋ/ | Har du en anbefaling? | null |
+| noun | podcast | en podkast | /ˈpɔdkast/ | Jeg hører på en podkast på vei til jobb. | null |

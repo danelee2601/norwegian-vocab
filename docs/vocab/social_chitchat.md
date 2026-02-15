@@ -93,7 +93,7 @@ Source: `vocab/social_chitchat.tsv`
 | adjective | good | bra | /brɑː/ | Det er bra. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_bra_7293930_001.mp3"></audio> |
 | adjective | fine | fin | /fiːn/ | Du ser fin ut i dag. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_fin_8261927_001.mp3"></audio> |
 | adjective | happy | glad | /ɡlɑː/ | Jeg er glad i dag. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_glad_2330542_001.mp3"></audio> |
-| adjective | sad | trist | /triːst/ | Hun er litt trist. | null |
+| adjective | sad | trist | /triːst/ | Hun er litt trist. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_trist_805128_001.mp3"></audio> |
 | adjective | busy | opptatt | /ˈɔpːtɑt/ | Jeg er opptatt nå. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_opptatt_1951848_001.mp3"></audio> |
 | adjective | free | ledig | /ˈleːdi/ | Er du ledig i morgen? | <audio controls preload="none" src="../../assets/audio/forvo_no/no_ledig_4331367_001.mp3"></audio> |
 | adjective | interested | interessert | /ɪntəˈrɛsːæʈ/ | Jeg er interessert i språk. | <audio controls preload="none" src="../../assets/audio/forvo_no/no_interessert_825803_001.mp3"></audio> |

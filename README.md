@@ -44,14 +44,15 @@ Example 2: Create a new TSV file and populate it
 $add-new-words create a new vocab/pets_animals.tsv file and add 30 practical everyday words
 ```
 
-### 2. Update Docs (MkDocs)
+<!-- ### 2. Update Docs (MkDocs)
 
 Generate docs from TSV files and serve with MkDocs:
 
 ```bash
 uv run pre-commit run --all-files
-uv run mkdocs serve
-```
+uv run mkdocs serve 
+```-->
+
 
 ## TODOs
-- [ ] Add GitHub Actions CI to deploy the MkDocs site to GitHub Pages.
+[ ] Add GitHub Actions CI to deploy the MkDocs site to GitHub Pages.

@@ -70,11 +70,15 @@ Update existing vocabulary TSV files and create new topic TSV files that follow 
 - Rows comply with `.agents/rules/vocab_rules.md`.
 - `audio_file` is either a plain relative path under `docs/assets/audio/forvo_no/` or literal `null`.
 8. Recheck correctness explicitly.
-- Confirm staged row count equals appended row count across all targets.
-- Confirm every appended row has `audio_file` as path or `null` (no blanks).
-- Confirm each non-null audio path exists on disk.
+  - Confirm staged row count equals appended row count across all targets.
+  - Confirm every appended row has `audio_file` as path or `null` (no blanks).
+  - Confirm each non-null audio path exists on disk.
 9. Cleanup temporary artifacts.
-- After the operation is done, remove the pending TSV and the temporary download directory (default: `forvo_mp3/`) if you do not need them.
+  - After the operation is done, remove the pending TSV and the temporary download directory (default: `forvo_mp3/`) if you do not need them.
+10. ensure the sync between `.tsv` file and `.md` by running `uv run pre-commit run --all-files`
+11. run git add, commit, and push for all the updated files.
+  - write descriptive commit message -- concise summary, followed by detailed comments. 
+
 
 ## Generation Guidance
 

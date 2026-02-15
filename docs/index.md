@@ -11,7 +11,3 @@ A practical, topic-based Norwegian (Bokmal) vocabulary list for real situations 
 ## What's Included
 
 Each entry includes a lexical category, English meaning, Norwegian form (nouns include an article; verbs include key conjugations), pronunciation, an everyday example sentence, and an audio clip when available.
-
-## Notes For Contributors
-
-Vocabulary lives in `vocab/*.tsv`; topic pages under `docs/vocab/` (and any Forvo audio under `docs/assets/audio/forvo_no/`) are generated from that data.
